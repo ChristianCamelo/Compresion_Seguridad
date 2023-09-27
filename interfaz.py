@@ -3,8 +3,9 @@ from tkinter import filedialog
 
 def cargar_archivo():
     archivo = filedialog.askopenfilename()
-    archivos_seleccionados.append(archivo)
-    crear_botones_cifrar_descifrar(archivo, cifrar=True)
+    if archivo:
+        archivos_seleccionados.append(archivo)
+        crear_botones_cifrar_descifrar(archivo, cifrar=True)
 
 def cifrar_archivo(archivo):
     resultado_label.config(text=f"Cifrar {archivo} - Función pendiente")
