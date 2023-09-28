@@ -1,0 +1,42 @@
+09/27/2023, 12:33:51: fichero encriptado con exito
+09/27/2023, 12:33:51: Se ha guardado la llave correctamente
+09/27/2023, 12:34:06: fichero encriptado con exito
+09/27/2023, 12:34:06: Se ha guardado la llave correctamente
+09/27/2023, 12:34:29: fichero encriptado con exito
+09/27/2023, 12:34:29: No se ha guardado la llave correctamente
+09/27/2023, 12:34:42: fichero encriptado con exito
+09/27/2023, 12:34:42: Se ha guardado la llave correctamente
+09/27/2023, 12:34:43: fichero encriptado con exito
+09/27/2023, 12:34:43: No se ha guardado la llave correctamente
+09/28/2023, 18:11:28: fichero encriptado con exito
+09/28/2023, 18:11:29: Se ha guardado la llave correctamente
+09/28/2023, 18:11:59: fichero encriptado con exito
+09/28/2023, 18:11:59: No se ha guardado la llave correctamente
+09/28/2023, 18:12:26: fichero encriptado con exito
+09/28/2023, 18:12:27: Se ha guardado la llave correctamente
+09/28/2023, 18:13:17: fichero encriptado con exito
+09/28/2023, 18:13:17: Se ha guardado la llave correctamente
+09/28/2023, 18:13:17: probando la ruta del iv
+09/28/2023, 18:19:18: fichero encriptado con exito
+09/28/2023, 18:19:18: Se ha guardado la llave correctamente
+09/28/2023, 18:21:09: fichero encriptado con exito
+09/28/2023, 18:21:09: Se ha guardado la llave correctamente
+09/28/2023, 18:21:09: Se ha guardado el IV correctamente
+09/28/2023, 18:41:26: fichero encriptado con exito
+09/28/2023, 18:43:51: fichero encriptado con exito
+09/28/2023, 18:46:55: fichero encriptado con exito
+09/28/2023, 18:47:09: fichero encriptado con exito
+09/28/2023, 18:48:25: fichero encriptado con exito
+09/28/2023, 18:48:49: fichero encriptado con exito
+09/28/2023, 18:55:09: fichero encriptado con exito
+09/28/2023, 18:56:52: fichero encriptado con exito
+09/28/2023, 18:58:03: fichero encriptado con exito
+09/28/2023, 18:58:15: fichero encriptado con exito
+09/28/2023, 18:59:02: fichero encriptado con exito
+09/28/2023, 19:09:11: fichero encriptado con exito
+09/28/2023, 19:12:12: fichero encriptado con exito
+09/28/2023, 19:12:12: prueba de guardar un archivo encripado pdf
+09/28/2023, 19:12:12: prueba encriptación de un fichero en PDF
+09/28/2023, 19:15:58: fichero encriptado con exito
+09/28/2023, 19:15:58: prueba de guardar un archivo encripado pdf
+09/28/2023, 19:15:58: prueba encriptación de un fichero en PDF
