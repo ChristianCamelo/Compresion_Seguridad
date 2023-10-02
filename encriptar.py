@@ -14,8 +14,7 @@ def encriptar(fichero, cont):
     llave_guardada = guardarKey(key, cont)
     iv_guardadi = guardarIV(iv, cont)
     objeto_ecriptador = AES.new(key, modo_encriptar)
-    # with open(os.path.basename(fichero), 'rb') as f:
-    with open('archivos_normales/SyS_Practica_03.pdf', 'rb') as f:
+    with open(fichero, 'rb') as f:
         fichero_a_encriptar = f.read()
         fichero_padeado = pad_fichero(fichero_a_encriptar)
     fichero_encriptado = objeto_ecriptador.encrypt(fichero_padeado)
@@ -102,5 +101,3 @@ def pad_fichero(fichero):
     while len(fichero) % 16 != 0:
         fichero = fichero + b'0' # Hay que añadir bits porque es un fichero
     return fichero
-
-llave = encriptar('SyS_Practica_03.pdf', 5)
