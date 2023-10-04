@@ -9,12 +9,10 @@ from Crypto.Random import get_random_bytes # para generar la clave y el IV
 def encriptar(fichero, cont):
     encriptado = False
     modo_encriptar = AES.MODE_CTR
-    iv = get_random_bytes(16)
     key = get_random_bytes(16)
     llave_guardada = guardarKey(key, cont)
-    iv_guardadi = guardarIV(iv, cont)
     objeto_ecriptador = AES.new(key, modo_encriptar)
-    with open(os.path.basename(fichero), 'rb') as f:
+    with open(fichero, 'rb') as f:
         fichero_a_encriptar = f.read()
         fichero_padeado = pad_fichero(fichero_a_encriptar)
     fichero_encriptado = objeto_ecriptador.encrypt(fichero_padeado)
@@ -72,32 +70,11 @@ def guardarKey(key, cont):
     return success
 
 #------------------------------------------------------------------------------------------------------------------------------------
-# FUNCIÓN PARA GUARDAR EL IV: Guarda cada iv en un fichero binario guardado siguiendo el formato: 'iv' + contador + '.bin'
-#------------------------------------------------------------------------------------------------------------------------------------
-def guardarIV(iv, cont):
-    guardado = False
-    ruta_iv = os.path.join(os.getcwd(), 'iv')
-    ruta_archivo = os.path.join(ruta_iv, 'iv' + str(cont) + 'bin')
-
-    # Escribiendo el IV
-    with open(ruta_archivo, 'ab') as fichero_iv:
-        fichero_iv.write(iv)
-
-    
-    # Comprobando que el archivo existe
-    with open(ruta_archivo, 'rb') as f:
-        data = f.read()
-        if len(data) > 0 and len(data) <= 16:
-            guardado = True
-        else:
-            guardado = False
-    print(guardado)
-    return(guardado)
-
-#------------------------------------------------------------------------------------------------------------------------------------
 # FUNCIÓN PARA PONERLE PADDING AL FICHERO
 #------------------------------------------------------------------------------------------------------------------------------------
 def pad_fichero(fichero):
     while len(fichero) % 16 != 0:
         fichero = fichero + b'0' # Hay que añadir bits porque es un fichero
     return fichero
+
+encriptar(r'C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad\archivos_normales\CV.pdf', 1)
