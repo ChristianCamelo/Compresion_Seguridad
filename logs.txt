@@ -359,3 +359,64 @@
 10/11/2023, 12:24:53: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
 10/11/2023, 12:24:53: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\keys\llave0.bin
 10/11/2023, 12:25:28: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 12:33:13: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 12:33:16: ----------------INICIANDO ENCRIPTACION DE C:\Users\matis\OneDrive\Documentos\UA\2\1 Cuatri\SyS\Practica\SyS_Practica_01.pdf--------------
+10/11/2023, 12:33:16: Encriptacion: Creando la ruta de guardado: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 12:33:16: Llave generada: False
+10/11/2023, 12:33:16: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\matis\OneDrive\Documentos\UA\2\1 Cuatri\SyS\Practica\SyS_Practica_01.pdf--------------
+10/11/2023, 12:33:16: Lectura: Ruta de archivo leido es: C:/Users/matis/OneDrive/Documentos/UA/2/1 Cuatri/SyS/Practica/SyS_Practica_01.pdf
+10/11/2023, 12:33:16: Escritura: Ruta de archivo cifrado es: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 12:33:24: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 12:33:28: ----------------INICIANDO ENCRIPTACION DE C:\Users\matis\OneDrive\Documentos\UA\2\1 Cuatri\SyS\Practica\SyS_Practica_01.pdf--------------
+10/11/2023, 12:33:28: Encriptacion: Se ha generado la llave : C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 12:33:28: Encriptacion: Creando la ruta de guardado: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 12:33:28: Llave generada: True
+10/11/2023, 12:33:28: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\matis\OneDrive\Documentos\UA\2\1 Cuatri\SyS\Practica\SyS_Practica_01.pdf--------------
+10/11/2023, 12:33:28: Lectura: Ruta de archivo leido es: C:/Users/matis/OneDrive/Documentos/UA/2/1 Cuatri/SyS/Practica/SyS_Practica_01.pdf
+10/11/2023, 12:33:28: Escritura: Ruta de archivo cifrado es: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 12:33:30: Descencriptando archivo C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 12:33:30: Descencriptando con llave: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 12:33:30: La desencriptacion ha sido: True
+10/11/2023, 12:33:36: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 12:40:45: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 12:40:49: ----------------INICIANDO ENCRIPTACION DE C:\Users\matis\OneDrive\Documentos\UA\2\1 Cuatri\SyS\Practica\SyS_Practica_01.pdf--------------
+10/11/2023, 12:40:49: Encriptacion: Se ha generado la llave : C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 12:40:49: Encriptacion: Creando la ruta de guardado: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\nonce0.bin
+10/11/2023, 12:40:49: Encriptacion: Creando la ruta de guardado: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 12:40:49: Llave generada: True
+10/11/2023, 12:40:49: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\matis\OneDrive\Documentos\UA\2\1 Cuatri\SyS\Practica\SyS_Practica_01.pdf--------------
+10/11/2023, 12:40:49: Lectura: Ruta de archivo leido es: C:/Users/matis/OneDrive/Documentos/UA/2/1 Cuatri/SyS/Practica/SyS_Practica_01.pdf
+10/11/2023, 12:40:49: Escritura: Ruta de archivo cifrado es: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 12:44:48: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 12:44:53: ----------------INICIANDO ENCRIPTACION DE C:\Users\matis\OneDrive\Documentos\UA\2\1 Cuatri\SyS\Practica\SyS_Practica_01.pdf--------------
+10/11/2023, 12:44:53: Encriptacion: Se ha generado la llave : C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 12:44:53: Encriptacion: Creando la ruta de guardado: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\nonce0.bin
+10/11/2023, 12:44:53: Encriptacion: Creando la ruta de guardado: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 12:44:53: Llave generada: True
+10/11/2023, 12:44:53: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\matis\OneDrive\Documentos\UA\2\1 Cuatri\SyS\Practica\SyS_Practica_01.pdf--------------
+10/11/2023, 12:44:53: Lectura: Ruta de archivo leido es: C:/Users/matis/OneDrive/Documentos/UA/2/1 Cuatri/SyS/Practica/SyS_Practica_01.pdf
+10/11/2023, 12:44:53: Escritura: Ruta de archivo cifrado es: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 12:45:25: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 12:45:29: ----------------INICIANDO ENCRIPTACION DE C:\Users\matis\OneDrive\Documentos\UA\2\1 Cuatri\SyS\Practica\SyS_Practica_01.pdf--------------
+10/11/2023, 12:45:29: Encriptacion: Se ha generado la llave : C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 12:45:29: Encriptacion: Creando la ruta de guardado: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\nonce0.bin
+10/11/2023, 12:45:29: Encriptacion: Creando la ruta de guardado: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 12:45:29: Llave generada: True
+10/11/2023, 12:45:29: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\matis\OneDrive\Documentos\UA\2\1 Cuatri\SyS\Practica\SyS_Practica_01.pdf--------------
+10/11/2023, 12:45:29: Lectura: Ruta de archivo leido es: C:/Users/matis/OneDrive/Documentos/UA/2/1 Cuatri/SyS/Practica/SyS_Practica_01.pdf
+10/11/2023, 12:45:29: Escritura: Ruta de archivo cifrado es: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 12:45:32: Descencriptando archivo C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 12:45:32: Descencriptando con llave: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 12:45:32: La desencriptacion ha sido: True
+10/11/2023, 12:46:38: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 12:46:47: ----------------INICIANDO ENCRIPTACION DE C:\Users\matis\OneDrive\Fotos\wallpaperflare.com_wallpaper.jpg--------------
+10/11/2023, 12:46:47: Encriptacion: Se ha generado la llave : C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 12:46:47: Encriptacion: Creando la ruta de guardado: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\nonce0.bin
+10/11/2023, 12:46:47: Encriptacion: Creando la ruta de guardado: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 12:46:47: Llave generada: True
+10/11/2023, 12:46:47: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\matis\OneDrive\Fotos\wallpaperflare.com_wallpaper.jpg--------------
+10/11/2023, 12:46:47: Lectura: Ruta de archivo leido es: C:/Users/matis/OneDrive/Fotos/wallpaperflare.com_wallpaper.jpg
+10/11/2023, 12:46:47: Escritura: Ruta de archivo cifrado es: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 12:46:49: Descencriptando archivo C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 12:46:49: Descencriptando con llave: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 12:46:50: La desencriptacion ha sido: True

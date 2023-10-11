@@ -25,6 +25,7 @@ def cargar_archivo():
     global cantidad
     archivo = filedialog.askopenfilename()
     ruta_keys = os.path.join(os.getcwd(), 'keys')
+    ruta_archivos_encriptados = os.path.join(os.getcwd(), 'archivos_encriptados')
     
     if archivo:
         archivo_obj = Archivo(archivo)
@@ -33,6 +34,7 @@ def cargar_archivo():
         archivo_obj.enc = cifrar(archivo_obj.ruta, cantidad)
         archivo_obj.encPath = os.path.join(archivo_obj.enc)
         archivo_obj.keyPath = os.path.join(ruta_keys, 'llave' + str(archivo_obj.pos) + '.bin')
+        archivo_obj.noncePath = os.path.join(ruta_archivos_encriptados, 'nonce' + str(archivo_obj.pos) + '.bin')
 
         escribirLog("Lectura: Ruta de archivo leido es: "+ archivo_obj.archivo)
         escribirLog("Escritura: Ruta de archivo cifrado es: "+ archivo_obj.enc)
@@ -48,7 +50,7 @@ def toggle_botones(archivo):
     escribirLog("Descencriptando archivo "+str(archivo.enc))
     escribirLog("Descencriptando con llave: "+ str(archivo.keyPath))
 
-    escribirLog("La desencriptacion ha sido: " + str(desencriptar(archivo.encPath,archivo.keyPath,archivo.pos)))
+    escribirLog("La desencriptacion ha sido: " + str(desencriptar(archivo.encPath,archivo.keyPath,archivo.pos, archivo.noncePath)))
 
 def cifrar(ruta,cantidad):
     return encriptar(ruta,cantidad)

@@ -1,7 +1,7 @@
 import os
 from Crypto.Cipher import AES
 
-def desencriptar(ruta_archivo, ruta_llave, cont):
+def desencriptar(ruta_archivo, ruta_llave, cont, ruta_nonce):
 
     desencriptado = False
     modo_desencriptar = AES.MODE_CTR
@@ -11,8 +11,11 @@ def desencriptar(ruta_archivo, ruta_llave, cont):
 
     with open(ruta_archivo, 'rb') as f:
         datos_encriptados = f.read()
+
+    with open(ruta_nonce, 'rb') as n:
+        nonce = n.read()
     
-    objeto_desencriptador = AES.new(clave, modo_desencriptar)
+    objeto_desencriptador = AES.new(clave, modo_desencriptar, nonce=nonce)
 
     datos_desencriptados = objeto_desencriptador.decrypt(datos_encriptados)
     print("Datos desencriptados:", ruta_archivo)  # Agregar esta línea para verificar los datos desencriptados
@@ -31,7 +34,7 @@ def desencriptar(ruta_archivo, ruta_llave, cont):
 def guardar_archivo_desencriptado(datos_desencriptados, cont):
     guardado = False
     ruta_archivos_desencriptados = os.path.join(os.getcwd(), 'archivos_desencriptados')
-    ruta_archivo = os.path.join(ruta_archivos_desencriptados, 'archivo_' + str(cont)+ '.txt')
+    ruta_archivo = os.path.join(ruta_archivos_desencriptados, 'archivo_' + str(cont)+ '.jpg') #Cambiar
 
     with open(ruta_archivo, 'wb') as a:
         a.write(datos_desencriptados)
