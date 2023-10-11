@@ -1,2 +1,237 @@
 
-09/27/2023, 12:11:13: fichero encriptado con exito
+10/04/2023, 12:33:01: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/04/2023, 12:34:43: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/04/2023, 12:36:48: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/04/2023, 12:38:17: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/04/2023, 12:40:52: ruta de archivo leido es: E:/Imagenes/foto_CV.pdf
+10/08/2023, 12:13:03: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 12:18:34: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 12:25:05: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 12:27:32: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 12:29:14: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 12:30:30: ruta de archivo leido es: E:/Imagenes/foto_CV.pdf
+10/08/2023, 12:32:20: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 12:32:29: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 12:32:43: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 12:33:46: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 12:33:46: prueba de guardar un archivo encripado pdf
+10/08/2023, 12:33:46: prueba encriptación de un fichero en PDF
+10/08/2023, 12:34:13: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 12:34:13: prueba de guardar un archivo encripado pdf
+10/08/2023, 12:34:13: prueba encriptación de un fichero en PDF
+10/08/2023, 12:36:14: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 12:36:14: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 12:37:01: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 12:37:01: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 12:38:06: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 12:38:06: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 12:38:17: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 12:38:17: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 12:38:17: Estado de encriptacion y guardado: False
+10/08/2023, 12:38:17: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 12:41:30: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 12:41:30: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 12:41:30: Estado de encriptacion y guardado: True
+10/08/2023, 12:41:30: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 12:41:37: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 12:41:37: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+10/08/2023, 12:41:37: Estado de encriptacion y guardado: True
+10/08/2023, 12:41:37: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+10/08/2023, 12:41:45: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 12:41:45: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo2.enc
+10/08/2023, 12:41:45: Estado de encriptacion y guardado: True
+10/08/2023, 12:41:45: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo2.enc
+10/08/2023, 12:48:11: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 12:48:11: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 12:48:11: Estado de encriptacion y guardado: False
+10/08/2023, 12:48:11: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 12:48:23: ruta de archivo leido es: E:/Imagenes/foto_CV.pdf
+10/08/2023, 12:48:24: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+10/08/2023, 12:48:24: Estado de encriptacion y guardado: False
+10/08/2023, 12:48:24: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+10/08/2023, 12:48:52: ruta de archivo leido es: E:/Imagenes/foto_CV.pdf
+10/08/2023, 12:48:52: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 12:48:52: Estado de encriptacion y guardado: False
+10/08/2023, 12:48:52: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:01:22: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 16:01:22: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:01:22: Estado de encriptacion y guardado: False
+10/08/2023, 16:01:22: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:02:24: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 16:02:24: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:02:24: Estado de encriptacion y guardado: False
+10/08/2023, 16:02:24: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:03:08: ruta de archivo leido es: E:/Imagenes/foto_CV.pdf
+10/08/2023, 16:03:08: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:03:08: Estado de encriptacion y guardado: False
+10/08/2023, 16:03:08: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:06:06: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 16:06:06: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:06:06: Estado de encriptacion y guardado: False
+10/08/2023, 16:06:06: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:06:56: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 16:06:56: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:06:56: Estado de encriptacion y guardado: False
+10/08/2023, 16:06:56: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:07:11: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 16:07:11: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:07:11: Estado de encriptacion y guardado: False
+10/08/2023, 16:07:11: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:07:27: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 16:07:27: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:07:27: Estado de encriptacion y guardado: False
+10/08/2023, 16:07:27: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:07:48: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 16:07:48: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:07:48: Estado de encriptacion y guardado: False
+10/08/2023, 16:07:48: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:07:59: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 16:07:59: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+10/08/2023, 16:07:59: Estado de encriptacion y guardado: False
+10/08/2023, 16:07:59: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+10/08/2023, 16:08:43: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 16:08:43: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:08:43: Estado de encriptacion y guardado: False
+10/08/2023, 16:08:43: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:09:32: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 16:09:32: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:09:32: Estado de encriptacion y guardado: False
+10/08/2023, 16:09:32: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:09:55: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 16:09:55: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:09:55: Estado de encriptacion y guardado: False
+10/08/2023, 16:09:55: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:23:07: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 16:23:07: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:23:07: Estado de encriptacion y guardado: False
+10/08/2023, 16:23:07: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:23:13: ruta de archivo leido es: E:/Imagenes/foto_CV.pdf
+10/08/2023, 16:23:13: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+10/08/2023, 16:23:13: Estado de encriptacion y guardado: False
+10/08/2023, 16:23:13: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+10/08/2023, 16:23:15: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 16:23:15: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo2.enc
+10/08/2023, 16:23:15: Estado de encriptacion y guardado: False
+10/08/2023, 16:23:15: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo2.enc
+10/08/2023, 16:23:17: ruta de archivo leido es: E:/Imagenes/foto_CV.pdf
+10/08/2023, 16:23:17: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo3.enc
+10/08/2023, 16:23:17: Estado de encriptacion y guardado: True
+10/08/2023, 16:23:17: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo3.enc
+10/08/2023, 16:23:19: ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 16:23:19: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo4.enc
+10/08/2023, 16:23:19: Estado de encriptacion y guardado: True
+10/08/2023, 16:23:19: ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo4.enc
+10/08/2023, 16:26:39: Lectura: Ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 16:26:39: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:26:39: Estado de encriptacion y guardado: False
+10/08/2023, 16:26:39: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:28:34: Lectura: Ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 16:28:34: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:28:34: Llave generada: False
+10/08/2023, 16:28:34: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:45:09: Lectura: Ruta de archivo leido es: E:/Imagenes/foto_CV.pdf
+10/08/2023, 16:45:09: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\keys\llave0.bin
+10/08/2023, 16:45:09: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 16:45:09: Llave generada: True
+10/08/2023, 16:45:09: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 17:12:31: Lectura: Ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 17:12:31: ----------------INICIANDO ENCRIPTACION DE E:\Imagenes\foto_CV.jpg--------------
+10/08/2023, 17:12:31: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 17:12:31: Llave generada: False
+10/08/2023, 17:12:31: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 17:12:47: Lectura: Ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 17:12:47: ----------------INICIANDO ENCRIPTACION DE E:\Imagenes\foto_CV.jpg--------------
+10/08/2023, 17:12:47: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 17:12:47: Llave generada: False
+10/08/2023, 17:12:47: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 17:13:10: ----------------INICIANDO EL PROGRAMA--------------
+10/08/2023, 17:13:15: Lectura: Ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/08/2023, 17:13:15: ----------------INICIANDO ENCRIPTACION DE E:\Imagenes\foto_CV.jpg--------------
+10/08/2023, 17:13:15: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 17:13:15: Llave generada: False
+10/08/2023, 17:13:15: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/08/2023, 17:13:30: Lectura: Ruta de archivo leido es: C:/Users/Christian/Desktop/Tareas_para_hoy.txt
+10/08/2023, 17:13:30: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Desktop\Tareas_para_hoy.txt--------------
+10/08/2023, 17:13:30: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\keys\llave1.bin
+10/08/2023, 17:13:30: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+10/08/2023, 17:13:30: Llave generada: True
+10/08/2023, 17:13:30: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+10/10/2023, 21:18:13: ----------------INICIANDO EL PROGRAMA--------------
+10/10/2023, 21:18:21: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0093.jpg
+10/10/2023, 21:18:21: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/10/2023, 21:18:21: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/10/2023, 21:18:21: Llave generada: False
+10/10/2023, 21:18:21: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/10/2023, 21:18:21: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/10/2023, 21:18:24: Descencriptando archivo
+10/10/2023, 21:18:27: Descencriptando archivo
+10/10/2023, 21:18:28: Descencriptando archivo
+10/10/2023, 21:27:05: ----------------INICIANDO EL PROGRAMA--------------
+10/10/2023, 21:27:27: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0093.jpg
+10/10/2023, 21:27:27: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/10/2023, 21:27:27: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\keys\llave0.bin
+10/10/2023, 21:27:27: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/10/2023, 21:27:27: Llave generada: True
+10/10/2023, 21:27:27: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/10/2023, 21:27:27: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/10/2023, 21:27:38: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/10/2023, 21:29:25: ----------------INICIANDO EL PROGRAMA--------------
+10/10/2023, 21:29:36: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/trash.png
+10/10/2023, 21:29:36: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\trash.png--------------
+10/10/2023, 21:29:36: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\keys\llave0.bin
+10/10/2023, 21:29:36: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/10/2023, 21:29:36: Llave generada: True
+10/10/2023, 21:29:36: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\trash.png--------------
+10/10/2023, 21:29:36: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/10/2023, 21:29:43: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/10/2023, 21:29:43: La desencriptacion ha sido: True
+10/10/2023, 21:31:12: ----------------INICIANDO EL PROGRAMA--------------
+10/10/2023, 21:31:32: Lectura: Ruta de archivo leido es: E:/Universidad/Tercero_1/Compresion_Seguridad/Compresion_Seguridad/pruebas/archivo.bin
+10/10/2023, 21:31:32: ----------------INICIANDO ENCRIPTACION DE E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\pruebas\archivo.bin--------------
+10/10/2023, 21:31:32: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\keys\llave0.bin
+10/10/2023, 21:31:32: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/10/2023, 21:31:32: Llave generada: True
+10/10/2023, 21:31:32: ----------------FINALIZANDO ENCRIPTACION DE E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\pruebas\archivo.bin--------------
+10/10/2023, 21:31:32: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/10/2023, 21:31:50: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/10/2023, 21:31:50: La desencriptacion ha sido: True
+10/10/2023, 21:38:29: ----------------INICIANDO EL PROGRAMA--------------
+10/10/2023, 21:38:32: Lectura: Ruta de archivo leido es: E:/Universidad/Tercero_1/Compresion_Seguridad/Compresion_Seguridad/pruebas/archivo.txt
+10/10/2023, 21:38:32: ----------------INICIANDO ENCRIPTACION DE E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\pruebas\archivo.txt--------------
+10/10/2023, 21:38:32: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\keys\llave0.bin
+10/10/2023, 21:38:32: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/10/2023, 21:38:32: Llave generada: True
+10/10/2023, 21:38:32: ----------------FINALIZANDO ENCRIPTACION DE E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\pruebas\archivo.txt--------------
+10/10/2023, 21:38:32: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/10/2023, 21:38:45: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/10/2023, 21:38:45: Descencriptando con llave keys/llave0.bin
+10/10/2023, 21:38:45: La desencriptacion ha sido: True
+10/10/2023, 21:41:15: ----------------INICIANDO EL PROGRAMA--------------
+10/10/2023, 21:41:28: Lectura: Ruta de archivo leido es: E:/Universidad/Tercero_1/Compresion_Seguridad/Compresion_Seguridad/pruebas/archivo.txt
+10/10/2023, 21:41:28: ----------------INICIANDO ENCRIPTACION DE E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\pruebas\archivo.txt--------------
+10/10/2023, 21:41:28: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\keys\llave0.bin
+10/10/2023, 21:41:28: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/10/2023, 21:41:28: Llave generada: True
+10/10/2023, 21:41:28: ----------------FINALIZANDO ENCRIPTACION DE E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\pruebas\archivo.txt--------------
+10/10/2023, 21:41:28: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/10/2023, 21:41:30: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/10/2023, 21:41:30: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\keys\llave0.bin
+10/10/2023, 21:41:30: La desencriptacion ha sido: True
+10/10/2023, 21:44:10: ----------------INICIANDO EL PROGRAMA--------------
+10/10/2023, 21:44:13: Lectura: Ruta de archivo leido es: E:/Universidad/Tercero_1/Compresion_Seguridad/Compresion_Seguridad/pruebas/archivo.txt
+10/10/2023, 21:44:13: ----------------INICIANDO ENCRIPTACION DE E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\pruebas\archivo.txt--------------
+10/10/2023, 21:44:13: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\keys\llave0.bin
+10/10/2023, 21:44:13: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/10/2023, 21:44:13: Llave generada: True
+10/10/2023, 21:44:13: ----------------FINALIZANDO ENCRIPTACION DE E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\pruebas\archivo.txt--------------
+10/11/2023, 11:11:19: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 11:26:29: Lectura: Ruta de archivo leido es: E:/Universidad/Tercero_1/Compresion_Seguridad/Compresion_Seguridad/pruebas/archivo.txt
+10/11/2023, 11:26:29: ----------------INICIANDO ENCRIPTACION DE E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\pruebas\archivo.txt--------------
+10/11/2023, 11:26:29: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\keys\llave0.bin
+10/11/2023, 11:26:29: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/11/2023, 11:26:29: Llave generada: True
+10/11/2023, 11:26:29: ----------------FINALIZANDO ENCRIPTACION DE E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\pruebas\archivo.txt--------------
+10/11/2023, 11:26:29: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/11/2023, 11:26:47: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+10/11/2023, 11:26:47: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\keys\llave0.bin
+10/11/2023, 11:26:47: La desencriptacion ha sido: True
