@@ -1,6 +1,6 @@
 # Compresion_Seguridad
 
-Por Mattia Sorella, Javier Escutia, Christian Camelo y Guillermos Sansano
+Por Mattia Sorella, Javier Escutia, Christian Camelo y Guillermo Sansano
 Versión 1.0.0
 
 Este repositorio contiene los modulos necesarios para la realizacion de la practica 1 de la asignatura Compresion y Seguridad.
