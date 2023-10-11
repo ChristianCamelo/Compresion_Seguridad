@@ -4,6 +4,7 @@ from tkinter import filedialog
 from encriptar import encriptar
 from principal import escribirLog
 from desencriptar import desencriptar
+from shutil import rmtree
 
 #encriptar(r'E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_normales\archivo.txt',1)
 #escribirLog("fichero encriptado con exito")
@@ -23,28 +24,31 @@ class Archivo:
 def cargar_archivo():
     global cantidad
     archivo = filedialog.askopenfilename()
+    ruta_keys = os.path.join(os.getcwd(), 'keys')
+    
     if archivo:
         archivo_obj = Archivo(archivo)
         archivo_obj.ruta = os.path.abspath(archivo)
-        escribirLog("Lectura: Ruta de archivo leido es: "+ archivo_obj.archivo)
-        archivos_seleccionados.append(archivo_obj)
+        archivo_obj.pos=cantidad
         archivo_obj.enc = cifrar(archivo_obj.ruta, cantidad)
         archivo_obj.encPath = os.path.join(archivo_obj.enc)
+        archivo_obj.keyPath = os.path.join(ruta_keys, 'llave' + str(archivo_obj.pos) + '.bin')
+
+        escribirLog("Lectura: Ruta de archivo leido es: "+ archivo_obj.archivo)
         escribirLog("Escritura: Ruta de archivo cifrado es: "+ archivo_obj.enc)
+        
         crear_botones_descifrar(archivo_obj)
-        archivo_obj.pos=cantidad
         cantidad = cantidad+1
+        archivos_seleccionados.append(archivo_obj)
 
 def toggle_botones(archivo):
 
     archivo.descifrar_button.grid()
+
     escribirLog("Descencriptando archivo "+str(archivo.enc))
-    ruta_keys = os.path.join(os.getcwd(), 'keys')
-    ruta_archivo = os.path.join(ruta_keys, 'llave' + str(archivo.pos) + '.bin')
-    escribirLog("Descencriptando con llave: "+ ruta_archivo)
-    with open(ruta_archivo, 'rb') as key:
-        asociatedKey = key.read()
-    escribirLog("La desencriptacion ha sido: " + (str)(desencriptar(archivo.encPath,asociatedKey,archivo.pos)))
+    escribirLog("Descencriptando con llave: "+ str(archivo.keyPath))
+
+    escribirLog("La desencriptacion ha sido: " + str(desencriptar(archivo.encPath,archivo.keyPath,archivo.pos)))
 
 def cifrar(ruta,cantidad):
     return encriptar(ruta,cantidad)
@@ -66,6 +70,17 @@ def crear_botones_descifrar(archivo_obj):
     archivo_obj.descifrar_button.grid(row=1, column=1, padx=(0, 5))
 
 
+def limpiar_cache():
+    # Eliminando directorios
+    rmtree("archivos_desencriptados")
+    rmtree("archivos_encriptados")
+    rmtree("keys")
+    # Creadon directorios
+    os.mkdir("archivos_desencriptados")
+    os.mkdir("archivos_encriptados")
+    os.mkdir("keys")
+
+
 archivos_seleccionados = []
 
 # Crear una ventana principal
@@ -73,8 +88,12 @@ ventana = tk.Tk()
 ventana.title("Ejemplo de Cifrado y Descifrado")
 escribirLog("----------------INICIANDO EL PROGRAMA--------------")
 # Botón para cargar un archivo
-cargar_button = tk.Button(ventana, text="Cargar Archivo", font=("Helvetica", 12, "bold"), command=cargar_archivo)
+cargar_button = tk.Button(ventana, text="Cargar archivo", font=("Helvetica", 12, "bold"), command=cargar_archivo)
 cargar_button.grid(row=0, column=0, columnspan=3, pady=10)
+
+# Botón para limpiar
+limpiar_button = tk.Button(ventana, text="Limpiar cache", font=("Helvetica", 12, "bold"), command=limpiar_cache)
+limpiar_button.grid(row=1, column=0, columnspan=3, pady=10)
 
 # Etiqueta para mostrar el resultado
 resultado_label = tk.Label(ventana, text="")

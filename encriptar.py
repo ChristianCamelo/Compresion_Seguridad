@@ -16,8 +16,8 @@ def encriptar(fichero, cont):
     objeto_ecriptador = AES.new(key, modo_encriptar)
     with open(fichero, 'rb') as f:
         fichero_a_encriptar = f.read()
-        fichero_padeado = pad_fichero(fichero_a_encriptar)
-    fichero_encriptado = objeto_ecriptador.encrypt(fichero_padeado)
+        # fichero_padeado = pad_fichero(fichero_a_encriptar)
+    fichero_encriptado = objeto_ecriptador.encrypt(fichero_a_encriptar)
     archivo_encriptado_guardado = guardar_archivo_encriptado(fichero_encriptado, cont)
     escribirLog("Llave generada: "+ str(llave_guardada))
     escribirLog("----------------FINALIZANDO ENCRIPTACION DE "+ fichero + "--------------")
@@ -73,7 +73,7 @@ def guardarKey(key, cont):
 #------------------------------------------------------------------------------------------------------------------------------------
 # FUNCIÓN PARA PONERLE PADDING AL FICHERO
 #------------------------------------------------------------------------------------------------------------------------------------
-def pad_fichero(fichero):
-    while len(fichero) % 16 != 0:
-        fichero = fichero + b'0' # Hay que añadir bits porque es un fichero
-    return fichero
+# def pad_fichero(fichero):
+#     while len(fichero) % 16 != 0:
+#         fichero = fichero + b'0' # Hay que añadir bits porque es un fichero
+#     return fichero

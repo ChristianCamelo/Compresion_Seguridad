@@ -1,21 +1,26 @@
 import os
 from Crypto.Cipher import AES
 
-def desencriptar(archivo_encriptado, clave, cont):
+def desencriptar(ruta_archivo, ruta_llave, cont):
+
     desencriptado = False
     modo_desencriptar = AES.MODE_CTR
+
+    with open(ruta_llave, 'rb') as key:
+        clave = key.read()
+
+    with open(ruta_archivo, 'rb') as f:
+        datos_encriptados = f.read()
+    
     objeto_desencriptador = AES.new(clave, modo_desencriptar)
 
-    with open(archivo_encriptado, 'rb') as f:
-        datos_encriptados = f.read()
-
     datos_desencriptados = objeto_desencriptador.decrypt(datos_encriptados)
-    print("Datos desencriptados:", datos_desencriptados)  # Agregar esta línea para verificar los datos desencriptados
+    print("Datos desencriptados:", ruta_archivo)  # Agregar esta línea para verificar los datos desencriptados
 
-    archivo_original = unpad_fichero(datos_desencriptados)
-    print("Datos originales:", archivo_original)  # Agregar esta línea para verificar los datos originales
+    #archivo_original = unpad_fichero(datos_desencriptados)
+    print("Datos originales:", datos_desencriptados)  # Agregar esta línea para verificar los datos originales
 
-    archivo_desencriptado_guardado = guardar_archivo_desencriptado(archivo_original, cont)
+    archivo_desencriptado_guardado = guardar_archivo_desencriptado(datos_desencriptados, cont)
 
     if archivo_desencriptado_guardado:
         desencriptado = True
@@ -36,6 +41,6 @@ def guardar_archivo_desencriptado(datos_desencriptados, cont):
 
     return guardado
 
-def unpad_fichero(data):
-    last_byte = data[-1]
-    return data[:-last_byte]
+# def unpad_fichero(data):
+#     last_byte = data[-1]
+#     return data[:-last_byte]
