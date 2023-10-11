@@ -11,10 +11,15 @@ def encriptar(fichero, cont):
     escribirLog("----------------INICIANDO ENCRIPTACION DE "+ fichero + "--------------")
     modo_encriptar = AES.MODE_CTR
     key = get_random_bytes(16)
-    llave_guardada = guardarKey(key, cont)
+
     objeto_ecriptador = AES.new(key, modo_encriptar)
     nonce = objeto_ecriptador.nonce
-    nonce_guardado = guardar_nonce(nonce, cont)
+    print(len(nonce),type(nonce))
+    print(key)
+    print(nonce)
+    llave_guardada = guardarKey(key, nonce, cont)
+    print(llave_guardada)
+    
     with open(fichero, 'rb') as f:
         fichero_a_encriptar = f.read()
         # fichero_padeado = pad_fichero(fichero_a_encriptar)
@@ -26,24 +31,24 @@ def encriptar(fichero, cont):
 #------------------------------------------------------------------------------------------------------------------------------------
 # FUNCIÓN PARA GUARDAR EL ARCHIVO ENCRIPTADO: Guarda cada archivo en la carpeta archivos_encriptados
 #------------------------------------------------------------------------------------------------------------------------------------
-def guardar_nonce(nonce, cont):
-    guardado = False
-    ruta_archivos_encriptados = os.path.join(os.getcwd(), 'archivos_encriptados')
-    ruta_archivo = os.path.join(ruta_archivos_encriptados, 'nonce' + str(cont) + '.bin')
-    # Escribiendo el archivo
-    with open(ruta_archivo, 'wb') as a:
-        a.write(nonce)
+# def guardar_nonce(nonce, cont):
+#     guardado = False
+#     ruta_archivos_encriptados = os.path.join(os.getcwd(), 'archivos_encriptados')
+#     ruta_archivo = os.path.join(ruta_archivos_encriptados, 'nonce' + str(cont) + '.bin')
+#     # Escribiendo el archivo
+#     with open(ruta_archivo, 'wb') as a:
+#         a.write(nonce)
     
-    # Comprobando que el archivo existe
-    with open(ruta_archivo, 'rb') as b:
-        data = b.read()
-        if len(data) > 0:
-            guardado = True
-        else:
-            guardado = False
-    print(guardado)
-    escribirLog("Encriptacion: Creando la ruta de guardado: "+ruta_archivo)
-    return ruta_archivo
+#     # Comprobando que el archivo existe
+#     with open(ruta_archivo, 'rb') as b:
+#         data = b.read()
+#         if len(data) > 0:
+#             guardado = True
+#         else:
+#             guardado = False
+#     print(guardado)
+#     escribirLog("Encriptacion: Creando la ruta de guardado: "+ruta_archivo)
+#     return ruta_archivo
 #------------------------------------------------------------------------------------------------------------------------------------
 # FUNCIÓN PARA GUARDAR EL ARCHIVO ENCRIPTADO: Guarda cada archivo en la carpeta archivos_encriptados
 #------------------------------------------------------------------------------------------------------------------------------------
@@ -71,7 +76,7 @@ def guardar_archivo_encriptado(fichero, cont):
 #------------------------------------------------------------------------------------------------------------------------------------
 # FUNCIÓN PARA GUARDAR LA LLAVE: Guarda cada llave en un fichero binario guardado siguiendo el formato: 'llave' + contador + '.bin'
 #------------------------------------------------------------------------------------------------------------------------------------
-def guardarKey(key, cont):
+def guardarKey(key, nonce, cont):
     success = False
     ruta_keys = os.path.join(os.getcwd(), 'keys')
     ruta_archivo = os.path.join(ruta_keys, 'llave' + str(cont) + '.bin')
@@ -79,11 +84,13 @@ def guardarKey(key, cont):
     # Escribiendo la llave
     with open(ruta_archivo, 'ab') as ficheroKeys:
         ficheroKeys.write(key)
-    
+        ficheroKeys.write(nonce)
+
     # Comprobando que el archivo existe
     with open(ruta_archivo, 'rb') as b:
         data = b.read()
-        if len(data) > 0 and len(data) <= 16:
+        print(data)
+        if len(data) > 0 and len(data) <= 24:
             success = True
             escribirLog("Encriptacion: Se ha generado la llave : "+ruta_archivo)
         else:

@@ -420,3 +420,538 @@
 10/11/2023, 12:46:49: Descencriptando archivo C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
 10/11/2023, 12:46:49: Descencriptando con llave: C:\Users\matis\OneDrive\Documentos\UA\3\1 Cuatri\CYS\practica\P01\Compresion_Seguridad-main\keys\llave0.bin
 10/11/2023, 12:46:50: La desencriptacion ha sido: True
+10/11/2023, 13:24:20: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 13:24:24: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Documents\JustificantePago-206145680.pdf--------------
+10/11/2023, 13:24:24: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\nonce0.bin
+10/11/2023, 13:24:24: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:24:24: Llave generada: False
+10/11/2023, 13:24:24: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Documents\JustificantePago-206145680.pdf--------------
+10/11/2023, 13:24:24: Lectura: Ruta de archivo leido es: C:/Users/Christian/Documents/JustificantePago-206145680.pdf
+10/11/2023, 13:24:24: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:24:26: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:24:26: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 13:24:46: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 13:24:51: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Documents\JustificantePago-206145680.pdf--------------
+10/11/2023, 13:24:51: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 13:24:51: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\nonce0.bin
+10/11/2023, 13:24:51: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:24:51: Llave generada: True
+10/11/2023, 13:24:51: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Documents\JustificantePago-206145680.pdf--------------
+10/11/2023, 13:24:51: Lectura: Ruta de archivo leido es: C:/Users/Christian/Documents/JustificantePago-206145680.pdf
+10/11/2023, 13:24:51: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:24:52: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:24:52: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 13:24:52: La desencriptacion ha sido: True
+10/11/2023, 13:29:35: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 13:29:43: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Documents\JustificantePago-206145680.pdf--------------
+10/11/2023, 13:31:25: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 13:31:29: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Documents\JustificantePago-206145680.pdf--------------
+10/11/2023, 13:31:29: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:31:29: Llave generada: False
+10/11/2023, 13:31:29: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Documents\JustificantePago-206145680.pdf--------------
+10/11/2023, 13:31:29: Lectura: Ruta de archivo leido es: C:/Users/Christian/Documents/JustificantePago-206145680.pdf
+10/11/2023, 13:31:29: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:31:35: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 13:31:39: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/11/2023, 13:31:39: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:31:39: Llave generada: False
+10/11/2023, 13:31:39: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/11/2023, 13:31:39: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0093.jpg
+10/11/2023, 13:31:39: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:35:48: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 13:36:06: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\trash.png--------------
+10/11/2023, 13:36:24: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 13:36:32: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 13:36:36: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo - copia.png--------------
+10/11/2023, 13:36:36: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:36:36: Llave generada: False
+10/11/2023, 13:36:36: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo - copia.png--------------
+10/11/2023, 13:36:36: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo - copia.png
+10/11/2023, 13:36:36: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:38:08: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 13:38:14: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo - copia.png--------------
+10/11/2023, 13:38:14: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 13:38:14: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:38:14: Llave generada: True
+10/11/2023, 13:38:14: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo - copia.png--------------
+10/11/2023, 13:38:14: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo - copia.png
+10/11/2023, 13:38:14: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:40:53: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 13:41:02: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - w.png--------------
+10/11/2023, 13:41:02: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 13:41:02: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:41:02: Llave generada: True
+10/11/2023, 13:41:02: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - w.png--------------
+10/11/2023, 13:41:02: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/bookmark--v1 - w.png
+10/11/2023, 13:41:02: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:45:29: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 13:45:34: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 13:45:34: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 13:45:35: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:45:35: Llave generada: True
+10/11/2023, 13:45:35: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 13:45:35: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 13:45:35: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:45:36: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:45:36: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 13:46:21: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 13:46:26: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 13:46:26: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 13:46:26: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:46:26: Llave generada: True
+10/11/2023, 13:46:26: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 13:46:26: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 13:46:26: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:46:28: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:46:28: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 13:48:27: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 13:48:32: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 13:48:32: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 13:48:32: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:48:32: Llave generada: True
+10/11/2023, 13:48:32: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 13:48:32: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 13:48:32: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:48:33: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:48:33: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 13:49:03: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:49:03: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 13:49:11: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 13:49:16: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 13:49:16: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 13:49:16: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:49:16: Llave generada: True
+10/11/2023, 13:49:16: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 13:49:16: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 13:49:16: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:49:17: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:49:17: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 13:50:05: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 13:50:24: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 13:50:24: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 13:50:24: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:50:24: Llave generada: True
+10/11/2023, 13:50:24: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 13:50:24: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 13:50:24: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:50:25: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:50:25: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 13:51:38: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 13:51:44: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 13:51:44: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 13:51:44: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:51:44: Llave generada: True
+10/11/2023, 13:51:44: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 13:51:44: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 13:51:44: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:51:46: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 13:51:46: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:09:20: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:09:26: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:09:26: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:09:26: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:09:26: Llave generada: True
+10/11/2023, 15:09:26: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:09:26: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:09:26: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:09:27: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:09:27: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:11:17: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:11:17: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:11:25: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:11:30: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo - copia.png--------------
+10/11/2023, 15:11:30: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:11:30: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:11:30: Llave generada: True
+10/11/2023, 15:11:30: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo - copia.png--------------
+10/11/2023, 15:11:30: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo - copia.png
+10/11/2023, 15:11:30: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:11:31: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:11:31: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:12:16: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:12:20: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - w.png--------------
+10/11/2023, 15:12:20: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:12:20: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:12:20: Llave generada: True
+10/11/2023, 15:12:20: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - w.png--------------
+10/11/2023, 15:12:20: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/bookmark--v1 - w.png
+10/11/2023, 15:12:20: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:12:21: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:12:21: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:13:50: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:13:53: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:13:53: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:13:53: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:13:53: Llave generada: True
+10/11/2023, 15:13:53: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:13:53: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:13:53: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:13:54: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:13:54: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:14:32: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:14:35: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:14:35: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:14:35: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:14:35: Llave generada: True
+10/11/2023, 15:14:35: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:14:35: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:14:35: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:14:36: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:14:36: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:15:05: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:15:09: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:15:09: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:15:09: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:15:09: Llave generada: True
+10/11/2023, 15:15:09: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:15:09: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:15:09: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:15:10: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:15:10: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:15:10: La desencriptacion ha sido: True
+10/11/2023, 15:17:50: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:17:53: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - w.png--------------
+10/11/2023, 15:17:53: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:17:53: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:17:53: Llave generada: True
+10/11/2023, 15:17:53: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - w.png--------------
+10/11/2023, 15:17:53: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/bookmark--v1 - w.png
+10/11/2023, 15:17:53: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:19:36: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:19:41: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:19:41: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:19:41: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:19:41: Llave generada: True
+10/11/2023, 15:19:41: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:19:41: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:19:41: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:20:00: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:20:03: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:20:03: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:20:03: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:20:03: Llave generada: True
+10/11/2023, 15:20:03: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:20:03: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:20:03: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:20:10: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:20:10: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave1.bin
+10/11/2023, 15:20:10: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:20:10: Llave generada: True
+10/11/2023, 15:20:10: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:20:10: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:20:10: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:20:28: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:20:30: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - w.png--------------
+10/11/2023, 15:20:30: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:20:30: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:20:30: Llave generada: True
+10/11/2023, 15:20:30: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - w.png--------------
+10/11/2023, 15:20:30: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/bookmark--v1 - w.png
+10/11/2023, 15:20:30: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:20:33: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:20:33: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave1.bin
+10/11/2023, 15:20:33: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:20:33: Llave generada: True
+10/11/2023, 15:20:33: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:20:33: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:20:33: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:21:26: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:21:29: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - w.png--------------
+10/11/2023, 15:21:29: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:21:29: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:21:29: Llave generada: True
+10/11/2023, 15:21:29: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - w.png--------------
+10/11/2023, 15:21:29: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/bookmark--v1 - w.png
+10/11/2023, 15:21:29: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:21:39: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:21:42: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:21:42: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:21:42: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:21:42: Llave generada: True
+10/11/2023, 15:21:42: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:21:42: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:21:42: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:21:50: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - copia.png--------------
+10/11/2023, 15:21:50: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave1.bin
+10/11/2023, 15:21:50: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:21:50: Llave generada: True
+10/11/2023, 15:21:50: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - copia.png--------------
+10/11/2023, 15:21:50: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/bookmark--v1 - copia.png
+10/11/2023, 15:21:50: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:22:58: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:23:22: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:23:25: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:23:25: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:23:25: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:23:25: Llave generada: True
+10/11/2023, 15:23:25: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:23:25: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:23:25: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:23:27: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:23:27: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave1.bin
+10/11/2023, 15:23:27: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:23:27: Llave generada: True
+10/11/2023, 15:23:27: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:23:27: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:23:27: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:23:29: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - w.png--------------
+10/11/2023, 15:23:29: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave2.bin
+10/11/2023, 15:23:29: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo2.enc
+10/11/2023, 15:23:29: Llave generada: True
+10/11/2023, 15:23:29: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - w.png--------------
+10/11/2023, 15:23:29: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/bookmark--v1 - w.png
+10/11/2023, 15:23:29: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo2.enc
+10/11/2023, 15:23:32: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark-v1-w.ico--------------
+10/11/2023, 15:23:32: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave3.bin
+10/11/2023, 15:23:32: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo3.enc
+10/11/2023, 15:23:32: Llave generada: True
+10/11/2023, 15:23:32: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark-v1-w.ico--------------
+10/11/2023, 15:23:32: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/bookmark-v1-w.ico
+10/11/2023, 15:23:32: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo3.enc
+10/11/2023, 15:23:34: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo - copia.png--------------
+10/11/2023, 15:23:34: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave4.bin
+10/11/2023, 15:23:34: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo4.enc
+10/11/2023, 15:23:34: Llave generada: True
+10/11/2023, 15:23:34: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo - copia.png--------------
+10/11/2023, 15:23:34: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo - copia.png
+10/11/2023, 15:23:34: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo4.enc
+10/11/2023, 15:23:36: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - w.png--------------
+10/11/2023, 15:23:36: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave5.bin
+10/11/2023, 15:23:36: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo5.enc
+10/11/2023, 15:23:36: Llave generada: True
+10/11/2023, 15:23:36: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - w.png--------------
+10/11/2023, 15:23:36: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/bookmark--v1 - w.png
+10/11/2023, 15:23:36: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo5.enc
+10/11/2023, 15:23:38: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo5.enc
+10/11/2023, 15:23:38: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave5.bin
+10/11/2023, 15:23:38: La desencriptacion ha sido: True
+10/11/2023, 15:23:38: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo4.enc
+10/11/2023, 15:23:38: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave4.bin
+10/11/2023, 15:23:38: La desencriptacion ha sido: True
+10/11/2023, 15:23:38: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo3.enc
+10/11/2023, 15:23:38: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave3.bin
+10/11/2023, 15:23:38: La desencriptacion ha sido: True
+10/11/2023, 15:23:39: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo2.enc
+10/11/2023, 15:23:39: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave2.bin
+10/11/2023, 15:23:39: La desencriptacion ha sido: True
+10/11/2023, 15:23:39: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:23:39: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave1.bin
+10/11/2023, 15:23:39: La desencriptacion ha sido: True
+10/11/2023, 15:23:39: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:23:39: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:23:39: La desencriptacion ha sido: True
+10/11/2023, 15:24:55: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:24:57: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo - copia.png--------------
+10/11/2023, 15:24:57: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:24:57: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:24:57: Llave generada: True
+10/11/2023, 15:24:57: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo - copia.png--------------
+10/11/2023, 15:24:57: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo - copia.png
+10/11/2023, 15:24:57: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:24:59: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - copia.png--------------
+10/11/2023, 15:24:59: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave1.bin
+10/11/2023, 15:24:59: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:24:59: Llave generada: True
+10/11/2023, 15:24:59: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - copia.png--------------
+10/11/2023, 15:24:59: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/bookmark--v1 - copia.png
+10/11/2023, 15:24:59: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:25:25: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:25:25: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:31:47: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:31:51: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:31:51: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:31:51: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:31:51: Llave generada: True
+10/11/2023, 15:31:51: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:31:51: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:31:51: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:31:53: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:31:53: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave1.bin
+10/11/2023, 15:31:53: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:31:53: Llave generada: True
+10/11/2023, 15:31:53: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:31:53: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:31:53: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:32:34: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:33:23: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:33:46: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:33:58: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:34:01: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:34:01: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:34:01: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:34:01: Llave generada: True
+10/11/2023, 15:34:01: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:34:01: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:34:01: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:36:02: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:36:09: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:36:11: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:36:17: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:37:56: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:39:19: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:40:49: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:41:02: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:41:22: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:41:34: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:41:50: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:41:53: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:41:53: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:41:53: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:41:53: Llave generada: True
+10/11/2023, 15:41:53: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:41:53: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:41:53: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:41:56: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:41:56: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave1.bin
+10/11/2023, 15:41:56: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:41:56: Llave generada: True
+10/11/2023, 15:41:56: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:41:56: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:41:56: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:41:57: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:41:57: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave2.bin
+10/11/2023, 15:41:57: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo2.enc
+10/11/2023, 15:41:57: Llave generada: True
+10/11/2023, 15:41:57: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:41:57: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:41:57: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo2.enc
+10/11/2023, 15:43:19: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:43:22: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:43:22: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:43:22: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:43:22: Llave generada: True
+10/11/2023, 15:43:22: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:43:22: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:43:22: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:43:24: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:43:24: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave1.bin
+10/11/2023, 15:43:24: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:43:24: Llave generada: True
+10/11/2023, 15:43:24: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:43:24: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:43:24: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:43:25: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:43:31: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:43:33: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:46:28: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:47:59: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:48:00: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:48:03: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:48:04: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:48:04: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:48:05: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:48:20: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:48:21: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:50:46: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:53:34: ----------------INICIANDO EL PROGRAMA--------------
+10/11/2023, 15:53:37: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - w.png--------------
+10/11/2023, 15:53:37: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:53:37: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:53:37: Llave generada: True
+10/11/2023, 15:53:37: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - w.png--------------
+10/11/2023, 15:53:37: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/bookmark--v1 - w.png
+10/11/2023, 15:53:37: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:53:39: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo - copia.png--------------
+10/11/2023, 15:53:39: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave1.bin
+10/11/2023, 15:53:39: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:53:39: Llave generada: True
+10/11/2023, 15:53:39: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo - copia.png--------------
+10/11/2023, 15:53:39: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo - copia.png
+10/11/2023, 15:53:39: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:53:41: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:53:41: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave2.bin
+10/11/2023, 15:53:41: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo2.enc
+10/11/2023, 15:53:41: Llave generada: True
+10/11/2023, 15:53:41: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:53:41: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:53:41: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo2.enc
+10/11/2023, 15:53:43: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:53:43: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave3.bin
+10/11/2023, 15:53:43: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo3.enc
+10/11/2023, 15:53:43: Llave generada: True
+10/11/2023, 15:53:43: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:53:43: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:53:43: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo3.enc
+10/11/2023, 15:53:56: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo - copia.png--------------
+10/11/2023, 15:53:56: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave4.bin
+10/11/2023, 15:53:56: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo4.enc
+10/11/2023, 15:53:56: Llave generada: True
+10/11/2023, 15:53:56: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo - copia.png--------------
+10/11/2023, 15:53:56: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo - copia.png
+10/11/2023, 15:53:56: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo4.enc
+10/11/2023, 15:53:58: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:53:58: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave5.bin
+10/11/2023, 15:53:58: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo5.enc
+10/11/2023, 15:53:58: Llave generada: True
+10/11/2023, 15:53:58: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo.png--------------
+10/11/2023, 15:53:58: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo.png
+10/11/2023, 15:53:58: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo5.enc
+10/11/2023, 15:54:00: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - w.png--------------
+10/11/2023, 15:54:00: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave6.bin
+10/11/2023, 15:54:00: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo6.enc
+10/11/2023, 15:54:00: Llave generada: True
+10/11/2023, 15:54:00: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\bookmark--v1 - w.png--------------
+10/11/2023, 15:54:00: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/bookmark--v1 - w.png
+10/11/2023, 15:54:00: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo6.enc
+10/11/2023, 15:54:05: ----------------INICIANDO ENCRIPTACION DE E:\Universidad\Tercero_1\NOTAS.txt--------------
+10/11/2023, 15:54:05: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave7.bin
+10/11/2023, 15:54:05: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo7.enc
+10/11/2023, 15:54:05: Llave generada: True
+10/11/2023, 15:54:05: ----------------FINALIZANDO ENCRIPTACION DE E:\Universidad\Tercero_1\NOTAS.txt--------------
+10/11/2023, 15:54:05: Lectura: Ruta de archivo leido es: E:/Universidad/Tercero_1/NOTAS.txt
+10/11/2023, 15:54:05: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo7.enc
+10/11/2023, 15:54:15: ----------------INICIANDO ENCRIPTACION DE E:\Imagenes\foto_CV.jpg--------------
+10/11/2023, 15:54:15: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave8.bin
+10/11/2023, 15:54:15: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo8.enc
+10/11/2023, 15:54:15: Llave generada: True
+10/11/2023, 15:54:15: ----------------FINALIZANDO ENCRIPTACION DE E:\Imagenes\foto_CV.jpg--------------
+10/11/2023, 15:54:15: Lectura: Ruta de archivo leido es: E:/Imagenes/foto_CV.jpg
+10/11/2023, 15:54:15: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo8.enc
+10/11/2023, 15:54:19: ----------------INICIANDO ENCRIPTACION DE E:\Imagenes\foto_CV.pdf--------------
+10/11/2023, 15:54:19: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave9.bin
+10/11/2023, 15:54:19: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo9.enc
+10/11/2023, 15:54:19: Llave generada: True
+10/11/2023, 15:54:19: ----------------FINALIZANDO ENCRIPTACION DE E:\Imagenes\foto_CV.pdf--------------
+10/11/2023, 15:54:19: Lectura: Ruta de archivo leido es: E:/Imagenes/foto_CV.pdf
+10/11/2023, 15:54:19: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo9.enc
+10/11/2023, 15:54:53: ----------------INICIANDO ENCRIPTACION DE E:\Universidad\Tercero_1\Diseño_Sistemas_Multimedia\ideas.ai--------------
+10/11/2023, 15:54:53: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave10.bin
+10/11/2023, 15:54:53: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo10.enc
+10/11/2023, 15:54:53: Llave generada: True
+10/11/2023, 15:54:53: ----------------FINALIZANDO ENCRIPTACION DE E:\Universidad\Tercero_1\Diseño_Sistemas_Multimedia\ideas.ai--------------
+10/11/2023, 15:54:53: Lectura: Ruta de archivo leido es: E:/Universidad/Tercero_1/Diseño_Sistemas_Multimedia/ideas.ai
+10/11/2023, 15:54:53: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo10.enc
+10/11/2023, 15:54:56: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo10.enc
+10/11/2023, 15:54:56: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave10.bin
+10/11/2023, 15:54:56: La desencriptacion ha sido: True
+10/11/2023, 15:54:56: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo9.enc
+10/11/2023, 15:54:56: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave9.bin
+10/11/2023, 15:54:56: La desencriptacion ha sido: True
+10/11/2023, 15:54:57: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo8.enc
+10/11/2023, 15:54:57: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave8.bin
+10/11/2023, 15:54:57: La desencriptacion ha sido: True
+10/11/2023, 15:54:57: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo7.enc
+10/11/2023, 15:54:57: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave7.bin
+10/11/2023, 15:54:57: La desencriptacion ha sido: True
+10/11/2023, 15:54:57: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo6.enc
+10/11/2023, 15:54:57: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave6.bin
+10/11/2023, 15:54:57: La desencriptacion ha sido: True
+10/11/2023, 15:54:58: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo5.enc
+10/11/2023, 15:54:58: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave5.bin
+10/11/2023, 15:54:58: La desencriptacion ha sido: True
+10/11/2023, 15:54:58: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo4.enc
+10/11/2023, 15:54:58: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave4.bin
+10/11/2023, 15:54:58: La desencriptacion ha sido: True
+10/11/2023, 15:54:58: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo3.enc
+10/11/2023, 15:54:58: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave3.bin
+10/11/2023, 15:54:58: La desencriptacion ha sido: True
+10/11/2023, 15:54:59: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo2.enc
+10/11/2023, 15:54:59: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave2.bin
+10/11/2023, 15:54:59: La desencriptacion ha sido: True
+10/11/2023, 15:54:59: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo0.enc
+10/11/2023, 15:54:59: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave0.bin
+10/11/2023, 15:54:59: La desencriptacion ha sido: True
+10/11/2023, 15:55:00: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\archivos_encriptados\archivo1.enc
+10/11/2023, 15:55:00: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad-main\keys\llave1.bin
+10/11/2023, 15:55:00: La desencriptacion ha sido: True
+10/11/2023, 16:00:29: ----------------INICIANDO EL PROGRAMA--------------

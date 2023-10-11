@@ -6,10 +6,7 @@ from principal import escribirLog
 from desencriptar import desencriptar
 from shutil import rmtree
 
-#encriptar(r'E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_normales\archivo.txt',1)
-#escribirLog("fichero encriptado con exito")
-#desencriptar(r'E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\archivos_normales\archivo.txt.enc',r'E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad\keys\llave1.bin')
-
+ventana = None
 global cantidad
 cantidad = 0
 
@@ -33,12 +30,14 @@ def cargar_archivo():
         archivo_obj.pos=cantidad
         archivo_obj.enc = cifrar(archivo_obj.ruta, cantidad)
         archivo_obj.encPath = os.path.join(archivo_obj.enc)
+        archivo_obj.format = (archivo_obj.ruta).split(".")[-1]
         archivo_obj.keyPath = os.path.join(ruta_keys, 'llave' + str(archivo_obj.pos) + '.bin')
         archivo_obj.noncePath = os.path.join(ruta_archivos_encriptados, 'nonce' + str(archivo_obj.pos) + '.bin')
 
         escribirLog("Lectura: Ruta de archivo leido es: "+ archivo_obj.archivo)
         escribirLog("Escritura: Ruta de archivo cifrado es: "+ archivo_obj.enc)
         
+        actualizarUI()
         crear_botones_descifrar(archivo_obj)
         cantidad = cantidad+1
         archivos_seleccionados.append(archivo_obj)
@@ -49,8 +48,7 @@ def toggle_botones(archivo):
 
     escribirLog("Descencriptando archivo "+str(archivo.enc))
     escribirLog("Descencriptando con llave: "+ str(archivo.keyPath))
-
-    escribirLog("La desencriptacion ha sido: " + str(desencriptar(archivo.encPath,archivo.keyPath,archivo.pos, archivo.noncePath)))
+    escribirLog("La desencriptacion ha sido: " + str(desencriptar(archivo.encPath,archivo.keyPath,archivo.pos, archivo.format)))
 
 def cifrar(ruta,cantidad):
     return encriptar(ruta,cantidad)
@@ -60,10 +58,7 @@ def crear_botones_descifrar(archivo_obj):
     archivo_obj.frame = tk.Frame(ventana, borderwidth=2, relief="solid")
     archivo_obj.frame.grid(row=len(archivos_seleccionados), column=0, padx=5, pady=5, sticky="w")
 
-    gradient_frame = tk.Frame(archivo_obj.frame)
-    gradient_frame.grid(row=0, column=0, columnspan=3)
-
-    color1 = "#22cc22"
+    color1 = "#2233FF"
 
     archivo_obj.label = tk.Label(archivo_obj.frame, text=archivo_obj.enc, font=("Helvetica", 12), background=color1, fg="black")
     archivo_obj.label.grid(row=1, column=0, padx=5, pady=5)
@@ -82,24 +77,24 @@ def limpiar_cache():
     os.mkdir("archivos_encriptados")
     os.mkdir("keys")
 
-
 archivos_seleccionados = []
 
-# Crear una ventana principal
-ventana = tk.Tk()
-ventana.title("Ejemplo de Cifrado y Descifrado")
-escribirLog("----------------INICIANDO EL PROGRAMA--------------")
-# Botón para cargar un archivo
-cargar_button = tk.Button(ventana, text="Cargar archivo", font=("Helvetica", 12, "bold"), command=cargar_archivo)
-cargar_button.grid(row=0, column=0, columnspan=3, pady=10)
+def actualizarUI():
+    # Botón para cargar un archivo
+    cargar_button = tk.Button(ventana, text="Cargar archivo", font=("Helvetica", 12, "bold"), command=cargar_archivo)
+    cargar_button.grid(row=cantidad+1, column=0, columnspan=3, pady=10)
 
-# Botón para limpiar
-limpiar_button = tk.Button(ventana, text="Limpiar cache", font=("Helvetica", 12, "bold"), command=limpiar_cache)
-limpiar_button.grid(row=1, column=0, columnspan=3, pady=10)
+    # Botón para limpiar
+    limpiar_button = tk.Button(ventana, text="Limpiar cache", font=("Helvetica", 12, "bold"), command=limpiar_cache)
+    limpiar_button.grid(row=cantidad+2, column=0, columnspan=3, pady=10)
 
-# Etiqueta para mostrar el resultado
-resultado_label = tk.Label(ventana, text="")
-resultado_label.grid(row=1, column=0, columnspan=3, pady=10)
+def iniciar_ventana():
+    limpiar_cache()
+    ventana = tk.Tk()
+    actualizarUI()
+    ventana.title("Ejemplo de Cifrado y Descifrado")
+    escribirLog("----------------INICIANDO EL PROGRAMA--------------")
+    ventana.mainloop()
 
-# Iniciar el bucle principal de la aplicación
-ventana.mainloop()
+
+iniciar_ventana()
