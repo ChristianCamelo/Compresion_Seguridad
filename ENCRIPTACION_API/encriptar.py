@@ -1,6 +1,6 @@
 
 import os
-from principal import escribirLog
+from utilities import escribirLog
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes # para generar la clave y el IV
 
@@ -31,24 +31,7 @@ def encriptar(fichero, cont):
 #------------------------------------------------------------------------------------------------------------------------------------
 # FUNCIÓN PARA GUARDAR EL ARCHIVO ENCRIPTADO: Guarda cada archivo en la carpeta archivos_encriptados
 #------------------------------------------------------------------------------------------------------------------------------------
-# def guardar_nonce(nonce, cont):
-#     guardado = False
-#     ruta_archivos_encriptados = os.path.join(os.getcwd(), 'archivos_encriptados')
-#     ruta_archivo = os.path.join(ruta_archivos_encriptados, 'nonce' + str(cont) + '.bin')
-#     # Escribiendo el archivo
-#     with open(ruta_archivo, 'wb') as a:
-#         a.write(nonce)
-    
-#     # Comprobando que el archivo existe
-#     with open(ruta_archivo, 'rb') as b:
-#         data = b.read()
-#         if len(data) > 0:
-#             guardado = True
-#         else:
-#             guardado = False
-#     print(guardado)
-#     escribirLog("Encriptacion: Creando la ruta de guardado: "+ruta_archivo)
-#     return ruta_archivo
+
 #------------------------------------------------------------------------------------------------------------------------------------
 # FUNCIÓN PARA GUARDAR EL ARCHIVO ENCRIPTADO: Guarda cada archivo en la carpeta archivos_encriptados
 #------------------------------------------------------------------------------------------------------------------------------------
@@ -98,10 +81,3 @@ def guardarKey(key, nonce, cont):
     print(success)
     return success
 
-#------------------------------------------------------------------------------------------------------------------------------------
-# FUNCIÓN PARA PONERLE PADDING AL FICHERO
-#------------------------------------------------------------------------------------------------------------------------------------
-# def pad_fichero(fichero):
-#     while len(fichero) % 16 != 0:
-#         fichero = fichero + b'0' # Hay que añadir bits porque es un fichero
-#     return fichero
