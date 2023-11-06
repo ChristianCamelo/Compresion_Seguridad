@@ -1,0 +1,512 @@
+10/29/2023, 01:51:49: ----------------INICIANDO EL PROGRAMA--------------
+10/29/2023, 01:51:54: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Saved Pictures\error.png--------------
+10/29/2023, 01:51:54: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 01:51:54: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 01:51:54: Llave generada: True
+10/29/2023, 01:51:54: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Saved Pictures\error.png--------------
+10/29/2023, 01:51:54: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Saved Pictures/error.png
+10/29/2023, 01:51:54: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 01:51:54: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 01:52:02: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Saved Pictures\factura.png--------------
+10/29/2023, 01:52:02: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave1.bin
+10/29/2023, 01:52:02: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo1.enc
+10/29/2023, 01:52:02: Llave generada: True
+10/29/2023, 01:52:02: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Saved Pictures\factura.png--------------
+10/29/2023, 01:52:02: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Saved Pictures/factura.png
+10/29/2023, 01:52:02: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo1.enc
+10/29/2023, 01:52:02: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave1.bin
+10/29/2023, 01:52:07: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 01:52:07: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 01:52:07: La desencriptacion ha sido: True
+10/29/2023, 01:52:07: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo1.enc
+10/29/2023, 01:52:07: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave1.bin
+10/29/2023, 01:52:07: La desencriptacion ha sido: True
+10/29/2023, 01:52:19: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Videos\2023-10-17 10-26-42.mkv--------------
+10/29/2023, 01:52:19: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave2.bin
+10/29/2023, 01:52:19: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo2.enc
+10/29/2023, 01:52:19: Llave generada: True
+10/29/2023, 01:52:19: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Videos\2023-10-17 10-26-42.mkv--------------
+10/29/2023, 01:52:19: Lectura: Ruta de archivo leido es: C:/Users/Christian/Videos/2023-10-17 10-26-42.mkv
+10/29/2023, 01:52:19: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo2.enc
+10/29/2023, 01:52:19: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave2.bin
+10/29/2023, 02:00:07: ----------------INICIANDO EL PROGRAMA--------------
+10/29/2023, 02:00:12: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Videos\Captures\Blender 2023-10-16 09-21-17.mp4--------------
+10/29/2023, 02:00:12: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:00:13: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:00:13: Llave generada: True
+10/29/2023, 02:00:13: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Videos\Captures\Blender 2023-10-16 09-21-17.mp4--------------
+10/29/2023, 02:00:13: Lectura: Ruta de archivo leido es: C:/Users/Christian/Videos/Captures/Blender 2023-10-16 09-21-17.mp4
+10/29/2023, 02:00:13: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:00:13: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:00:15: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Videos\Captures\Blender 2023-10-16 09-38-40.mp4--------------
+10/29/2023, 02:00:15: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave1.bin
+10/29/2023, 02:00:17: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo1.enc
+10/29/2023, 02:00:17: Llave generada: True
+10/29/2023, 02:00:17: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Videos\Captures\Blender 2023-10-16 09-38-40.mp4--------------
+10/29/2023, 02:00:17: Lectura: Ruta de archivo leido es: C:/Users/Christian/Videos/Captures/Blender 2023-10-16 09-38-40.mp4
+10/29/2023, 02:00:17: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo1.enc
+10/29/2023, 02:00:17: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave1.bin
+10/29/2023, 02:00:20: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Videos\Captures\Blender 2023-10-16 09-21-17.mp4--------------
+10/29/2023, 02:00:20: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave2.bin
+10/29/2023, 02:00:21: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo2.enc
+10/29/2023, 02:00:21: Llave generada: True
+10/29/2023, 02:00:21: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Videos\Captures\Blender 2023-10-16 09-21-17.mp4--------------
+10/29/2023, 02:00:21: Lectura: Ruta de archivo leido es: C:/Users/Christian/Videos/Captures/Blender 2023-10-16 09-21-17.mp4
+10/29/2023, 02:00:21: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo2.enc
+10/29/2023, 02:00:21: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave2.bin
+10/29/2023, 02:01:13: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:01:13: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:01:14: La desencriptacion ha sido: True
+10/29/2023, 02:01:14: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo1.enc
+10/29/2023, 02:01:14: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave1.bin
+10/29/2023, 02:01:16: La desencriptacion ha sido: True
+10/29/2023, 02:01:16: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo2.enc
+10/29/2023, 02:01:16: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave2.bin
+10/29/2023, 02:01:17: La desencriptacion ha sido: True
+10/29/2023, 02:01:41: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\vlcsnap-2023-10-17-09h35m48s909.png--------------
+10/29/2023, 02:01:41: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave3.bin
+10/29/2023, 02:01:41: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo3.enc
+10/29/2023, 02:01:41: Llave generada: True
+10/29/2023, 02:01:41: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\vlcsnap-2023-10-17-09h35m48s909.png--------------
+10/29/2023, 02:01:41: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/vlcsnap-2023-10-17-09h35m48s909.png
+10/29/2023, 02:01:41: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo3.enc
+10/29/2023, 02:01:41: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave3.bin
+10/29/2023, 02:01:44: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\vlcsnap-2023-10-17-09h35m48s909.png--------------
+10/29/2023, 02:01:44: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave4.bin
+10/29/2023, 02:01:44: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo4.enc
+10/29/2023, 02:01:44: Llave generada: True
+10/29/2023, 02:01:44: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\vlcsnap-2023-10-17-09h35m48s909.png--------------
+10/29/2023, 02:01:44: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/vlcsnap-2023-10-17-09h35m48s909.png
+10/29/2023, 02:01:44: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo4.enc
+10/29/2023, 02:01:44: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave4.bin
+10/29/2023, 02:01:59: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:01:59: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:07:30: ----------------INICIANDO EL PROGRAMA--------------
+10/29/2023, 02:07:34: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/29/2023, 02:07:34: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:07:34: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:07:34: Llave generada: True
+10/29/2023, 02:07:34: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/29/2023, 02:07:34: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0093.jpg
+10/29/2023, 02:07:34: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:07:34: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:07:35: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0096.jpg--------------
+10/29/2023, 02:07:35: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave1.bin
+10/29/2023, 02:07:35: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo1.enc
+10/29/2023, 02:07:35: Llave generada: True
+10/29/2023, 02:07:35: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0096.jpg--------------
+10/29/2023, 02:07:35: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0096.jpg
+10/29/2023, 02:07:35: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo1.enc
+10/29/2023, 02:07:35: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave1.bin
+10/29/2023, 02:07:36: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:07:36: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:07:36: La desencriptacion ha sido: True
+10/29/2023, 02:07:36: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo1.enc
+10/29/2023, 02:07:36: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave1.bin
+10/29/2023, 02:07:36: La desencriptacion ha sido: True
+10/29/2023, 02:07:37: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0101.jpg--------------
+10/29/2023, 02:07:37: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave2.bin
+10/29/2023, 02:07:37: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo2.enc
+10/29/2023, 02:07:37: Llave generada: True
+10/29/2023, 02:07:37: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0101.jpg--------------
+10/29/2023, 02:07:37: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0101.jpg
+10/29/2023, 02:07:37: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo2.enc
+10/29/2023, 02:07:37: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave2.bin
+10/29/2023, 02:07:39: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0106.jpg--------------
+10/29/2023, 02:07:39: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave3.bin
+10/29/2023, 02:07:39: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo3.enc
+10/29/2023, 02:07:39: Llave generada: True
+10/29/2023, 02:07:39: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0106.jpg--------------
+10/29/2023, 02:07:39: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0106.jpg
+10/29/2023, 02:07:39: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo3.enc
+10/29/2023, 02:07:39: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave3.bin
+10/29/2023, 02:07:40: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:07:40: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:07:41: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:07:41: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:07:42: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:07:42: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:07:42: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:07:42: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:07:50: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/29/2023, 02:07:50: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave4.bin
+10/29/2023, 02:07:50: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo4.enc
+10/29/2023, 02:07:50: Llave generada: True
+10/29/2023, 02:07:50: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/29/2023, 02:07:50: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0093.jpg
+10/29/2023, 02:07:50: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo4.enc
+10/29/2023, 02:07:50: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave4.bin
+10/29/2023, 02:07:55: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:07:55: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:11:30: ----------------INICIANDO EL PROGRAMA--------------
+10/29/2023, 02:11:38: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/29/2023, 02:11:38: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:11:38: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:11:38: Llave generada: True
+10/29/2023, 02:11:38: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/29/2023, 02:11:38: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0093.jpg
+10/29/2023, 02:11:38: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:11:38: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:16:46: ----------------INICIANDO EL PROGRAMA--------------
+10/29/2023, 02:16:49: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/29/2023, 02:16:49: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:16:49: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:16:49: Llave generada: True
+10/29/2023, 02:16:49: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/29/2023, 02:16:49: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0093.jpg
+10/29/2023, 02:16:49: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:16:49: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:17:10: ----------------INICIANDO EL PROGRAMA--------------
+10/29/2023, 02:17:14: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/29/2023, 02:17:14: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:17:14: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:17:14: Llave generada: True
+10/29/2023, 02:17:14: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/29/2023, 02:17:14: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0093.jpg
+10/29/2023, 02:17:14: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:17:14: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:18:13: ----------------INICIANDO EL PROGRAMA--------------
+10/29/2023, 02:18:16: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/29/2023, 02:18:16: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:18:16: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:18:16: Llave generada: True
+10/29/2023, 02:18:16: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/29/2023, 02:18:16: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0093.jpg
+10/29/2023, 02:18:16: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:18:16: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:18:46: ----------------INICIANDO EL PROGRAMA--------------
+10/29/2023, 02:18:49: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0107.jpg--------------
+10/29/2023, 02:18:49: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:18:49: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:18:49: Llave generada: True
+10/29/2023, 02:18:49: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0107.jpg--------------
+10/29/2023, 02:18:49: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0107.jpg
+10/29/2023, 02:18:49: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:18:49: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:18:51: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0096.jpg--------------
+10/29/2023, 02:18:51: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:18:51: Llave generada: False
+10/29/2023, 02:18:51: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0096.jpg--------------
+10/29/2023, 02:18:51: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0096.jpg
+10/29/2023, 02:18:51: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:18:51: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:18:54: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0116.jpg--------------
+10/29/2023, 02:18:54: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:18:54: Llave generada: False
+10/29/2023, 02:18:54: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0116.jpg--------------
+10/29/2023, 02:18:54: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0116.jpg
+10/29/2023, 02:18:54: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:18:54: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:19:27: ----------------INICIANDO EL PROGRAMA--------------
+10/29/2023, 02:19:38: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/29/2023, 02:19:38: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:19:38: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:19:38: Llave generada: True
+10/29/2023, 02:19:38: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/29/2023, 02:19:38: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0093.jpg
+10/29/2023, 02:19:38: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:19:38: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:19:40: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0119.jpg--------------
+10/29/2023, 02:19:40: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave1.bin
+10/29/2023, 02:19:40: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo1.enc
+10/29/2023, 02:19:40: Llave generada: True
+10/29/2023, 02:19:40: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0119.jpg--------------
+10/29/2023, 02:19:40: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0119.jpg
+10/29/2023, 02:19:40: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo1.enc
+10/29/2023, 02:19:40: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave1.bin
+10/29/2023, 02:19:47: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0119(1).jpg--------------
+10/29/2023, 02:19:47: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave2.bin
+10/29/2023, 02:19:47: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo2.enc
+10/29/2023, 02:19:47: Llave generada: True
+10/29/2023, 02:19:47: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0119(1).jpg--------------
+10/29/2023, 02:19:47: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0119(1).jpg
+10/29/2023, 02:19:47: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo2.enc
+10/29/2023, 02:19:47: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave2.bin
+10/29/2023, 02:20:11: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:20:11: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:20:11: La desencriptacion ha sido: True
+10/29/2023, 02:20:11: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo1.enc
+10/29/2023, 02:20:11: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave1.bin
+10/29/2023, 02:20:11: La desencriptacion ha sido: True
+10/29/2023, 02:20:11: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo2.enc
+10/29/2023, 02:20:11: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave2.bin
+10/29/2023, 02:20:11: La desencriptacion ha sido: True
+10/29/2023, 02:20:19: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0115.jpg--------------
+10/29/2023, 02:20:19: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave3.bin
+10/29/2023, 02:20:19: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo3.enc
+10/29/2023, 02:20:19: Llave generada: True
+10/29/2023, 02:20:19: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0115.jpg--------------
+10/29/2023, 02:20:19: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0115.jpg
+10/29/2023, 02:20:19: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo3.enc
+10/29/2023, 02:20:19: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave3.bin
+10/29/2023, 02:20:20: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:20:20: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:21:06: ----------------INICIANDO EL PROGRAMA--------------
+10/29/2023, 02:21:09: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/29/2023, 02:21:09: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:21:09: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:21:09: Llave generada: True
+10/29/2023, 02:21:09: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0093.jpg--------------
+10/29/2023, 02:21:09: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0093.jpg
+10/29/2023, 02:21:09: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:21:09: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:21:11: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0096.jpg--------------
+10/29/2023, 02:21:11: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave1.bin
+10/29/2023, 02:21:11: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo1.enc
+10/29/2023, 02:21:11: Llave generada: True
+10/29/2023, 02:21:11: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0096.jpg--------------
+10/29/2023, 02:21:11: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0096.jpg
+10/29/2023, 02:21:11: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo1.enc
+10/29/2023, 02:21:11: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave1.bin
+10/29/2023, 02:21:11: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 02:21:11: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 02:21:11: La desencriptacion ha sido: True
+10/29/2023, 02:21:11: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo1.enc
+10/29/2023, 02:21:11: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave1.bin
+10/29/2023, 02:21:11: La desencriptacion ha sido: True
+10/29/2023, 02:21:12: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0115.jpg--------------
+10/29/2023, 02:21:12: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave2.bin
+10/29/2023, 02:21:12: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo2.enc
+10/29/2023, 02:21:12: Llave generada: True
+10/29/2023, 02:21:12: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0115.jpg--------------
+10/29/2023, 02:21:12: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0115.jpg
+10/29/2023, 02:21:12: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo2.enc
+10/29/2023, 02:21:12: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave2.bin
+10/29/2023, 02:21:14: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0101.jpg--------------
+10/29/2023, 02:21:14: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave3.bin
+10/29/2023, 02:21:14: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo3.enc
+10/29/2023, 02:21:14: Llave generada: True
+10/29/2023, 02:21:14: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0101.jpg--------------
+10/29/2023, 02:21:14: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0101.jpg
+10/29/2023, 02:21:14: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo3.enc
+10/29/2023, 02:21:14: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave3.bin
+10/29/2023, 02:21:14: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo2.enc
+10/29/2023, 02:21:14: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave2.bin
+10/29/2023, 02:21:14: La desencriptacion ha sido: True
+10/29/2023, 02:21:14: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo3.enc
+10/29/2023, 02:21:14: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave3.bin
+10/29/2023, 02:21:15: La desencriptacion ha sido: True
+10/29/2023, 02:21:17: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0119(1).jpg--------------
+10/29/2023, 02:21:17: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave4.bin
+10/29/2023, 02:21:17: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo4.enc
+10/29/2023, 02:21:17: Llave generada: True
+10/29/2023, 02:21:17: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0119(1).jpg--------------
+10/29/2023, 02:21:17: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0119(1).jpg
+10/29/2023, 02:21:17: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo4.enc
+10/29/2023, 02:21:17: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave4.bin
+10/29/2023, 02:21:19: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0116.jpg--------------
+10/29/2023, 02:21:19: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave5.bin
+10/29/2023, 02:21:19: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo5.enc
+10/29/2023, 02:21:19: Llave generada: True
+10/29/2023, 02:21:19: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0116.jpg--------------
+10/29/2023, 02:21:19: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0116.jpg
+10/29/2023, 02:21:19: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo5.enc
+10/29/2023, 02:21:19: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave5.bin
+10/29/2023, 02:21:21: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0527.jpg--------------
+10/29/2023, 02:21:21: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave6.bin
+10/29/2023, 02:21:21: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo6.enc
+10/29/2023, 02:21:21: Llave generada: True
+10/29/2023, 02:21:21: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0527.jpg--------------
+10/29/2023, 02:21:21: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0527.jpg
+10/29/2023, 02:21:21: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo6.enc
+10/29/2023, 02:21:21: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave6.bin
+10/29/2023, 02:21:25: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Downloads\Brown_Josefina_PEC2_escena2.ma--------------
+10/29/2023, 02:21:25: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave7.bin
+10/29/2023, 02:21:25: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo7.enc
+10/29/2023, 02:21:25: Llave generada: True
+10/29/2023, 02:21:25: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Downloads\Brown_Josefina_PEC2_escena2.ma--------------
+10/29/2023, 02:21:25: Lectura: Ruta de archivo leido es: C:/Users/Christian/Downloads/Brown_Josefina_PEC2_escena2.ma
+10/29/2023, 02:21:25: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo7.enc
+10/29/2023, 02:21:25: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave7.bin
+10/29/2023, 02:21:28: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Downloads\Brown_Josefina_PEC2_escena2.ma--------------
+10/29/2023, 02:21:28: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave8.bin
+10/29/2023, 02:21:28: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo8.enc
+10/29/2023, 02:21:28: Llave generada: True
+10/29/2023, 02:21:28: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Downloads\Brown_Josefina_PEC2_escena2.ma--------------
+10/29/2023, 02:21:28: Lectura: Ruta de archivo leido es: C:/Users/Christian/Downloads/Brown_Josefina_PEC2_escena2.ma
+10/29/2023, 02:21:28: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo8.enc
+10/29/2023, 02:21:28: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave8.bin
+10/29/2023, 02:21:30: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo4.enc
+10/29/2023, 02:21:30: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave4.bin
+10/29/2023, 02:21:30: La desencriptacion ha sido: True
+10/29/2023, 02:21:30: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo5.enc
+10/29/2023, 02:21:30: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave5.bin
+10/29/2023, 02:21:30: La desencriptacion ha sido: True
+10/29/2023, 02:21:30: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo6.enc
+10/29/2023, 02:21:30: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave6.bin
+10/29/2023, 02:21:30: La desencriptacion ha sido: True
+10/29/2023, 02:21:30: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo7.enc
+10/29/2023, 02:21:30: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave7.bin
+10/29/2023, 02:21:30: La desencriptacion ha sido: True
+10/29/2023, 02:21:30: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo8.enc
+10/29/2023, 02:21:30: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave8.bin
+10/29/2023, 02:21:30: La desencriptacion ha sido: True
+10/29/2023, 02:21:32: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Downloads\Brown_Josefina_PEC2_escena2.ma--------------
+10/29/2023, 02:21:32: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave9.bin
+10/29/2023, 02:21:32: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo9.enc
+10/29/2023, 02:21:32: Llave generada: True
+10/29/2023, 02:21:32: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Downloads\Brown_Josefina_PEC2_escena2.ma--------------
+10/29/2023, 02:21:32: Lectura: Ruta de archivo leido es: C:/Users/Christian/Downloads/Brown_Josefina_PEC2_escena2.ma
+10/29/2023, 02:21:32: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo9.enc
+10/29/2023, 02:21:32: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave9.bin
+10/29/2023, 02:21:48: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo9.enc
+10/29/2023, 02:21:48: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave9.bin
+10/29/2023, 02:21:48: La desencriptacion ha sido: True
+10/29/2023, 02:23:34: ----------------INICIANDO ENCRIPTACION DE E:\Juegos\D_I\Dead Island 2\DeadIsland\Content\DI2\Movies\A_CS_Prologue_Evacuation_4K.mp4--------------
+10/29/2023, 02:23:34: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave10.bin
+10/29/2023, 02:23:36: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo10.enc
+10/29/2023, 02:23:36: Llave generada: True
+10/29/2023, 02:23:36: ----------------FINALIZANDO ENCRIPTACION DE E:\Juegos\D_I\Dead Island 2\DeadIsland\Content\DI2\Movies\A_CS_Prologue_Evacuation_4K.mp4--------------
+10/29/2023, 02:23:36: Lectura: Ruta de archivo leido es: E:/Juegos/D_I/Dead Island 2/DeadIsland/Content/DI2/Movies/A_CS_Prologue_Evacuation_4K.mp4
+10/29/2023, 02:23:36: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo10.enc
+10/29/2023, 02:23:36: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave10.bin
+10/29/2023, 02:24:15: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo10.enc
+10/29/2023, 02:24:15: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave10.bin
+10/29/2023, 02:24:16: La desencriptacion ha sido: True
+10/29/2023, 02:24:56: ----------------INICIANDO EL PROGRAMA--------------
+10/29/2023, 20:35:49: ----------------INICIANDO EL PROGRAMA--------------
+10/29/2023, 20:36:29: ----------------INICIANDO ENCRIPTACION DE E:\Juegos\D_I\Dead Island 2\DeadIsland\Content\DI2\Movies\FrontEndBackgroundVideo.mp4--------------
+10/29/2023, 20:36:29: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 20:36:29: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 20:36:29: Llave generada: True
+10/29/2023, 20:36:29: ----------------FINALIZANDO ENCRIPTACION DE E:\Juegos\D_I\Dead Island 2\DeadIsland\Content\DI2\Movies\FrontEndBackgroundVideo.mp4--------------
+10/29/2023, 20:36:29: Lectura: Ruta de archivo leido es: E:/Juegos/D_I/Dead Island 2/DeadIsland/Content/DI2/Movies/FrontEndBackgroundVideo.mp4
+10/29/2023, 20:36:29: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 20:36:29: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 20:36:33: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\vlcsnap-2023-10-17-09h35m48s909.png--------------
+10/29/2023, 20:36:33: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave1.bin
+10/29/2023, 20:36:33: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo1.enc
+10/29/2023, 20:36:33: Llave generada: True
+10/29/2023, 20:36:33: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\vlcsnap-2023-10-17-09h35m48s909.png--------------
+10/29/2023, 20:36:33: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/vlcsnap-2023-10-17-09h35m48s909.png
+10/29/2023, 20:36:33: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo1.enc
+10/29/2023, 20:36:33: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave1.bin
+10/29/2023, 20:36:36: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo - copia.png--------------
+10/29/2023, 20:36:36: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave2.bin
+10/29/2023, 20:36:36: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo2.enc
+10/29/2023, 20:36:36: Llave generada: True
+10/29/2023, 20:36:36: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\Iconos\archivo - copia.png--------------
+10/29/2023, 20:36:36: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/Iconos/archivo - copia.png
+10/29/2023, 20:36:36: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo2.enc
+10/29/2023, 20:36:36: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave2.bin
+10/29/2023, 20:36:40: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Videos\2023-10-17 10-27-15.mkv--------------
+10/29/2023, 20:36:40: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave3.bin
+10/29/2023, 20:36:40: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo3.enc
+10/29/2023, 20:36:40: Llave generada: True
+10/29/2023, 20:36:40: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Videos\2023-10-17 10-27-15.mkv--------------
+10/29/2023, 20:36:40: Lectura: Ruta de archivo leido es: C:/Users/Christian/Videos/2023-10-17 10-27-15.mkv
+10/29/2023, 20:36:40: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo3.enc
+10/29/2023, 20:36:40: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave3.bin
+10/29/2023, 20:36:44: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Downloads\total.blend--------------
+10/29/2023, 20:36:44: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave4.bin
+10/29/2023, 20:36:44: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo4.enc
+10/29/2023, 20:36:44: Llave generada: True
+10/29/2023, 20:36:44: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Downloads\total.blend--------------
+10/29/2023, 20:36:44: Lectura: Ruta de archivo leido es: C:/Users/Christian/Downloads/total.blend
+10/29/2023, 20:36:44: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo4.enc
+10/29/2023, 20:36:44: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave4.bin
+10/29/2023, 20:36:47: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Downloads\dism.sql--------------
+10/29/2023, 20:36:47: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave5.bin
+10/29/2023, 20:36:47: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo5.enc
+10/29/2023, 20:36:47: Llave generada: True
+10/29/2023, 20:36:47: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Downloads\dism.sql--------------
+10/29/2023, 20:36:47: Lectura: Ruta de archivo leido es: C:/Users/Christian/Downloads/dism.sql
+10/29/2023, 20:36:47: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo5.enc
+10/29/2023, 20:36:47: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave5.bin
+10/29/2023, 20:36:51: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Downloads\notion-enhancer-dev.zip--------------
+10/29/2023, 20:36:51: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave6.bin
+10/29/2023, 20:36:51: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo6.enc
+10/29/2023, 20:36:51: Llave generada: True
+10/29/2023, 20:36:51: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Downloads\notion-enhancer-dev.zip--------------
+10/29/2023, 20:36:51: Lectura: Ruta de archivo leido es: C:/Users/Christian/Downloads/notion-enhancer-dev.zip
+10/29/2023, 20:36:51: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo6.enc
+10/29/2023, 20:36:51: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave6.bin
+10/29/2023, 20:37:10: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Documents\maya\RENDER_LEGO.jpg--------------
+10/29/2023, 20:37:10: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave7.bin
+10/29/2023, 20:37:10: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo7.enc
+10/29/2023, 20:37:10: Llave generada: True
+10/29/2023, 20:37:10: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Documents\maya\RENDER_LEGO.jpg--------------
+10/29/2023, 20:37:10: Lectura: Ruta de archivo leido es: C:/Users/Christian/Documents/maya/RENDER_LEGO.jpg
+10/29/2023, 20:37:10: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo7.enc
+10/29/2023, 20:37:10: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave7.bin
+10/29/2023, 20:37:14: ----------------INICIANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0513.jpg--------------
+10/29/2023, 20:37:14: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave8.bin
+10/29/2023, 20:37:14: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo8.enc
+10/29/2023, 20:37:14: Llave generada: True
+10/29/2023, 20:37:14: ----------------FINALIZANDO ENCRIPTACION DE C:\Users\Christian\Pictures\HEIC-JPG\IMG_0513.jpg--------------
+10/29/2023, 20:37:14: Lectura: Ruta de archivo leido es: C:/Users/Christian/Pictures/HEIC-JPG/IMG_0513.jpg
+10/29/2023, 20:37:14: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo8.enc
+10/29/2023, 20:37:14: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave8.bin
+10/29/2023, 20:37:29: ----------------INICIANDO ENCRIPTACION DE E:\Documentos\Proyecto_C&B\imagen_corp.ai--------------
+10/29/2023, 20:37:29: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave9.bin
+10/29/2023, 20:37:29: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo9.enc
+10/29/2023, 20:37:29: Llave generada: True
+10/29/2023, 20:37:29: ----------------FINALIZANDO ENCRIPTACION DE E:\Documentos\Proyecto_C&B\imagen_corp.ai--------------
+10/29/2023, 20:37:29: Lectura: Ruta de archivo leido es: E:/Documentos/Proyecto_C&B/imagen_corp.ai
+10/29/2023, 20:37:29: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo9.enc
+10/29/2023, 20:37:29: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave9.bin
+10/29/2023, 20:37:45: ----------------INICIANDO ENCRIPTACION DE E:\Documentos\Trabajo\foto_CV.pdf--------------
+10/29/2023, 20:37:45: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave10.bin
+10/29/2023, 20:37:45: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo10.enc
+10/29/2023, 20:37:45: Llave generada: True
+10/29/2023, 20:37:45: ----------------FINALIZANDO ENCRIPTACION DE E:\Documentos\Trabajo\foto_CV.pdf--------------
+10/29/2023, 20:37:45: Lectura: Ruta de archivo leido es: E:/Documentos/Trabajo/foto_CV.pdf
+10/29/2023, 20:37:45: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo10.enc
+10/29/2023, 20:37:45: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave10.bin
+10/29/2023, 20:38:00: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo0.enc
+10/29/2023, 20:38:00: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave0.bin
+10/29/2023, 20:38:00: La desencriptacion ha sido: True
+10/29/2023, 20:38:00: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo1.enc
+10/29/2023, 20:38:00: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave1.bin
+10/29/2023, 20:38:00: La desencriptacion ha sido: True
+10/29/2023, 20:38:00: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo2.enc
+10/29/2023, 20:38:00: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave2.bin
+10/29/2023, 20:38:00: La desencriptacion ha sido: True
+10/29/2023, 20:38:00: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo3.enc
+10/29/2023, 20:38:00: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave3.bin
+10/29/2023, 20:38:00: La desencriptacion ha sido: True
+10/29/2023, 20:38:00: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo4.enc
+10/29/2023, 20:38:00: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave4.bin
+10/29/2023, 20:38:00: La desencriptacion ha sido: True
+10/29/2023, 20:38:00: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo5.enc
+10/29/2023, 20:38:00: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave5.bin
+10/29/2023, 20:38:00: La desencriptacion ha sido: True
+10/29/2023, 20:38:00: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo6.enc
+10/29/2023, 20:38:00: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave6.bin
+10/29/2023, 20:38:00: La desencriptacion ha sido: True
+10/29/2023, 20:38:00: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo7.enc
+10/29/2023, 20:38:00: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave7.bin
+10/29/2023, 20:38:00: La desencriptacion ha sido: True
+10/29/2023, 20:38:00: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo8.enc
+10/29/2023, 20:38:00: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave8.bin
+10/29/2023, 20:38:00: La desencriptacion ha sido: True
+10/29/2023, 20:38:00: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo9.enc
+10/29/2023, 20:38:00: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave9.bin
+10/29/2023, 20:38:00: La desencriptacion ha sido: True
+10/29/2023, 20:38:00: Descencriptando archivo E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo10.enc
+10/29/2023, 20:38:00: Descencriptando con llave: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave10.bin
+10/29/2023, 20:38:00: La desencriptacion ha sido: True
+10/29/2023, 20:38:02: ----------------INICIANDO ENCRIPTACION DE E:\Documentos\Trabajo\CHRISTIAN CAMELO ESPINAL.pdf--------------
+10/29/2023, 20:38:02: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave11.bin
+10/29/2023, 20:38:02: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo11.enc
+10/29/2023, 20:38:02: Llave generada: True
+10/29/2023, 20:38:02: ----------------FINALIZANDO ENCRIPTACION DE E:\Documentos\Trabajo\CHRISTIAN CAMELO ESPINAL.pdf--------------
+10/29/2023, 20:38:02: Lectura: Ruta de archivo leido es: E:/Documentos/Trabajo/CHRISTIAN CAMELO ESPINAL.pdf
+10/29/2023, 20:38:02: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo11.enc
+10/29/2023, 20:38:02: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave11.bin
+10/29/2023, 20:38:04: ----------------INICIANDO ENCRIPTACION DE E:\Documentos\Trabajo\Curriculum_Camelo_Christian_INGLES.pdf--------------
+10/29/2023, 20:38:04: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave12.bin
+10/29/2023, 20:38:04: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo12.enc
+10/29/2023, 20:38:04: Llave generada: True
+10/29/2023, 20:38:04: ----------------FINALIZANDO ENCRIPTACION DE E:\Documentos\Trabajo\Curriculum_Camelo_Christian_INGLES.pdf--------------
+10/29/2023, 20:38:04: Lectura: Ruta de archivo leido es: E:/Documentos/Trabajo/Curriculum_Camelo_Christian_INGLES.pdf
+10/29/2023, 20:38:04: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo12.enc
+10/29/2023, 20:38:04: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave12.bin
+10/29/2023, 20:38:07: ----------------INICIANDO ENCRIPTACION DE E:\Documentos\Trabajo\SWIFT_141229.pdf--------------
+10/29/2023, 20:38:07: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave13.bin
+10/29/2023, 20:38:07: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo13.enc
+10/29/2023, 20:38:07: Llave generada: True
+10/29/2023, 20:38:07: ----------------FINALIZANDO ENCRIPTACION DE E:\Documentos\Trabajo\SWIFT_141229.pdf--------------
+10/29/2023, 20:38:07: Lectura: Ruta de archivo leido es: E:/Documentos/Trabajo/SWIFT_141229.pdf
+10/29/2023, 20:38:07: Escritura: Ruta de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\archivos_encriptados\archivo13.enc
+10/29/2023, 20:38:07: Escritura: Llave de archivo cifrado es: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\ENCRIPTACION_API\keys\llave13.bin
