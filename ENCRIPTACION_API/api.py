@@ -1,6 +1,8 @@
 from flask import Flask, request, jsonify
 import metodos_api
+import encriptar_rsa
 
+# Cdo se sube un archivo se crea carpeta para el usuario dentro de datos, y dentro de cada carpeta los archivos cifrados y las contraseñas, nonce
 app = Flask(__name__)
 
 # Almacenamiento temporal para usuarios registrados (en un entorno de producción, usa una base de datos real).
@@ -11,7 +13,7 @@ usuarios_registrados = {}
 if len(usuarios_registrados) <= 0:
     admin = metodos_api.crea_administrador()
     usuarios_registrados["admin"] = admin
-print('Los usuarios registrados son: ', usuarios_registrados)
+print('Los usuarios registrados son: ', usuarios_registrados["admin"])
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 # GUARDANDO LA INFORMACION EN EL config.json
@@ -37,6 +39,21 @@ k_datos = metodos_api.get_clave_datos(pass_SHA256)
 # HASHEANDO EL K_LOGIN Y GUARDAR EN CONFIG.JSON
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 metodos_api.hash_k_login(k_login)
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------
+# CREANDO LA CLAVE RSA
+#-----------------------------------------------------------------------------------------------------------------------------------------------------
+claves_privada_y_publica = metodos_api.genera_clave_rsa()
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------
+# ENCRIPTADO LA CLAVE PRIVADA CON LA K_DATOS
+#-----------------------------------------------------------------------------------------------------------------------------------------------------
+encriptar_rsa.encriptar(claves_privada_y_publica[0], k_datos.encode())
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------
+# BORRANDO LA CONTRASEÑA. DEBE IR AL FINAL
+#-----------------------------------------------------------------------------------------------------------------------------------------------------
+metodos_api.elimina_password()
 
 # Endpoint de registro PARA LA SIGUIENTE FASE
 @app.route('/registrar', methods=['POST'])
