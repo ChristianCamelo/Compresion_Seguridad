@@ -46,7 +46,6 @@ def cargar_archivo():
     data = request.get_json()
     if 'username' in data and 'password' in data:
         username = data['username']
-        file = data['file']
 
         user_folder = os.path.join(app.config['UPLOAD_FOLDER'], username)
         os.makedirs(user_folder, exist_ok=True)
@@ -82,3 +81,6 @@ def descargar_archivo():
 @app.route('/')
 def home():
     return jsonify('Bienvenido')
+
+if __name__ == '__main__':
+    app.run(ssl_context='adhoc', debug=True, port=5000)
