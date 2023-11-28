@@ -2,7 +2,11 @@ import os
 from Crypto.Cipher import AES
 from shutil import rmtree
 
-def desencriptar(ruta_archivo, ruta_llave, cont, formato_archivo):
+def desencriptar(archivo):
+
+    ruta_archivo = archivo.encPath
+    ruta_llave = archivo.keyPath
+    cont = archivo.index
 
     desencriptado = False
     modo_desencriptar = AES.MODE_CTR
@@ -11,7 +15,13 @@ def desencriptar(ruta_archivo, ruta_llave, cont, formato_archivo):
         clave_bruta = key.read()
         print(clave_bruta)
         clave = clave_bruta[:16]
-        nonce = clave_bruta[-8:]
+        nonce = clave_bruta[-18:-10]
+        format = ''
+
+        formato_archivo = list(clave_bruta[-10:].decode('utf-8'))
+        for item in formato_archivo:
+            if item!= "$":
+                format+=item
 
     with open(ruta_archivo, 'rb') as f:
         datos_encriptados = f.read()
@@ -20,7 +30,7 @@ def desencriptar(ruta_archivo, ruta_llave, cont, formato_archivo):
 
     datos_desencriptados = objeto_desencriptador.decrypt(datos_encriptados)
 
-    archivo_desencriptado_guardado = guardar_archivo_desencriptado(datos_desencriptados, cont, formato_archivo)
+    archivo_desencriptado_guardado = guardar_archivo_desencriptado(datos_desencriptados, cont, format)
 
     if archivo_desencriptado_guardado:
         desencriptado = True

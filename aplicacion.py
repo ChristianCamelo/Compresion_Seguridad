@@ -1,109 +1,50 @@
 import tkinter as tk
 import os
 import shutil
-from tkinter import filedialog
-from tkinter import ttk
 from encriptar import encriptar
-from utilities import escribirLog
 from desencriptar import desencriptar
+from servicios_crud import subir_archivos
+from tkinter import ttk, filedialog
 from shutil import rmtree
-from servicio_rest import subir_archivos, bajar_archivos
+from servicios_auth import generate_keys
+from servicios_crud import *
 
 global ventana
 global cantidad
+
+global user 
+global password
+
+global encriptados
+global archivos
+global llaves
+
+
 cantidad = 0
 width = 1000
 height = 800
 
 DIR_LOCAL = os.path.dirname(os.path.abspath(__file__))
+DIR_KEYS = os.path.join(DIR_LOCAL, 'keys')
+DIR_FILES = os.path.join(DIR_LOCAL, 'archivos_desencriptados')
+DIR_ENC = os.path.join(DIR_LOCAL, 'archivos_encriptados')
+
+FONT = ("Helvetica", 14, "normal")
 
 class Archivo:
     def __init__(self, archivo):
         self.archivo = archivo
-        self.cifrar = True
-        self.frame = None
-        self.label = None
-        self.descifrar_button = None
-
-def cargar_archivo():
-    global cantidad
-    archivo = filedialog.askopenfilename()
-    ruta_keys = os.path.join(os.getcwd(), 'keys')
-    ruta_formatos = os.path.join(os.getcwd(), 'formatos')
-    
-    if archivo:
-        archivo_obj = Archivo(archivo)
-        archivo_obj.ruta = os.path.abspath(archivo)
-        archivo_obj.pos=cantidad
-        archivo_obj.enc = cifrar(archivo_obj.ruta, cantidad)
-        archivo_obj.size = os.path.getsize(archivo_obj.enc)
-        archivo_obj.encPath = os.path.join(archivo_obj.enc)
-        archivo_obj.format = (archivo_obj.ruta).split(".")[-1]
-
-
-        ruta_formato = os.path.join(ruta_formatos, 'formato' + str(cantidad) + '.txt')
-        with open(ruta_formato, 'w') as file:
-            file.write(archivo_obj.format)
-
-        archivo_obj.nombre = os.path.basename(archivo_obj.ruta)
-        archivo_obj.keyPath = os.path.join(ruta_keys, 'llave' + str(archivo_obj.pos) + '.bin')
-
-        escribirLog("Lectura: Ruta de archivo leido es: "+ archivo_obj.archivo)
-        escribirLog("Escritura: Ruta de archivo cifrado es: "+ archivo_obj.enc)
-        escribirLog("Escritura: Llave de archivo cifrado es: "+ archivo_obj.keyPath)
-        
-        mostrarCifrado(archivo_obj)
-        archivos_seleccionados.append(archivo_obj)
-        cantidad = cantidad+1
-
-def descifrarArchivos(archivos):
-
-    for archivo_obj in archivos: 
-        archivo_obj.status = tk.Label(archivo_obj.frame, text="Desencriptado", font=("Helvetica", 12), background="red", fg="white")
-        archivo_obj.status.grid(row=0, column=0, padx=20,pady=5)
-
-        escribirLog("Descencriptando archivo "+str(archivo_obj.enc))
-        escribirLog("Descencriptando con llave: "+ str(archivo_obj.keyPath))
-
-        resultado = desencriptar(archivo_obj.encPath,archivo_obj.keyPath,archivo_obj.pos, archivo_obj.format)
-
-        escribirLog("La desencriptacion ha sido: " + str(resultado))
-    
-    archivos_seleccionados.clear()
-
-def cifrar(ruta,cantidad):
-    return encriptar(ruta,cantidad)
-
-def mostrarCifrado(archivo_obj):
-    global ventana
-
-    archivo_obj.frame = tk.Frame(ventana, borderwidth=1, relief="flat")
-    archivo_obj.frame.place(width=width,height=height/20,x=0, y=(height/20) * (cantidad) + 10)
-
-    archivo_obj.status = tk.Label(archivo_obj.frame, text="Encriptado", font=("Helvetica", 14), background="green", fg="white")
-    archivo_obj.status.grid(row=0, column=0,pady=5)
-
-    archivo_obj.label = tk.Label(archivo_obj.frame, text=archivo_obj.nombre, font=("Helvetica", 14))
-    archivo_obj.label.grid(row=0, column=1,pady=5)
-
-    if(archivo_obj.size<1000000):
-        archivo_obj.sizeLabel = tk.Label(archivo_obj.frame, text=str(archivo_obj.size), font=("Helvetica", 10), background="#36ff6f", fg="white")
-        archivo_obj.sizeLabel.grid(row=0, column=2,pady=5)
-    if(archivo_obj.size<50000000 & archivo_obj.size>=1000001):
-        archivo_obj.sizeLabel = tk.Label(archivo_obj.frame, text=str(archivo_obj.size), font=("Helvetica", 10), background="#ffbf36", fg="white")
-        archivo_obj.sizeLabel.grid(row=0, column=2,pady=5)
-    if(archivo_obj.size>50000001):
-        archivo_obj.sizeLabel = tk.Label(archivo_obj.frame, text=str(archivo_obj.size), font=("Helvetica", 10), background="#ff3936", fg="white")
-        archivo_obj.sizeLabel.grid(row=0, column=2,pady=5)
-
+        self.index = len(encriptados)
+        self.filePath = os.path.abspath(self.archivo)
+        self.encPath = os.path.join(DIR_ENC, 'archivo' + str(len(encriptados)) + '.enc')
+        self.keyPath = os.path.join(DIR_KEYS, 'llave' + str(len(encriptados)) + '.bin')
 
 def limpiar_cache():
     # Eliminando directorios
     directorios_a_borrar = [
         "archivos_desencriptados",
         "archivos_encriptados",
-        "keys",
-        "formatos"
+        "keys"
     ]
     for directorio in directorios_a_borrar:
         ruta_directorio = os.path.join(os.getcwd(), directorio)
@@ -116,145 +57,155 @@ def limpiar_cache():
     os.mkdir("archivos_desencriptados")
     os.mkdir("archivos_encriptados")
     os.mkdir("keys")
-    os.mkdir("formatos")
-
-archivos_seleccionados = []
-
-def actualizarUI():
-
-    estilo = ttk.Style()
-    estilo.theme_use('clam')
-    estilo.configure('cargar.TButton',
-                    borderwidth=0,
-                    font=("Helvetica", 16, "normal"))
-
-    # Botón para cargar un archivo
-    cargar_button = ttk.Button(ventana, text="Encriptar Archivo",style= "cargar.TButton", command=cargar_archivo)
-    cargar_button.place(x=50,  y=height-80)
-
-    # Botón para cargar un archivo
-    subir_button = ttk.Button(ventana, text="Subir Archivos",style= "cargar.TButton", command=subir)
-    subir_button.place(x=580,  y=height-80)
-
-    # Botón para cargar un archivo
-    descargar_button = ttk.Button(ventana, text="Descargar Archivos",style= "cargar.TButton", command=descargar)
-    descargar_button.place(x=750,  y=height-80)
-
-    if(cantidad>=0):
-        descifrar_button = ttk.Button(ventana, text='Descifrar Archivos', style='cargar.TButton', command=lambda a=archivos_seleccionados: descifrarArchivos(a))
-        descifrar_button.place(x=250, y=height-80)
-
-    leerLocales()
 
 def iniciar_ventana():
     global ventana
+    global encriptados
+    limpiar_cache()
+    encriptados=[]
     createVentana()
-    #limpiar_cache()    
-    escribirLog("----------------INICIANDO EL PROGRAMA--------------")
+    ventanaHome()
+    # #limpiar_cache()    
+    # escribirLog("----------------INICIANDO EL PROGRAMA--------------")
     ventana.mainloop()
 
-def ventanaUser():
-    global ventana
-
+def ventanaHome(): #VENTANA DE IDENTIFICACION
+    frame = createFrame()
     estilo = ttk.Style()
     estilo.theme_use('clam')
     estilo.configure('cargar.TButton',
                     borderwidth=2,
                     background="white",
-                    font=("Helvetica", 16, "normal"))
+                    font=(FONT, 16, "normal"))
     estilo.configure('leer.TButton',
-                    font=("Helvetica", 16, "normal"))
+                    font=(FONT, 16, "normal"))
     estilo.configure('submit.TButton',
                      background="#36ff6f",
-                    font=("Helvetica", 16, "bold"))
+                    font=FONT)
 
-    text = ttk.Label(ventana, text="Ingrese el Usuario",style= "leer.TButton") 
+    text = ttk.Label(frame, text="Ingrese el Usuario",style= "leer.TButton") 
     text.place(x=width/2 - 130 ,y=height/10 * 1.5,width=300)
-    user = ttk.Entry(ventana, font=("Helvetica", 12, "normal"),style= "cargar.TButton")
+    user = ttk.Entry(frame, font=(FONT, 12, "normal"),style= "cargar.TButton")
     user.place(x=width/2 - 130 ,y=height/10 * 2,width=300)
-    text2 = ttk.Label(ventana, text="Ingrese la contraseña",style= "leer.TButton") 
+    text2 = ttk.Label(frame, text="Ingrese la contraseña",style= "leer.TButton") 
     text2.place(x=width/2 - 130 ,y=height/10 * 2.5,width=300)
-    password = ttk.Entry(ventana,font=("Helvetica", 12, "normal"),style= "cargar.TButton")
+    password = ttk.Entry(frame,font=(FONT, 12, "normal"),style= "cargar.TButton")
     password.place(x=width/2 - 130 ,y=height/10 * 3,width=300)
-    submitUser = ttk.Button(ventana, text="Ingresar",style= "submit.TButton" ,command=submit_User)
+    text = tk.Label(frame, text="APLICACIÓN DE ENCRIPTACION",font=FONT)
+    text.place(x=width/2 - 150,y=height/10 * 0.5)
+
+    submitUser = ttk.Button(frame, text="Ingresar",style= "submit.TButton" ,command=lambda:get_User(user,password))
     submitUser.place(x=width/2 - 60 ,y=height/10 * 5)
-    text3 = ttk.Label(ventana, text="Desarrollado por: ",style= "leer.TButton") 
+
+    text3 = ttk.Label(frame, text="Desarrollado por: ",style= "leer.TButton") 
     text3.place(x=width/2 - 130 ,y=height/10 * 7,width=300)
-    text3 = ttk.Label(ventana, text="Christian Camelo, Javier Escutia, Guillermo Sansano, Mattia Sorella",style= "leer.TButton") 
+    text3 = ttk.Label(frame, text="Christian Camelo, Javier Escutia, Guillermo Sansano, Mattia Sorella",style= "leer.TButton") 
     text3.place(x=200,y=height/10 * 7)
 
-def ventanaProgram():
-    global ventana
-    ventana = tk.Tk()
-    ventana.title("Cifrado y Descifrado")
-    ventana.minsize(width,height)
-    ventana.maxsize(width,height)
-    ventana.geometry("0x0+524+128")
-    limpiar_cache()
-    actualizarUI()
-
-def submit_User():
-    ventana.destroy()
+def get_User(entry_u,entry_pwd):
+    global user 
+    global password
+    user = entry_u.get()
+    password = entry_pwd.get()
+    print(f'usuario: {user}/ password: {password}')
+    generate_keys(user,password)
     ventanaProgram()
 
-def createVentana():
+def createVentana(): # INICIALIZACION DE TKINTER
     global ventana
     ventana = tk.Tk()
     ventana.title("Cifrado y Descifrado")
     ventana.minsize(width,height)
     ventana.maxsize(width,height)
     ventana.geometry("0x0+524+128")
-    text = tk.Label(ventana, text="APLICACIÓN DE ENCRIPTACION",font=("Helvetica", 16, "bold"))
-    text.place(x=width/2 - 150,y=height/10 * 0.5)
-    ventanaUser()
 
-def leerLocales():
-    global cantidad
-    cantidad = 0
-    directorio_local = os.path.join(DIR_LOCAL, 'archivos_encriptados')
-    directorio_local_llaves = os.path.join(DIR_LOCAL, 'keys')
-    directorios = os.listdir(directorio_local)
+def createFrame(): # CUADRO DE INTERFAZ
+    frame = tk.Frame(ventana, borderwidth=1, relief="flat")
+    frame.place(width=width,height=height,x=0, y=0)
+    for widgets in frame.winfo_children():
+      widgets.destroy()
+    return frame
 
-    print(f'Ruta de archivos encriptados: {directorio_local}')
-    print(f'Ruta de llaves: {directorio_local_llaves}')
+def ventanaProgram():
+    global encriptados
+    global user
 
-    for index, directorio in enumerate(directorios):
+    # ------------ VENTANA DE LOCALES -------------
+    localFrame = tk.Frame(ventana,bg='#1010FF', borderwidth=1, relief="flat")
+    localFrame.place(width=width/3,height=height,x=0, y=0)
+    text = tk.Label(localFrame, text="Almacenamiento local",font=FONT)
+    text.place(x=10,y=10)
+    # DIBUJAR ARCHIVOS ENCRIPTADOS EN LISTA
+    for index,item in enumerate(encriptados):
+        name = os.path.basename(item.filePath)
+        text = tk.Label(localFrame, text=str(name),font=(FONT, 12, "normal"))
+        text.place(x=10,y=100+(35*index))
+    nuevoBt = ttk.Button(localFrame, text="Nuevo archivo",command=lambda:read())
+    nuevoBt.place(x=10,y=height-50)
+    des = ttk.Button(localFrame, text="Desencriptar archivos",command=lambda:write())
+    des.place(x=190,y=height-50)
 
-        ruta_archivo = os.path.join(directorio_local, 'archivo' + str(index) + '.enc')
-        ruta_llave = os.path.join(directorio_local_llaves, 'llave' + str(index) + '.bin')
-        ruta_formatos = os.path.join(os.getcwd(), 'formatos')
-        
-        archivo = ruta_archivo
+    # ------------ VENTANA DE NUBE PERSONAL -------------
+    netFrame = tk.Frame(ventana,bg='#10AA10', borderwidth=1, relief="flat")
+    netFrame.place(width=width/3,height=height,x=(width/3)*1, y=0)
+    text = tk.Label(netFrame, text="Almacenamiento online",font=FONT)
+    text.place(x=10,y=10)
+    bajarBt = ttk.Button(netFrame, text="Bajar archivos",command=lambda:download())
+    bajarBt.place(x=10,y=height-50)
+    subirBt = ttk.Button(netFrame, text="Subir archivos",command=lambda:subir_archivos(encriptados,user))
+    subirBt.place(x=230,y=height-50)
 
-        archivo_obj = Archivo(archivo)
-        archivo_obj.ruta = os.path.abspath(archivo)
-        archivo_obj.pos=cantidad
-        archivo_obj.enc = ruta_archivo
-        archivo_obj.size = os.path.getsize(archivo_obj.enc)
-        archivo_obj.encPath = os.path.join(archivo_obj.enc)
+    # ------------ VENTANA DE COMPARTIDOS -------------
 
-        ruta_formato = os.path.join(ruta_formatos, 'formato' + str(cantidad) + '.txt')
-        with open(ruta_formato, 'r') as f:
-            formato_bruto = f.read()
-            archivo_obj.format = str(formato_bruto[2:-1])
-            print("FORMATO ES: "+ archivo_obj.format)
+    # COMPARTIDOS CONMIGO
+    sharedFrameA = tk.Frame(ventana,bg='#AAFF22', borderwidth=1, relief="flat")
+    sharedFrameA.place(width=width/3,height=height/2,x=width/3 * 2, y=0)
+    text = tk.Label(sharedFrameA, text="Compartido conmigo",font=FONT)
+    text.place(x=10,y=10)
+    button = ttk.Button(sharedFrameA, text="Bajar archivos",command=lambda:download())
+    button.place(x=10,y=(height/2)-50)
 
-        archivo_obj.nombre = os.path.basename(archivo_obj.ruta)
-        archivo_obj.keyPath = ruta_llave
-        
-        mostrarCifrado(archivo_obj)
-        archivos_seleccionados.append(archivo_obj)
-        cantidad = cantidad+1
+    # COMPARTIDOS POR MI
+    sharedFrameB = tk.Frame(ventana,bg='#AA2222', borderwidth=1, relief="flat")
+    sharedFrameB.place(width=width/3,height=height/2,x=width/3 * 2, y=height/2)
+    text = tk.Label(sharedFrameB, text="Compartir",font=FONT)
+    text.place(x=10,y=10)
+    bajarBt = ttk.Button(sharedFrameB, text="Compartir",command=lambda:download())
+    bajarBt.place(x=10,y=(height/2)-50)
 
-    cantidad = len(directorios)
 
-def descargar():
-    bajar_archivos()
-    actualizarUI()
+def read():
+    global encriptados
+    archivo = tk.filedialog.askopenfilename()
+    if archivo: 
+        encriptar(archivo,len(encriptados))
+        encriptados.append(Archivo(archivo))
+    ventanaProgram()
 
-def subir():
-    subir_archivos()
-    actualizarUI()
+def write():
+    global encriptados
+    print(encriptados)
+    for item in encriptados:
+        desencriptar(item)
+    encriptados = []
+    if len(encriptados) <= 0 : ventanaProgram()
 
+def download():
+    a=1
+
+def share():
+    ventana = tk.Tk()
+    ventana.title("Cifrado y Descifrado")
+    ventana.minsize(720,124)
+    ventana.maxsize(720,124)
+    ventana.geometry("720x124+780+256")
+    frame = tk.Frame(ventana,bg='#10AA10', borderwidth=1, relief="flat")
+    frame.place(width=720,height=124,x=0, y=0)
+    text = ttk.Label(frame, text="Ingresa el usuario para compartir",font=(FONT,16,'bold')) 
+    text.place(x=720/2 - 250,y=20,width=500)
+    user = ttk.Entry(frame, font=(FONT,14,'normal'))
+    user.place(x=720/2 - 250,y=50,width=500)
+    button = ttk.Button(frame, text="Compartir",command=lambda:download())
+    button.place(x=720/2 - 250,y=80)
 
 iniciar_ventana()

@@ -1,0 +1,386 @@
+11/26/2023, 20:01:08: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:03:54: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:04:39: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:05:10: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:05:58: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:06:34: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:09:44: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:09:44: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave-1.bin
+11/26/2023, 20:09:44: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo-1.enc
+11/26/2023, 20:09:44: Llave generada: True
+11/26/2023, 20:09:44: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:17:04: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:17:04: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:17:04: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:17:04: Llave generada: True
+11/26/2023, 20:17:04: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:17:51: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:17:51: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:17:51: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:17:51: Llave generada: True
+11/26/2023, 20:17:51: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:18:24: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:18:24: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:18:24: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:18:24: Llave generada: True
+11/26/2023, 20:18:24: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:18:51: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:18:51: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:18:51: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:18:51: Llave generada: True
+11/26/2023, 20:18:51: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:20:20: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:20:20: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:20:20: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:20:20: Llave generada: True
+11/26/2023, 20:20:20: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:20:57: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:20:57: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:20:57: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:20:57: Llave generada: True
+11/26/2023, 20:20:57: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:21:29: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:21:29: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:21:29: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:21:29: Llave generada: True
+11/26/2023, 20:21:29: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:21:33: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:21:33: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 20:21:33: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 20:21:33: Llave generada: True
+11/26/2023, 20:21:33: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:21:47: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:21:47: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave2.bin
+11/26/2023, 20:21:47: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo2.enc
+11/26/2023, 20:21:47: Llave generada: True
+11/26/2023, 20:21:47: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:21:56: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:21:56: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:21:56: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:21:56: Llave generada: True
+11/26/2023, 20:21:56: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:22:00: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 20:22:00: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 20:22:00: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 20:22:00: Llave generada: True
+11/26/2023, 20:22:00: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 20:32:17: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:32:17: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:32:17: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:32:17: Llave generada: True
+11/26/2023, 20:32:17: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:33:45: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:33:45: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:33:45: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:33:45: Llave generada: True
+11/26/2023, 20:33:45: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:34:34: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:34:34: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:34:34: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:34:34: Llave generada: True
+11/26/2023, 20:34:34: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:38:21: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:38:21: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:38:21: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:38:21: Llave generada: True
+11/26/2023, 20:38:21: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:38:24: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 20:38:24: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 20:38:24: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 20:38:24: Llave generada: True
+11/26/2023, 20:38:24: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 20:40:12: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:40:12: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:40:12: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:40:12: Llave generada: True
+11/26/2023, 20:40:12: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:40:14: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 20:40:14: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 20:40:14: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 20:40:14: Llave generada: True
+11/26/2023, 20:40:14: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 20:41:33: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:41:33: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:41:33: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:41:33: Llave generada: True
+11/26/2023, 20:41:33: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:41:42: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:41:42: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:41:42: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:41:42: Llave generada: True
+11/26/2023, 20:41:42: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:41:44: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 20:41:44: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 20:41:45: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 20:41:45: Llave generada: True
+11/26/2023, 20:41:45: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 20:42:40: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:42:40: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:42:40: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:42:40: Llave generada: True
+11/26/2023, 20:42:40: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:42:42: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 20:42:42: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 20:42:42: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 20:42:42: Llave generada: True
+11/26/2023, 20:42:42: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 20:42:45: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/UrbanMusic.domainModel (1).tdm--------------
+11/26/2023, 20:42:45: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave2.bin
+11/26/2023, 20:42:45: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo2.enc
+11/26/2023, 20:42:45: Llave generada: True
+11/26/2023, 20:42:45: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/UrbanMusic.domainModel (1).tdm--------------
+11/26/2023, 20:42:49: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/Tema3-DISM-2.pdf--------------
+11/26/2023, 20:42:49: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave3.bin
+11/26/2023, 20:42:49: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo3.enc
+11/26/2023, 20:42:49: Llave generada: True
+11/26/2023, 20:42:49: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/Tema3-DISM-2.pdf--------------
+11/26/2023, 20:44:51: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:44:51: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:44:51: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:44:51: Llave generada: True
+11/26/2023, 20:44:51: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:44:54: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/Tema3-DISM-2.pdf--------------
+11/26/2023, 20:44:54: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 20:44:54: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 20:44:54: Llave generada: True
+11/26/2023, 20:44:54: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/Tema3-DISM-2.pdf--------------
+11/26/2023, 20:44:58: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/01.OpenGL.Introducción (1).pdf--------------
+11/26/2023, 20:44:58: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave2.bin
+11/26/2023, 20:44:58: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo2.enc
+11/26/2023, 20:44:58: Llave generada: True
+11/26/2023, 20:44:58: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/01.OpenGL.Introducción (1).pdf--------------
+11/26/2023, 20:45:44: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:45:44: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:45:44: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:45:44: Llave generada: True
+11/26/2023, 20:45:44: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:45:48: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:45:48: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 20:45:48: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 20:45:48: Llave generada: True
+11/26/2023, 20:45:48: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:45:54: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/UrbanMusic.domainModel (1).tdm--------------
+11/26/2023, 20:45:54: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave2.bin
+11/26/2023, 20:45:54: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo2.enc
+11/26/2023, 20:45:54: Llave generada: True
+11/26/2023, 20:45:54: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/UrbanMusic.domainModel (1).tdm--------------
+11/26/2023, 20:45:57: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/01.OpenGL.Introducción (1).pdf--------------
+11/26/2023, 20:45:57: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave3.bin
+11/26/2023, 20:45:57: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo3.enc
+11/26/2023, 20:45:57: Llave generada: True
+11/26/2023, 20:45:57: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/01.OpenGL.Introducción (1).pdf--------------
+11/26/2023, 20:47:12: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 20:47:12: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:47:12: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:47:12: Llave generada: True
+11/26/2023, 20:47:12: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 20:47:15: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:47:15: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 20:47:15: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 20:47:15: Llave generada: True
+11/26/2023, 20:47:15: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:47:18: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/02.OpenGL.Shaders.pdf--------------
+11/26/2023, 20:47:18: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave2.bin
+11/26/2023, 20:47:18: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo2.enc
+11/26/2023, 20:47:18: Llave generada: True
+11/26/2023, 20:47:18: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/02.OpenGL.Shaders.pdf--------------
+11/26/2023, 20:48:07: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:48:07: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:48:07: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:48:07: Llave generada: True
+11/26/2023, 20:48:07: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:48:10: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/default.domainModel_new.tdm--------------
+11/26/2023, 20:48:10: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 20:48:10: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 20:48:10: Llave generada: True
+11/26/2023, 20:48:10: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/default.domainModel_new.tdm--------------
+11/26/2023, 20:48:14: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/01.OpenGL.Introducción (2).pdf--------------
+11/26/2023, 20:48:14: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave2.bin
+11/26/2023, 20:48:14: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo2.enc
+11/26/2023, 20:48:14: Llave generada: True
+11/26/2023, 20:48:14: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/01.OpenGL.Introducción (2).pdf--------------
+11/26/2023, 20:54:04: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:54:04: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:54:04: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:54:04: Llave generada: True
+11/26/2023, 20:54:04: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:54:09: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/UrbanMusic.domainModel (1).tdm--------------
+11/26/2023, 20:54:09: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 20:54:09: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 20:54:09: Llave generada: True
+11/26/2023, 20:54:09: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/UrbanMusic.domainModel (1).tdm--------------
+11/26/2023, 20:54:42: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:54:42: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:54:42: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:54:42: Llave generada: True
+11/26/2023, 20:54:42: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:54:44: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:54:44: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 20:54:44: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 20:54:44: Llave generada: True
+11/26/2023, 20:54:44: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:54:47: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/01.OpenGL.Introducción (1).pdf--------------
+11/26/2023, 20:54:47: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave2.bin
+11/26/2023, 20:54:47: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo2.enc
+11/26/2023, 20:54:47: Llave generada: True
+11/26/2023, 20:54:47: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/01.OpenGL.Introducción (1).pdf--------------
+11/26/2023, 20:54:52: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/Brown_Josefina_lenguajevisual_PEC3.pdf--------------
+11/26/2023, 20:54:52: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave3.bin
+11/26/2023, 20:54:52: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo3.enc
+11/26/2023, 20:54:52: Llave generada: True
+11/26/2023, 20:54:52: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/Brown_Josefina_lenguajevisual_PEC3.pdf--------------
+11/26/2023, 20:55:58: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:55:58: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:55:58: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:55:58: Llave generada: True
+11/26/2023, 20:55:58: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:56:00: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/02.OpenGL.Shaders.pdf--------------
+11/26/2023, 20:56:00: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 20:56:00: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 20:56:00: Llave generada: True
+11/26/2023, 20:56:00: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/02.OpenGL.Shaders.pdf--------------
+11/26/2023, 20:56:03: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/UrbanMusic.domainModel.tdm--------------
+11/26/2023, 20:56:03: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave2.bin
+11/26/2023, 20:56:03: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo2.enc
+11/26/2023, 20:56:03: Llave generada: True
+11/26/2023, 20:56:03: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/UrbanMusic.domainModel.tdm--------------
+11/26/2023, 20:57:27: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:57:27: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:57:27: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:57:27: Llave generada: True
+11/26/2023, 20:57:27: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:57:29: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 20:57:29: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 20:57:29: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 20:57:29: Llave generada: True
+11/26/2023, 20:57:29: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 20:57:32: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/01.OpenGL.Introducción (2).pdf--------------
+11/26/2023, 20:57:32: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave2.bin
+11/26/2023, 20:57:32: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo2.enc
+11/26/2023, 20:57:32: Llave generada: True
+11/26/2023, 20:57:32: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/01.OpenGL.Introducción (2).pdf--------------
+11/26/2023, 20:57:51: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:57:51: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave3.bin
+11/26/2023, 20:57:51: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo3.enc
+11/26/2023, 20:57:51: Llave generada: True
+11/26/2023, 20:57:51: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:57:58: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:57:58: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:57:58: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:57:58: Llave generada: True
+11/26/2023, 20:57:58: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:58:01: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/01.OpenGL.Introducción (2).pdf--------------
+11/26/2023, 20:58:01: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 20:58:01: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 20:58:01: Llave generada: True
+11/26/2023, 20:58:01: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/01.OpenGL.Introducción (2).pdf--------------
+11/26/2023, 20:58:05: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/Brown_Josefina_lenguajevisual_PEC3.pdf--------------
+11/26/2023, 20:58:05: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave2.bin
+11/26/2023, 20:58:05: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo2.enc
+11/26/2023, 20:58:05: Llave generada: True
+11/26/2023, 20:58:05: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/Brown_Josefina_lenguajevisual_PEC3.pdf--------------
+11/26/2023, 20:59:25: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 20:59:25: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 20:59:25: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 20:59:25: Llave generada: True
+11/26/2023, 20:59:25: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 20:59:27: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:59:27: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 20:59:27: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 20:59:27: Llave generada: True
+11/26/2023, 20:59:27: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:59:28: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:59:28: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave2.bin
+11/26/2023, 20:59:28: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo2.enc
+11/26/2023, 20:59:28: Llave generada: True
+11/26/2023, 20:59:28: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 20:59:42: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/PresentaciónDISM2023-2024.pdf--------------
+11/26/2023, 20:59:42: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave3.bin
+11/26/2023, 20:59:42: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo3.enc
+11/26/2023, 20:59:42: Llave generada: True
+11/26/2023, 20:59:42: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/PresentaciónDISM2023-2024.pdf--------------
+11/26/2023, 20:59:32: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/Vídeo sin título 11/26/2023, 21:00:55: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 21:00:55: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 21:00:55: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 21:00:55: Llave generada: True
+11/26/2023, 21:00:55: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 21:00:57: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 21:00:57: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 21:00:57: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 21:00:57: Llave generada: True
+11/26/2023, 21:00:57: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 21:01:00: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/01.OpenGL.Introducción (2).pdf--------------
+11/26/2023, 21:01:00: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave2.bin
+11/26/2023, 21:01:00: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo2.enc
+11/26/2023, 21:01:00: Llave generada: True
+11/26/2023, 21:01:00: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/01.OpenGL.Introducción (2).pdf--------------
+11/26/2023, 21:10:59: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 21:10:59: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 21:10:59: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 21:10:59: Llave generada: True
+11/26/2023, 21:10:59: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 21:11:06: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 21:11:06: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 21:11:06: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 21:11:06: Llave generada: True
+11/26/2023, 21:11:06: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 21:12:56: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 21:12:56: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 21:12:56: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 21:12:56: Llave generada: True
+11/26/2023, 21:12:56: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 21:15:40: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 21:15:40: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 21:15:40: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 21:15:40: Llave generada: True
+11/26/2023, 21:15:40: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 21:15:45: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 21:15:45: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 21:15:45: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 21:15:45: Llave generada: True
+11/26/2023, 21:15:45: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 21:17:24: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 21:17:24: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 21:17:24: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 21:17:24: Llave generada: True
+11/26/2023, 21:17:24: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 21:18:42: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 21:18:42: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 21:18:42: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 21:18:42: Llave generada: True
+11/26/2023, 21:18:42: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 23:02:05: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 23:02:05: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 23:02:05: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 23:02:05: Llave generada: True
+11/26/2023, 23:02:05: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 23:44:37: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 23:44:37: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 23:44:37: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 23:44:37: Llave generada: True
+11/26/2023, 23:44:37: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 23:44:40: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 23:44:40: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 23:44:40: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 23:44:40: Llave generada: True
+11/26/2023, 23:44:40: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 23:45:50: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 23:45:50: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 23:45:50: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 23:45:50: Llave generada: True
+11/26/2023, 23:45:50: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 23:45:53: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 23:45:53: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 23:45:53: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 23:45:53: Llave generada: True
+11/26/2023, 23:45:53: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/656079d70c94e.pdf--------------
+11/26/2023, 23:46:54: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 23:46:54: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave0.bin
+11/26/2023, 23:46:54: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo0.enc
+11/26/2023, 23:46:54: Llave generada: True
+11/26/2023, 23:46:54: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/accesibilidad.png--------------
+11/26/2023, 23:46:57: ----------------INICIANDO ENCRIPTACION DE C:/Users/Christian/Downloads/UrbanMusic.domainModel (1).tdm--------------
+11/26/2023, 23:46:57: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\keys\llave1.bin
+11/26/2023, 23:46:57: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
+11/26/2023, 23:46:57: Llave generada: True
+11/26/2023, 23:46:57: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/UrbanMusic.domainModel (1).tdm--------------
