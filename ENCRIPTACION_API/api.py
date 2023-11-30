@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 import metodos_api
 import encriptar_rsa
 import json
+import os
 import bcrypt
 from flask_jwt_extended import JWTManager, create_access_token
 
@@ -73,6 +74,10 @@ def registrar_usuario():
 
         if username in config_data:
             return jsonify({"Error": "El nombre de usuario ya existe. Por favor, elige otro."}), 401
+        
+        # CREANDO CARPETA PARA EL USUARIO
+        user_folder_path = os.path.join(os.getcwd(), username)
+        os.makedirs(user_folder_path, exist_ok=True)
 
         user_data['klogin'] = bcrypt.hashpw(k_login.encode(), bcrypt.gensalt()).decode()
 
