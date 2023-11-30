@@ -12,19 +12,15 @@ def crea_administrador():
         "user": "admin",
         "password": "admin"
     }
-    return admin
+    pass_hashed = hash_password("admin")
+    return admin, pass_hashed
 
 def guarda_info_admin(usuarios_registrados, file_path='config.json'):
     info = usuarios_registrados.get("admin", {})
     with open(file_path, 'w') as json_file:
-        json.dump({'admin': info}, json_file)
+        json.dump({'admin': info}, json_file, indent=4)
 
-def hash_password():
-    json_file_path = 'config.json'
-    with open (json_file_path, 'r') as json_file:
-        data = json.load(json_file)
-    
-    password = data.get("admin", {}).get("password", None)
+def hash_password(password):
     sha256_hash = hashlib.sha256(password.encode()).hexdigest()
     return sha256_hash
 
