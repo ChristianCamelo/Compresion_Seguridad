@@ -76,7 +76,8 @@ def registrar_usuario():
             return jsonify({"Error": "El nombre de usuario ya existe. Por favor, elige otro."}), 401
         
         # CREANDO CARPETA PARA EL USUARIO
-        user_folder_path = os.path.join(os.getcwd(), username)
+        datos_folder_path = os.path.join(os.getcwd(), "datos")
+        user_folder_path = os.path.join(datos_folder_path, username)
         os.makedirs(user_folder_path, exist_ok=True)
 
         user_data['klogin'] = bcrypt.hashpw(k_login.encode(), bcrypt.gensalt()).decode()
@@ -107,15 +108,10 @@ def iniciar_sesion():
     if user not in config_data:
         return jsonify({"Error": "El usuario no existe. Por favor, ingrese unas credenciales válidas."}), 401
     
-    # sorted_credentials = config_data[user]
-    # print("Las credenciales ordenadas son: ", sorted_credentials)
-    # print("El tipo de klogin de sorted credentials es : ", type(sorted_credentials["k_login"].encode()))
-    # print("El tipo de  klogin encode es: ", type(klogin.encode()))
-    # if not bcrypt.checkpw(klogin.encode(), sorted_credentials["k_login"].encode()):
-    #     return jsonify({"Error": "Credenciales inválidas."}), 402
+    print("Los datos son", config_data[user])
     
     acces_token = create_access_token(identity=data["user"])
-    return jsonify({"access_token" : acces_token, "message" : "Usuario registrado correctamente"})
+    return jsonify({"access_token" : acces_token, "Kprivada":config_data[user]["k_admin_priv"], "message" : "Usuario registrado correctamente"})
 
 # Endpoint de carga de archivos
 @app.route('/upload', methods=['POST'])
