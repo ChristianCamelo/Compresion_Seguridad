@@ -6,14 +6,11 @@ from desencriptar import desencriptar
 from servicios_crud import subir_archivos
 from tkinter import ttk, filedialog
 from shutil import rmtree
-from servicios_auth import generate_keys
+from servicios_auth import login,register
 from servicios_crud import *
 
 global ventana
 global cantidad
-
-global user 
-global password
 
 global encriptados
 global archivos
@@ -44,6 +41,8 @@ def limpiar_cache():
     directorios_a_borrar = [
         "archivos_desencriptados",
         "archivos_encriptados",
+        "archivos_encriptados_compartidos",
+        "keys_compartidos",
         "keys"
     ]
     for directorio in directorios_a_borrar:
@@ -57,6 +56,8 @@ def limpiar_cache():
     os.mkdir("archivos_desencriptados")
     os.mkdir("archivos_encriptados")
     os.mkdir("keys")
+    os.mkdir("archivos_encriptados_compartidos")
+    os.mkdir("keys_compartidos")
 
 def iniciar_ventana():
     global ventana
@@ -94,7 +95,7 @@ def ventanaHome(): #VENTANA DE IDENTIFICACION
     text = tk.Label(frame, text="APLICACIÓN DE ENCRIPTACION",font=FONT)
     text.place(x=width/2 - 150,y=height/10 * 0.5)
 
-    submitUser = ttk.Button(frame, text="Ingresar",style= "submit.TButton" ,command=lambda:get_User(user,password))
+    submitUser = ttk.Button(frame, text="Ingresar",style= "submit.TButton" ,command=lambda:registrar(user,password))
     submitUser.place(x=width/2 - 60 ,y=height/10 * 5)
 
     text3 = ttk.Label(frame, text="Desarrollado por: ",style= "leer.TButton") 
@@ -102,14 +103,23 @@ def ventanaHome(): #VENTANA DE IDENTIFICACION
     text3 = ttk.Label(frame, text="Christian Camelo, Javier Escutia, Guillermo Sansano, Mattia Sorella",style= "leer.TButton") 
     text3.place(x=200,y=height/10 * 7)
 
-def get_User(entry_u,entry_pwd):
-    global user 
-    global password
+def registrar(entry_u,entry_pwd):
     user = entry_u.get()
     password = entry_pwd.get()
+
     print(f'usuario: {user}/ password: {password}')
-    generate_keys(user,password)
-    ventanaProgram()
+
+    if(register(user,password)==True):
+        ventanaProgram()
+
+def logear(entry_u,entry_pwd):
+    user = entry_u.get()
+    password = entry_pwd.get()
+
+    print(f'usuario: {user}/ password: {password}')
+
+    if(login(user,password)==True):
+        ventanaProgram()
 
 def createVentana(): # INICIALIZACION DE TKINTER
     global ventana

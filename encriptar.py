@@ -1,49 +1,103 @@
-
+import base64
 import os
+import json
+import hashlib
 from utilities import escribirLog
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes # para generar la clave y el IV
+from cryptography.hazmat.primitives import serialization,hashes ,padding
+from cryptography.hazmat.primitives.asymmetric import rsa, padding
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+
+CRYPTERMODE = AES.MODE_CTR
 
 #------------------------------------------------------------------------------------------------------------------------------------
 # FUNCIÓN PARA ENCRIPTAR
 #------------------------------------------------------------------------------------------------------------------------------------
 def encriptar(fichero, cont):
-    escribirLog("----------------INICIANDO ENCRIPTACION DE "+ fichero + "--------------")
-    
+    # ---------------- OBTENER FORMATO ---------------------------
     format = fichero[-3:]
-
-    modo_encriptar = AES.MODE_CTR
-
-    # --------------- PROTEGER LA LLAVE CON LA KPRIV ---------------
+    # --------------- ENCRIPTAR LA KEY CON LA KPUB ---------------
     key = get_random_bytes(16)
-    with open('config.json', 'r') as config:
-        data = config.read()
-    kpriv = data.kpriv
-    cipher = Cipher(algorithms.AES(kpriv), modes.ECB(), backend=default_backend())
-    encryptor = cipher.encryptor()
-    encrypted_private_key = encryptor.update(key) + encryptor.finalize()
 
-    objeto_ecriptador = AES.new(key, modo_encriptar)
-    nonce = objeto_ecriptador.nonce
-    print(len(nonce),type(nonce))
-    print(key)
-    print(nonce)
-    llave_guardada = guardarKey(key, nonce,format , cont)
-    print(llave_guardada)
-    
+    with open('config.json', 'r') as file:
+        data = json.load(file) 
+        public_key_str = data.get('kpub')
+        public_key_pem = reverse_formater64(public_key_str)
+        public_key = serialization.load_pem_public_key(public_key_pem, backend=default_backend())
+        
+
+    encrypted_key = public_key.encrypt(
+        key, 
+        padding.OAEP(
+            mgf=padding.MGF1(algorithm=hashes.SHA256()),
+            algorithm=hashes.SHA256(),
+            label=None
+        )
+    )
+    # print("encriptada_generada : ",len(encrypted_key))
+
+    #print("llave: " + formater64(key))
+    #print("llave encriptada: " + formater64(encrypted_key))
+    ################################################## ENCRIPTAR FICHERO ###########################################################
+    # ---------------- ENCRIPTAR OBJETO CON KEY SIN ENCRIPTAR ---------
+    crypterObj = AES.new(key, CRYPTERMODE)
+    nonce = crypterObj.nonce
+
     with open(fichero, 'rb') as f:
         fichero_a_encriptar = f.read()
 
-    fichero_encriptado = objeto_ecriptador.encrypt(fichero_a_encriptar)
+    fichero_encriptado = crypterObj.encrypt(fichero_a_encriptar)
     archivo_encriptado_guardado = guardar_archivo_encriptado(fichero_encriptado, cont)
-    escribirLog("Llave generada: "+ str(llave_guardada))
-    escribirLog("----------------FINALIZANDO ENCRIPTACION DE "+ fichero + "--------------")
+
+    # ------------------ ALMACENAR KEY ENCRIPTADA ----------------------
+    llave_guardada = guardarKey(encrypted_key, nonce,format , cont)
+
+    # print("archivo: "+ formater64(fichero_a_encriptar))
+    # print("archivo encriptado: "+ archivo_encriptado_guardado)
+
     return archivo_encriptado_guardado
-#------------------------------------------------------------------------------------------------------------------------------------
-# FUNCIÓN PARA GUARDAR EL ARCHIVO ENCRIPTADO: Guarda cada archivo en la carpeta archivos_encriptados
-#------------------------------------------------------------------------------------------------------------------------------------
+
+def encriptarCompartido(fichero, kpub):
+    # ---------------- OBTENER FORMATO ---------------------------
+    format = fichero[-3:]
+    # --------------- ENCRIPTAR LA KEY CON LA KPUB ---------------
+    key = get_random_bytes(16)
+
+    public_key_str = kpub
+    public_key_pem = reverse_formater64(public_key_str)
+    public_key = serialization.load_pem_public_key(public_key_pem, backend=default_backend())
+        
+
+    encrypted_key = public_key.encrypt(
+        key, 
+        padding.OAEP(
+            mgf=padding.MGF1(algorithm=hashes.SHA256()),
+            algorithm=hashes.SHA256(),
+            label=None
+        )
+    )
+
+    crypterObj = AES.new(key, CRYPTERMODE)
+    nonce = crypterObj.nonce
+
+    with open(fichero, 'rb') as f:
+        fichero_a_encriptar = f.read()
+
+    fichero_encriptado = crypterObj.encrypt(fichero_a_encriptar)
+    fichero_encriptado_str = formater64(fichero_encriptado)
+
+    # ------------------ ALMACENAR KEY ENCRIPTADA ----------------------
+
+    formatParsed = format
+    while len(formatParsed) < 10:
+        # --------- SE AGREGAN SIMBOLOS $ PARA COMPLETAR EL ARRAY DEL FORMATO------------
+        formatParsed=formatParsed+'$'
+
+    llave_generada_str = formater64(encrypted_key) + formater64(nonce) + formatParsed + cont
+
+    return (fichero_encriptado_str,llave_generada_str)
 
 #------------------------------------------------------------------------------------------------------------------------------------
 # FUNCIÓN PARA GUARDAR EL ARCHIVO ENCRIPTADO: Guarda cada archivo en la carpeta archivos_encriptados
@@ -53,7 +107,6 @@ def guardar_archivo_encriptado(fichero, cont):
     guardado = False
     ruta_archivos_encriptados = os.path.join(os.getcwd(), 'archivos_encriptados')
     ruta_archivo = os.path.join(ruta_archivos_encriptados, 'archivo' + str(cont) + '.enc')
-
     # Escribiendo el archivo
     with open(ruta_archivo, 'wb') as a:
         a.write(fichero)
@@ -65,8 +118,6 @@ def guardar_archivo_encriptado(fichero, cont):
             guardado = True
         else:
             guardado = False
-    print(guardado)
-    escribirLog("Encriptacion: Creando la ruta de guardado: "+ruta_archivo)
     return ruta_archivo
 
 #------------------------------------------------------------------------------------------------------------------------------------
@@ -78,23 +129,26 @@ def guardarKey(key, nonce, format,cont):
     ruta_archivo = os.path.join(ruta_keys, 'llave' + str(cont) + '.bin')
     formatParsed = format
     while len(formatParsed) < 10:
+        # --------- SE AGREGAN SIMBOLOS $ PARA COMPLETAR EL ARRAY ------------
         formatParsed=formatParsed+'$'
-
     # Escribiendo la llave
     with open(ruta_archivo, 'ab') as ficheroKeys:
         ficheroKeys.write(key)
         ficheroKeys.write(nonce)
         ficheroKeys.write(formatParsed.encode('utf-8'))
-
     # Comprobando que el archivo existe
     with open(ruta_archivo, 'rb') as b:
         data = b.read()
-        print(data)
+        # print(data)
         if len(data) > 0 and len(data) <= 34:
             success = True
-            escribirLog("Encriptacion: Se ha generado la llave : "+ruta_archivo)
         else:
             success = False
-    print(success)
     return success
 
+# -------------- HERRAMIENTA AUXILIAR BASE64 -----------------
+def formater64(data):
+    return base64.b64encode(data).decode('utf-8')
+
+def reverse_formater64(encoded_data):
+    return base64.b64decode(encoded_data.encode('utf-8'))

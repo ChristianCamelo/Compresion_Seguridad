@@ -384,3 +384,15 @@
 11/26/2023, 23:46:57: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\Compresion_Seguridad\archivos_encriptados\archivo1.enc
 11/26/2023, 23:46:57: Llave generada: True
 11/26/2023, 23:46:57: ----------------FINALIZANDO ENCRIPTACION DE C:/Users/Christian/Downloads/UrbanMusic.domainModel (1).tdm--------------
+12/02/2023, 16:31:51: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\CLIENTE\archivos_encriptados\archivo0.enc
+12/02/2023, 16:31:51: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\CLIENTE\keys\llave0.bin
+12/02/2023, 16:33:49: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\CLIENTE\archivos_encriptados\archivo0.enc
+12/02/2023, 16:33:49: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\CLIENTE\keys\llave0.bin
+12/02/2023, 16:38:16: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\CLIENTE\archivos_encriptados\archivo0.enc
+12/02/2023, 16:38:16: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\CLIENTE\keys\llave0.bin
+12/02/2023, 16:40:49: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\CLIENTE\archivos_encriptados\archivo0.enc
+12/02/2023, 16:40:49: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\CLIENTE\keys\llave0.bin
+12/02/2023, 16:41:45: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\CLIENTE\archivos_encriptados\archivo0.enc
+12/02/2023, 16:41:45: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\CLIENTE\keys\llave0.bin
+12/02/2023, 16:43:51: Encriptacion: Creando la ruta de guardado: E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\CLIENTE\archivos_encriptados\archivo0.enc
+12/02/2023, 16:43:51: Encriptacion: Se ha generado la llave : E:\Universidad\Tercero_1\Compresion_Seguridad\Compresion_Seguridad-main\CLIENTE\keys\llave0.bin
