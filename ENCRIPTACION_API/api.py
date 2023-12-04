@@ -12,9 +12,16 @@ app.config['JWT_SECRET_KEY'] = "clave_super_secreta"
 jwt = JWTManager(app)
 
 # Almacenamiento temporal para usuarios registrados (en un entorno de producción, usa una base de datos real).
-
-with open("config.json", "r") as config_file:
-    usuarios_registrados = json.load(config_file)
+config_path = "config.json"
+usuarios_registrados = {}
+if os.path.exists(config_path):
+    with open(config_path, 'r') as config_file:
+        usuarios_registrados.update(json.load(config_file))
+else:
+    with open(config_path, 'w') as config_file:
+        admin = metodos_api.crea_administrador()[0]
+        usuarios_registrados = {"admin":admin}
+        json.dump(usuarios_registrados, config_file, indent=4)
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 # CREANDO EL ADMIN
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -67,31 +74,31 @@ metodos_api.elimina_password()
 @app.route('/registrar', methods=['POST'])
 def registrar_usuario():
     user_data = request.json
-    with app.app_context():
-        with open("config.json", "r") as config_file:
-             config_data = json.load(config_file)
-        username = user_data["user"]
+    # with app.app_context():
+        #with open("config.json", "r") as config_file:
+        #    config_data = json.load(config_file)
+    username = user_data["user"]
 
-        if username in config_data:
-            return jsonify({"Error": "El nombre de usuario ya existe. Por favor, elige otro."}), 401
+    if username in usuarios_registrados:
+        return jsonify({"Error": "El nombre de usuario ya existe. Por favor, elige otro."}), 401
+    
+    # CREANDO CARPETA PARA EL USUARIO
+    datos_folder_path = os.path.join(os.getcwd(), "datos")
+    user_folder_path = os.path.join(datos_folder_path, username)
+    os.makedirs(user_folder_path, exist_ok=True)
+
+    user_data['klogin'] = bcrypt.hashpw(k_login.encode(), bcrypt.gensalt()).decode()
+
+    usuarios_registrados[user_data["user"]] = {
+        "user": user_data["user"],
+        "k_login": user_data["klogin"],
+        "k_admin_publica": user_data["kpub"],
+        "k_admin_priv": user_data["kprivkdatos"]
+    }
+
+    with open("config.json", "w") as file:
+        json.dump(usuarios_registrados, file, indent=4)
         
-        # CREANDO CARPETA PARA EL USUARIO
-        datos_folder_path = os.path.join(os.getcwd(), "datos")
-        user_folder_path = os.path.join(datos_folder_path, username)
-        os.makedirs(user_folder_path, exist_ok=True)
-
-        user_data['klogin'] = bcrypt.hashpw(k_login.encode(), bcrypt.gensalt()).decode()
-
-        config_data[user_data["user"]] = {
-            "user": user_data["user"],
-            "k_login": user_data["klogin"],
-            "k_admin_publica": user_data["kpub"],
-            "k_admin_priv": user_data["kprivkdatos"]
-        }
-
-        with open("config.json", "w") as file:
-             json.dump(config_data, file, indent=4)
-             
     #RESPUESTA
     acces_token = create_access_token(identity=user_data["user"])
     return jsonify({"access_token" : acces_token, "message" : "Usuario registrado correctamente"})

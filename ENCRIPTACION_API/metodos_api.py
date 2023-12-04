@@ -36,8 +36,9 @@ def hash_k_login(k_login, file_path='config.json'):
     with open (file_path, 'r') as fichero_json:
         data = json.load(fichero_json)
     
-    info_admin = data.get("admin", {})
-    info_admin["k_login"] = bcrypt.hashpw(k_login.encode(), bcrypt.gensalt()).decode()
+    if 'admin' in data:
+        info_admin = data.get("admin", {})
+        info_admin["k_login"] = bcrypt.hashpw(k_login.encode(), bcrypt.gensalt()).decode()
 
     with open (file_path, 'w') as json_file:
         data['admin'] = info_admin
@@ -72,11 +73,15 @@ def genera_clave_rsa():
 
 def guardar_clave_publica (public_pem):
     rsa_publica_str = base64.b64encode(public_pem).decode('utf-8')
-    with open("config.json", "r") as config_file:
+    
+    with open("config.json", 'r') as config_file:
         config = json.load(config_file)
-        config["admin"]["k_admin_publica"] =  rsa_publica_str
 
-    with open("config.json", "w") as config_file:
+    # Modificar solo la parte necesaria del archivo
+    if 'admin' in config:
+        config["admin"]["k_admin_publica"] = rsa_publica_str
+
+    with open("config.json", 'w') as config_file:
         json.dump(config, config_file, indent=4)
 
 def elimina_password(file_path='config.json'):
