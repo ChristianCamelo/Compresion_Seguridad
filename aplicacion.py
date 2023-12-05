@@ -98,7 +98,7 @@ def ventanaHome(): #VENTANA DE IDENTIFICACION
     text = tk.Label(frame, text="APLICACIÓN DE ENCRIPTACION",font=FONT)
     text.place(x=width/2 - 150,y=height/10 * 0.5)
 
-    loginUser = ttk.Button(frame, text="Login",style= "login.TButton" ,command=lambda:login(user,password))
+    loginUser = ttk.Button(frame, text="Login",style= "login.TButton" ,command=lambda:loguear(user,password))
     loginUser.place(x=width/2 - 60 ,y=height/10 * 5)
 
     submitUser = ttk.Button(frame, text="Sign up",style= "submit.TButton" ,command=lambda:registrar(user,password))
@@ -118,7 +118,7 @@ def registrar(entry_u,entry_pwd):
     if(register(user,password)==True):
         ventanaProgram()
 
-def logear(entry_u,entry_pwd):
+def loguear(entry_u,entry_pwd):
     user = entry_u.get()
     password = entry_pwd.get()
 

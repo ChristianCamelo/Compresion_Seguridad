@@ -63,7 +63,7 @@ def register(user,password):
         "k_privada":kprivkdatos
     }
     print("paquete",data_server)
-    response = requests.post(SERVER_URL+"/register", json=data_server)
+    response = requests.post(SERVER_URL+"/registrar", json=data_server)
     response_data = response.json()
 
     # --------------- MANEJAR RESPUESTAS --------------------
@@ -89,8 +89,6 @@ def login(user,password):
     k_login = sha256_hash[:32]
     k_datos = sha256_hash[-32:]
 
-    k_login_crypted = bcrypt.hashpw(k_login.encode(), bcrypt.gensalt()).decode()
-
     payload = {
         'user': user,
         'k_login' : k_login
@@ -102,10 +100,11 @@ def login(user,password):
     public_key_str = response_data.get('k_publica')
     kprivkdatos = response_data.get('k_privada')
     k_login = response_data.get('k_login')
+    print(response_data)
 
     # ------------------- PROCESO DE DESENCRIPTACION DE LLAVE KPRIVKDATOS ------------------
     crypter = AES.new(k_datos.encode(), CRYPTERMODE , nonce=b'0')
-    private_key = crypter.decryptencrypt(kprivkdatos.encode())
+    private_key = crypter.decrypt(kprivkdatos.encode())
     private_key_str = formater64(private_key)
 
     # --------------------- ALMACENA LAS LLAVES DE FORMA LOCAL --------------
@@ -114,7 +113,7 @@ def login(user,password):
         "k_login":k_login,
         "k_datos":k_datos,
         "k_publica": public_key_str,
-        "k_pivada": private_key_str
+        "k_privada": private_key_str
     }
     with open('config.json', 'w') as json_file:
         json.dump(data, json_file, indent=4)
