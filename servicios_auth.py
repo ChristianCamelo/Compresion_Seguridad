@@ -63,7 +63,7 @@ def register(user,password):
         "k_privada":kprivkdatos
     }
     print("paquete",data_server)
-    response = requests.post(SERVER_URL+"/register", json=data_server)
+    response = requests.post(SERVER_URL+"/registrar", json=data_server)
     response_data = response.json()
 
     # --------------- MANEJAR RESPUESTAS --------------------
@@ -93,7 +93,7 @@ def login(user,password):
 
     payload = {
         'user': user,
-        'k_login' : k_login
+        'k_login' : k_login_crypted
     }
 
     # ------------- LLAMADA AL SERVIDOR -------------
