@@ -3,7 +3,7 @@ import os
 import shutil
 from encriptar import encriptar
 from desencriptar import desencriptar
-from servicios_crud import subir_archivos
+from servicios_crud import upload
 from tkinter import ttk, filedialog
 from shutil import rmtree
 from servicios_auth import login,register
@@ -81,7 +81,10 @@ def ventanaHome(): #VENTANA DE IDENTIFICACION
     estilo.configure('leer.TButton',
                     font=(FONT, 16, "normal"))
     estilo.configure('submit.TButton',
-                     background="#36ff6f",
+                    background="#36ff6f",
+                    font=FONT)
+    estilo.configure('login.TButton',
+                    background="#1100FF",
                     font=FONT)
 
     text = ttk.Label(frame, text="Ingrese el Usuario",style= "leer.TButton") 
@@ -95,8 +98,11 @@ def ventanaHome(): #VENTANA DE IDENTIFICACION
     text = tk.Label(frame, text="APLICACIÓN DE ENCRIPTACION",font=FONT)
     text.place(x=width/2 - 150,y=height/10 * 0.5)
 
-    submitUser = ttk.Button(frame, text="Ingresar",style= "submit.TButton" ,command=lambda:registrar(user,password))
-    submitUser.place(x=width/2 - 60 ,y=height/10 * 5)
+    loginUser = ttk.Button(frame, text="Login",style= "login.TButton" ,command=lambda:registrar(user,password))
+    loginUser.place(x=width/2 - 60 ,y=height/10 * 5)
+
+    submitUser = ttk.Button(frame, text="Sign up",style= "submit.TButton" ,command=lambda:registrar(user,password))
+    submitUser.place(x=width/2 - 60 ,y=height/10 * 5.5)
 
     text3 = ttk.Label(frame, text="Desarrollado por: ",style= "leer.TButton") 
     text3.place(x=width/2 - 130 ,y=height/10 * 7,width=300)
