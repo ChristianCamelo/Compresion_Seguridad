@@ -28,7 +28,7 @@ def encriptar(private_pem, k_datos):
     rsa_privada_encriptada_str = base64.b64encode(rsa_privada_encriptada).decode('utf-8')
     with open("config.json", "r") as config_file:
         config = json.load(config_file)
-        config["admin"]["k_admin_priv"] =  rsa_privada_encriptada_str
+        config["admin"]["k_privada"] =  rsa_privada_encriptada_str
 
     with open("config.json", "w") as config_file:
         json.dump(config, config_file, indent=4)

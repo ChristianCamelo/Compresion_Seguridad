@@ -4,6 +4,7 @@ import encriptar_rsa
 import json
 import os
 import bcrypt
+import base64
 from flask_jwt_extended import JWTManager, create_access_token
 
 # Cdo se sube un archivo se crea carpeta para el usuario dentro de datos, y dentro de cada carpeta los archivos cifrados y las contraseñas, nonce
@@ -11,73 +12,41 @@ app = Flask(__name__)
 app.config['JWT_SECRET_KEY'] = "clave_super_secreta"
 jwt = JWTManager(app)
 
+
+
 # Almacenamiento temporal para usuarios registrados (en un entorno de producción, usa una base de datos real).
-config_path = "config.json"
+config_path = "./config.json"
 usuarios_registrados = {}
-if os.path.exists(config_path):
-    with open(config_path, 'r') as config_file:
-        usuarios_registrados.update(json.load(config_file))
-else:
-    with open(config_path, 'w') as config_file:
-        admin = metodos_api.crea_administrador()[0]
-        usuarios_registrados = {"admin":admin}
-        json.dump(usuarios_registrados, config_file, indent=4)
+with open(config_path, 'r') as config_file:
+    usuarios_registrados.update(json.load(config_file))
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 # CREANDO EL ADMIN
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 if "admin" not in usuarios_registrados:
     admin = metodos_api.crea_administrador()[0]
     usuarios_registrados["admin"] = admin
+
+    metodos_api.guarda_info_admin(usuarios_registrados)
+
+    pass_SHA256 = metodos_api.crea_administrador()[1]
+    k_login = metodos_api.get_clave_login(pass_SHA256)
+    k_datos = metodos_api.get_clave_datos(pass_SHA256)
+
+    metodos_api.hash_k_login(k_login)
+
+    claves_privada_y_publica = metodos_api.genera_clave_rsa()
+
+    encriptar_rsa.encriptar(claves_privada_y_publica[0], k_datos.encode())
+    metodos_api.elimina_password()
+
 print('Los usuarios registrados son: {"user":"admin", "pass":"admin"}')
-
-#-----------------------------------------------------------------------------------------------------------------------------------------------------
-# GUARDANDO LA INFORMACION EN EL config.json
-#-----------------------------------------------------------------------------------------------------------------------------------------------------
-metodos_api.guarda_info_admin(usuarios_registrados)
-
-#-----------------------------------------------------------------------------------------------------------------------------------------------------
-# HACIENDO EH HASH DE LA PASS DEL ADMIN
-#-----------------------------------------------------------------------------------------------------------------------------------------------------
-pass_SHA256 = metodos_api.crea_administrador()[1]
-
-#-----------------------------------------------------------------------------------------------------------------------------------------------------
-# CONSIGUIENDO LA CLAVE DEL LOGIN
-#-----------------------------------------------------------------------------------------------------------------------------------------------------
-k_login = metodos_api.get_clave_login(pass_SHA256)
-
-#-----------------------------------------------------------------------------------------------------------------------------------------------------
-# CONSIGUIENDO LA CLAVE DE DATOS
-#-----------------------------------------------------------------------------------------------------------------------------------------------------
-k_datos = metodos_api.get_clave_datos(pass_SHA256)
-
-#-----------------------------------------------------------------------------------------------------------------------------------------------------
-# HASHEANDO EL K_LOGIN Y GUARDAR EN CONFIG.JSON
-#-----------------------------------------------------------------------------------------------------------------------------------------------------
-metodos_api.hash_k_login(k_login)
-
-#-----------------------------------------------------------------------------------------------------------------------------------------------------
-# CREANDO LA CLAVE RSA
-#-----------------------------------------------------------------------------------------------------------------------------------------------------
-claves_privada_y_publica = metodos_api.genera_clave_rsa()
-
-#-----------------------------------------------------------------------------------------------------------------------------------------------------
-# ENCRIPTADO LA CLAVE PRIVADA CON LA K_DATOS
-#-----------------------------------------------------------------------------------------------------------------------------------------------------
-encriptar_rsa.encriptar(claves_privada_y_publica[0], k_datos.encode())
-
-#-----------------------------------------------------------------------------------------------------------------------------------------------------
-# BORRANDO LA CONTRASEÑA. DEBE IR AL FINAL
-#-----------------------------------------------------------------------------------------------------------------------------------------------------
-metodos_api.elimina_password()
 
 # Endpoint de registro PARA LA SIGUIENTE FASE
 @app.route('/registrar', methods=['POST'])
 def registrar_usuario():
     user_data = request.json
-    # with app.app_context():
-        #with open("config.json", "r") as config_file:
-        #    config_data = json.load(config_file)
     username = user_data["user"]
+    k_login = user_data['k_login']
 
     if username in usuarios_registrados:
         return jsonify({"Error": "El nombre de usuario ya existe. Por favor, elige otro."}), 401
@@ -85,23 +54,30 @@ def registrar_usuario():
     # CREANDO CARPETA PARA EL USUARIO
     datos_folder_path = os.path.join(os.getcwd(), "datos")
     user_folder_path = os.path.join(datos_folder_path, username)
+    encripted_folder_path = os.path.join(user_folder_path, "Archivos_Encriptados")
+    shared_folder_path = os.path.join(user_folder_path, "Archivos_Compartidos")
     os.makedirs(user_folder_path, exist_ok=True)
+    os.makedirs(encripted_folder_path, exist_ok=True)
+    os.makedirs(shared_folder_path, exist_ok=True)
 
-    user_data['klogin'] = bcrypt.hashpw(k_login.encode(), bcrypt.gensalt()).decode()
-
+    
+    SALT = bcrypt.gensalt()
+    user_data['k_login'] = bcrypt.hashpw(k_login.encode(), SALT).decode()
     usuarios_registrados[user_data["user"]] = {
         "user": user_data["user"],
-        "k_login": user_data["klogin"],
-        "k_admin_publica": user_data["kpub"],
-        "k_admin_priv": user_data["kprivkdatos"]
+        "k_login": user_data["k_login"],
+        "k_publica": user_data["k_publica"],
+        "k_privada": user_data["k_privada"],
+        "Salt": base64.b64encode(SALT).decode("utf-8")
     }
+
+
 
     with open("config.json", "w") as file:
         json.dump(usuarios_registrados, file, indent=4)
         
     #RESPUESTA
-    acces_token = create_access_token(identity=user_data["user"])
-    return jsonify({"access_token" : acces_token, "message" : "Usuario registrado correctamente"})
+    return jsonify({"k_login" : user_data['k_login'], "message" : "Usuario registrado correctamente"})
 
 # Endpoint de inicio de sesión
 @app.route('/login', methods=['POST'])
@@ -110,15 +86,20 @@ def iniciar_sesion():
     with app.app_context():
         with open ("config.json", "r") as config_file:
             config_data = json.load(config_file)
+
     user = data['user']
-    klogin = data['k_login']
+    SALT = base64.b64decode(config_data[user]['Salt'].encode("utf-8")) 
+    k_login = bcrypt.hashpw(data['k_login'].encode(), SALT).decode() 
+    print("La clave de login de camelo es: ", data['k_login'])
+    print("La clave de login del servidor es: ", k_login)
+    
     if user not in config_data:
         return jsonify({"Error": "El usuario no existe. Por favor, ingrese unas credenciales válidas."}), 401
-    
-    print("Los datos son", config_data[user])
+    if k_login not in config_data[user]["k_login"]:
+        return jsonify({"Error": "La clave de login no coincide. Por favor, ingrese unas credenciales válidas."}), 402
     
     acces_token = create_access_token(identity=data["user"])
-    return jsonify({"access_token" : acces_token, "Kprivada":config_data[user]["k_admin_priv"], "message" : "Usuario registrado correctamente"})
+    return jsonify({"access_token" : acces_token, "k_privada":config_data[user]["k_privada"], "message" : "Usuario registrado correctamente"})
 
 # Endpoint de carga de archivos
 @app.route('/upload', methods=['POST'])
@@ -138,4 +119,5 @@ def home():
     return jsonify('Bienvenido')
 
 if __name__ == '__main__':
-    app.run(ssl_context='adhoc', debug=True, port=5000)
+    #app.run(ssl_context='adhoc', debug=True, port=5000)
+    app.run(debug=True, port=5000)

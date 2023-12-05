@@ -79,7 +79,7 @@ def guardar_clave_publica (public_pem):
 
     # Modificar solo la parte necesaria del archivo
     if 'admin' in config:
-        config["admin"]["k_admin_publica"] = rsa_publica_str
+        config["admin"]["k_publica"] = rsa_publica_str
 
     with open("config.json", 'w') as config_file:
         json.dump(config, config_file, indent=4)
