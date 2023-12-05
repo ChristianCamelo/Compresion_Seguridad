@@ -36,11 +36,7 @@ def encriptar(fichero, cont):
             label=None
         )
     )
-    # print("encriptada_generada : ",len(encrypted_key))
-
-    #print("llave: " + formater64(key))
-    #print("llave encriptada: " + formater64(encrypted_key))
-    ################################################## ENCRIPTAR FICHERO ###########################################################
+    
     # ---------------- ENCRIPTAR OBJETO CON KEY SIN ENCRIPTAR ---------
     crypterObj = AES.new(key, CRYPTERMODE)
     nonce = crypterObj.nonce

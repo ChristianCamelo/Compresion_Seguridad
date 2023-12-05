@@ -58,12 +58,13 @@ def register(user,password):
     # ------------ PAQUETE DE LLAVES A SERVIDOR ----------------
     data_server={
         "user":user,
-        "klogin":k_login,
-        "kpub":public_key_str,
-        "kprivkdatos":kprivkdatos
+        "k_login":k_login,
+        "k_publica":public_key_str,
+        "k_privada":kprivkdatos
     }
     print("paquete",data_server)
     response = requests.post(SERVER_URL+"/register", json=data_server)
+    response_data = response.json()
 
     # --------------- MANEJAR RESPUESTAS --------------------
     if response.status_code == 200: # registrado correctamente
@@ -71,10 +72,10 @@ def register(user,password):
         # --------------- ALMACENA LAS LLAVES DE FORMA LOCAL --------------
         data = {
             "user":user,
-            "klogin":k_login,
-            "kdatos":k_datos,
-            "kpub": public_key_str,
-            "kpriv": private_key_str
+            "k_login":response_data.get('k_login'),
+            "k_datos":k_datos,
+            "k_publica": public_key_str,
+            "k_privada": private_key_str
         }
         with open('config.json', 'w') as json_file:
             json.dump(data, json_file, indent=4)
@@ -84,21 +85,23 @@ def register(user,password):
         return False   
 
 def login(user,password):
-
-    payload ={
-        'user': user,
-        'password' : password
-    }
-
     sha256_hash = hashlib.sha256(password.encode()).hexdigest()
     k_login = sha256_hash[:32]
     k_datos = sha256_hash[-32:]
 
+    k_login_crypted = bcrypt.hashpw(k_login.encode(), bcrypt.gensalt()).decode()
+
+    payload = {
+        'user': user,
+        'k_login' : k_login
+    }
+
     # ------------- LLAMADA AL SERVIDOR -------------
     response = requests.post(SERVER_URL+"/login", json=payload)
     response_data = response.json()
-    public_key_str = response_data.get('kpub')
-    kprivkdatos = response_data.get('kprivkdatos', None)
+    public_key_str = response_data.get('k_publica')
+    kprivkdatos = response_data.get('k_privada')
+    k_login = response_data.get('k_login')
 
     # ------------------- PROCESO DE DESENCRIPTACION DE LLAVE KPRIVKDATOS ------------------
     crypter = AES.new(k_datos.encode(), CRYPTERMODE , nonce=b'0')
@@ -108,12 +111,11 @@ def login(user,password):
     # --------------------- ALMACENA LAS LLAVES DE FORMA LOCAL --------------
     data={
         "user":user,
-        "klogin":k_login,
-        "kdatos":k_datos,
-        "kpub": public_key_str,
-        "kpriv": private_key_str
+        "k_login":k_login,
+        "k_datos":k_datos,
+        "k_publica": public_key_str,
+        "k_pivada": private_key_str
     }
-
     with open('config.json', 'w') as json_file:
         json.dump(data, json_file, indent=4)
 
