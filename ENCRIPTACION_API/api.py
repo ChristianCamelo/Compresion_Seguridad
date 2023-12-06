@@ -15,7 +15,7 @@ jwt = JWTManager(app)
 
 
 # Almacenamiento temporal para usuarios registrados (en un entorno de producción, usa una base de datos real).
-config_path = "./config.json"
+config_path = "config.json"
 usuarios_registrados = {}
 with open(config_path, 'r') as config_file:
     usuarios_registrados.update(json.load(config_file))
@@ -100,6 +100,17 @@ def iniciar_sesion():
     
     acces_token = create_access_token(identity=data["user"])
     return jsonify({"access_token" : acces_token, "k_privada":config_data[user]["k_privada"], "message" : "Usuario registrado correctamente"})
+# Endpoint de carga de archivos
+@app.route('/getpublickey', methods=['GET'])
+def get_public_key():
+    data = request.json
+    user = data['user']
+    with app.app_context():
+        with open ("config.json", "r") as config_file:
+            config_data = json.load(config_file)
+    if user not in config_data:
+        return jsonify({"Error": "El usuario no existe. Por favor, ingrese unas credenciales válidas."}), 401
+    return jsonify({'k_publica': config_data[user]['k_publica']})
 
 # Endpoint de carga de archivos
 @app.route('/upload', methods=['POST'])
@@ -119,5 +130,5 @@ def home():
     return jsonify('Bienvenido')
 
 if __name__ == '__main__':
-    #app.run(ssl_context='adhoc', debug=True, port=5000)
-    app.run(debug=True, port=5000)
+    app.run(ssl_context=('./certificados/cert.pem', './certificados/key.pem'), debug=True, port=5000)
+    #app.run(debug=True, port=5000)
