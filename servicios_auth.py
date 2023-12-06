@@ -52,15 +52,16 @@ def register(user,password):
 
     # -------------- ENCRIPTART KPRIV -------------------------
     crypter = AES.new(k_datos.encode(), CRYPTERMODE , nonce=b'0')
-    kprivkdatos = crypter.encrypt(private_key_pem)
-    kprivkdatos = formater64(kprivkdatos)
+    private_key_bytes = reverse_formater64(private_key_str)
+    private_key_crypted = crypter.encrypt(private_key_bytes)
+    private_key_crypted_str = formater64(private_key_crypted)
 
     # ------------ PAQUETE DE LLAVES A SERVIDOR ----------------
     data_server={
         "user":user,
         "k_login":k_login,
         "k_publica":public_key_str,
-        "k_privada":kprivkdatos
+        "k_privada":private_key_crypted_str
     }
     print("paquete",data_server)
     response = requests.post(SERVER_URL+"/registrar", json=data_server)
@@ -85,47 +86,60 @@ def register(user,password):
         return False   
 
 def login(user,password):
+
     sha256_hash = hashlib.sha256(password.encode()).hexdigest()
     k_login = sha256_hash[:32]
     k_datos = sha256_hash[-32:]
 
-    k_login_crypted = bcrypt.hashpw(k_login.encode(), bcrypt.gensalt()).decode()
-
     payload = {
         'user': user,
-        'k_login' : k_login_crypted
+        'k_login' : k_login
     }
 
     # ------------- LLAMADA AL SERVIDOR -------------
     response = requests.post(SERVER_URL+"/login", json=payload)
     response_data = response.json()
     public_key_str = response_data.get('k_publica')
-    kprivkdatos = response_data.get('k_privada')
+    private_key_crypted_str = response_data.get('k_privada')
     k_login = response_data.get('k_login')
 
-    # ------------------- PROCESO DE DESENCRIPTACION DE LLAVE KPRIVKDATOS ------------------
-    crypter = AES.new(k_datos.encode(), CRYPTERMODE , nonce=b'0')
-    private_key = crypter.decryptencrypt(kprivkdatos.encode())
-    private_key_str = formater64(private_key)
 
+    # ------------------- PROCESO DE DESENCRIPTACION DE LLAVE KPRIVKDATOS ------------------
+    private_key_crypted = reverse_formater64(private_key_crypted_str)
+    crypter = AES.new(k_datos.encode(), CRYPTERMODE, nonce=b'0')
+    private_key = crypter.decrypt(private_key_crypted)
+    private_key_str = formater64(private_key)
+    
     # --------------------- ALMACENA LAS LLAVES DE FORMA LOCAL --------------
     data={
         "user":user,
         "k_login":k_login,
         "k_datos":k_datos,
         "k_publica": public_key_str,
-        "k_pivada": private_key_str
+        "k_privada": private_key_str
     }
     with open('config.json', 'w') as json_file:
         json.dump(data, json_file, indent=4)
+    # --------------- MANEJAR RESPUESTAS --------------------
+    if response.status_code == 200: # registrado correctamente
+        return True
+    else:    
+        print("Error al enviar los datos al endpoint en la nube. Código de estado:", response.status_code)
+        return False
 
 def getUser(user):
     payload ={
         'user': user,
     }
-    response = requests.post(SERVER_URL+"/user", json=payload)
-    return response
+    response = requests.get(SERVER_URL+"/getpublickey", json=payload)
+    response_data = response.json()
+    public_key_str = response_data.get("k_publica")
+    print("PUBLIC KEY",public_key_str)
+    return public_key_str
 
 # -------------- HERRAMIENTA AUXILIAR BASE64 -----------------
 def formater64(data):
     return base64.b64encode(data).decode('utf-8')
+
+def reverse_formater64(encoded_data):
+    return base64.b64decode(encoded_data.encode('utf-8'))

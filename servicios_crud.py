@@ -3,7 +3,7 @@ import json
 import requests
 from flask import Flask, request, jsonify
 from werkzeug.utils import secure_filename
-from encriptar import encriptarCompartido
+from encriptar import encriptarCompartido, encriptar
 from servicios_auth import getUser
 import base64
 
@@ -31,12 +31,12 @@ def upload():
     for index, item in enumerate(archivos):
 
         ruta_archivo = os.path.join(DIR_ENC, 'archivo' + str(index) + '.enc')
-        ruta_llave = os.path.join(DIR_KEYS, 'llave' + str(index) + '.bin')
+        ruta_llave = os.path.join(DIR_KEYS, 'key' + str(index) + '.bin')
         
-        with open(ruta_archivo, 'r',encoding='utf-8') as a:
+        with open(ruta_archivo, 'rb') as a:
             archivo = a.read()
         
-        with open(ruta_llave, 'r',encoding='utf-8') as b:
+        with open(ruta_llave, 'rb') as b:
             llave = b.read()
 
         archivo64 = formater64(archivo)
@@ -52,9 +52,9 @@ def upload():
 
     print(payload)
     response = requests.post(SERVER_URL+'/upload', headers=HEADERS, data=payload)
-    print(response.json())
+    return True
 
-def download():
+def downloadOwn():
 
     with open('config.json', 'r') as file:
         data = json.load(file) 
@@ -73,7 +73,7 @@ def download():
         directorio_llaves = os.path.join(user_folder,"keys")
 
         encriptado_filename = secure_filename('archivo'+str(numero)+'.enc')
-        llave_filename = secure_filename('llave'+str(numero)+'.bin')
+        llave_filename = secure_filename('key'+str(numero)+'.bin')
 
         encriptado_path = os.path.join(directorio_archivos, encriptado_filename)
         llave_path = os.path.join(directorio_llaves, llave_filename)
@@ -84,17 +84,17 @@ def download():
         with open(llave_path, 'w', encoding='latin-1') as f:
             f.write(archivo["llave"])
 
-def share(fichero,receptor):
+def shareFile(fichero,receptor):
     
     receptorkpub = getUser(receptor)
+    fichero_encriptado = encriptarCompartido(fichero,receptorkpub)
     payload_bruto ={
         'receptor': receptor,
-        'archivo':  {
-            'archivo': encriptarCompartido(fichero,receptorkpub)[0],
-            'llave': encriptarCompartido(fichero,receptorkpub)[1]
+        'data':  {
+            'archivo': fichero_encriptado[0],
+            'llave': fichero_encriptado[1]
         }
     }
-
     payload = json.dumps(payload_bruto)
     response = requests.post(SERVER_URL+'/share', headers=HEADERS, data=payload)
     return response
@@ -111,14 +111,13 @@ def downloadShared():
     archivos = extract_key_value(data,'archivos')
 
     user_folder = os.path.join(os.getcwd())
+    directorio_archivos = os.path.join(user_folder,"archivos_encriptados_compartidos")
+    directorio_llaves = os.path.join(user_folder,"keys_compartidos")
 
     for numero, archivo in archivos.items():
 
-        directorio_archivos = os.path.join(user_folder,"archivos_encriptados_compartidos")
-        directorio_llaves = os.path.join(user_folder,"keys_compartidos")
-
         encriptado_filename = secure_filename('archivo'+str(numero)+'.enc')
-        llave_filename = secure_filename('llave'+str(numero)+'.bin')
+        llave_filename = secure_filename('key'+str(numero)+'.bin')
 
         encriptado_path = os.path.join(directorio_archivos, encriptado_filename)
         llave_path = os.path.join(directorio_llaves, llave_filename)
@@ -128,6 +127,13 @@ def downloadShared():
 
         with open(llave_path, 'w', encoding='latin-1') as f:
             f.write(archivo["llave"])
+
+def getNames(dir_path):
+    names = []
+    for root, dirs, files in os.walk(dir_path):
+        for file in files:
+            names.append(file)
+    return names
 
 def extract_key_value(json_data, key):
     data = json.loads(json_data)
