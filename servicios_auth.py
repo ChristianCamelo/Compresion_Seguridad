@@ -91,6 +91,8 @@ def login(user,password):
     k_login = sha256_hash[:32]
     k_datos = sha256_hash[-32:]
 
+    print(k_login)
+
     payload = {
         'user': user,
         'k_login' : k_login
