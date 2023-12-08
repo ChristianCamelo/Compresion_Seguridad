@@ -60,6 +60,8 @@ def registrar_usuario():
     os.makedirs(encripted_folder_path, exist_ok=True)
     os.makedirs(shared_folder_path, exist_ok=True)
 
+    access_token = create_access_token(username)
+    print(access_token)
     
     SALT = bcrypt.gensalt()
     user_data['k_login'] = bcrypt.hashpw(k_login.encode(), SALT).decode()
@@ -68,7 +70,8 @@ def registrar_usuario():
         "k_login": user_data["k_login"],
         "k_publica": user_data["k_publica"],
         "k_privada": user_data["k_privada"],
-        "Salt": base64.b64encode(SALT).decode("utf-8")
+        "Salt": base64.b64encode(SALT).decode("utf-8"),
+        "token": access_token
     }
 
 
@@ -90,15 +93,19 @@ def iniciar_sesion():
     user = data['user']
     SALT = base64.b64decode(config_data[user]['Salt'].encode("utf-8")) 
     k_login = bcrypt.hashpw(data['k_login'].encode(), SALT).decode() 
-    print("La clave de login de camelo es: ", data['k_login'])
-    print("La clave de login del servidor es: ", k_login)
+    acces_token = create_access_token(identity=data["user"])
     
     if user not in config_data:
         return jsonify({"Error": "El usuario no existe. Por favor, ingrese unas credenciales válidas."}), 401
-    if k_login not in config_data[user]["k_login"]:
+    if data["k_login"] not in config_data[user]["k_login"]:
         return jsonify({"Error": "La clave de login no coincide. Por favor, ingrese unas credenciales válidas."}), 402
     
-    acces_token = create_access_token(identity=data["user"])
+    config_data[user]["token"] = acces_token
+
+    with open(config_path, 'w') as config_file:
+        json.dump(config_data, config_file, indent=4)
+
+    
     return jsonify({"access_token" : acces_token, "k_privada":config_data[user]["k_privada"], "message" : "Usuario registrado correctamente"})
 # Endpoint de carga de archivos
 @app.route('/getpublickey', methods=['GET'])
@@ -131,4 +138,3 @@ def home():
 
 if __name__ == '__main__':
     app.run(ssl_context=('./certificados/cert.pem', './certificados/key.pem'), debug=True, port=5000)
-    #app.run(debug=True, port=5000)
