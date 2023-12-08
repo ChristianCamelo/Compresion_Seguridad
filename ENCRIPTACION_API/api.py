@@ -6,10 +6,13 @@ import os
 import bcrypt
 import base64
 from flask_jwt_extended import JWTManager, create_access_token
+from werkzeug.utils import secure_filename
 
 # Cdo se sube un archivo se crea carpeta para el usuario dentro de datos, y dentro de cada carpeta los archivos cifrados y las contraseñas, nonce
 app = Flask(__name__)
 app.config['JWT_SECRET_KEY'] = "clave_super_secreta"
+app.config['UPLOAD_FOLDER'] = 'archivos'
+app.config['SHARE'] = 'share'
 jwt = JWTManager(app)
 
 
@@ -60,8 +63,6 @@ def registrar_usuario():
     os.makedirs(encripted_folder_path, exist_ok=True)
     os.makedirs(shared_folder_path, exist_ok=True)
 
-    access_token = create_access_token(username)
-    print(access_token)
     
     SALT = bcrypt.gensalt()
     user_data['k_login'] = bcrypt.hashpw(k_login.encode(), SALT).decode()
@@ -70,8 +71,7 @@ def registrar_usuario():
         "k_login": user_data["k_login"],
         "k_publica": user_data["k_publica"],
         "k_privada": user_data["k_privada"],
-        "Salt": base64.b64encode(SALT).decode("utf-8"),
-        "token": access_token
+        "Salt": base64.b64encode(SALT).decode("utf-8")
     }
 
 
@@ -92,20 +92,16 @@ def iniciar_sesion():
 
     user = data['user']
     SALT = base64.b64decode(config_data[user]['Salt'].encode("utf-8")) 
-    k_login = bcrypt.hashpw(data['k_login'].encode(), SALT).decode() # ¿Esto para que sirve ahora mismo?
-    acces_token = create_access_token(identity=data["user"])
+    k_login = bcrypt.hashpw(data['k_login'].encode(), SALT).decode() 
+    print("La clave de login de camelo es: ", data['k_login'])
+    print("La clave de login del servidor es: ", k_login)
     
     if user not in config_data:
         return jsonify({"Error": "El usuario no existe. Por favor, ingrese unas credenciales válidas."}), 401
-    if data["k_login"] not in config_data[user]["k_login"]:
+    if k_login not in config_data[user]["k_login"]:
         return jsonify({"Error": "La clave de login no coincide. Por favor, ingrese unas credenciales válidas."}), 402
     
-    config_data[user]["token"] = acces_token
-
-    with open(config_path, 'w') as config_file:
-        json.dump(config_data, config_file, indent=4)
-
-    
+    acces_token = create_access_token(identity=data["user"])
     return jsonify({"access_token" : acces_token, "k_privada":config_data[user]["k_privada"], "message" : "Usuario registrado correctamente"})
 
 # Endpoint de carga de archivos
@@ -124,47 +120,54 @@ def get_public_key():
 # Endpoint de carga de archivos
 @app.route('/upload', methods=['POST'])
 def cargar_archivo():
+    data = request.json
+
+    if 'user' not in data or 'archivos' not in data:
+        return jsonify({'error': 'Estructura JSON incorrecta'}), 400
+    username = data['user']
+    user = data['user']
+    # Abre el archivo de configuración JSON y carga los datos en config_data
+    with app.app_context():
+        with open("config.json", "r") as config_file:
+            config_data = json.load(config_file)
+    k_login = data['k_login']
+
+    # Verifica si el usuario existe y si la clave de inicio de sesión coincide
+    if user not in config_data:
+        return jsonify({"Error": "El usuario no existe. Por favor, ingrese unas credenciales válidas."}), 401
+    if k_login not in config_data[user]["k_login"]:
+        return jsonify({"Error": "La clave de login no coincide. Por favor, ingrese unas credenciales válidas."}), 402
     try:
-        data = request.json
+        
+        user_folder = os.path.join(app.config['UPLOAD_FOLDER'], username)
+        os.makedirs(user_folder, exist_ok=True)
 
-        if 'user' not in data or 'archivos' not in data:
-            return jsonify({'error': 'Estructura JSON incorrecta'}), 400
-
-        username = data['user']
         archivos = data['archivos']
 
-        # Directorio donde se guardarán los archivos
-        upload_folder = os.path.join('archivos_subidos', username)
-        if not os.path.exists(upload_folder):
-            os.makedirs(upload_folder)
-
         for index, archivo_info in archivos.items():
-            nombre_archivo = archivo_info.get('archivo')
+            archivo_nombre = archivo_info.get('archivo')
             key = archivo_info.get('key')
 
-            if nombre_archivo and key:
-                # Aquí se simula la codificación Base64 de los datos
-                archivo_base64 = base64.b64encode(b'contenido_del_archivo').decode('utf-8')
-                key_base64 = base64.b64encode(b'contenido_de_la_llave').decode('utf-8')
+            if archivo_nombre and key:
 
-                # Decodificar el archivo y la clave desde base64
-                archivo = base64.b64decode(archivo_base64.encode('utf-8'))
-                key_data = base64.b64decode(key_base64.encode('utf-8'))
+                # Crear carpeta 'archivoN' dentro de la carpeta del usuario
+                carpeta_archivo = os.path.join(user_folder, f'{index}')
+                os.makedirs(carpeta_archivo, exist_ok=True)
 
-                # Guardar el archivo y la clave en el directorio
-                with open(os.path.join(upload_folder, f'archivo.txt'), 'wb') as file:
-                    file.write(archivo)
+                # Guardar el archivo en la carpeta 'archivoN'
+                archivo_path = os.path.join(carpeta_archivo, secure_filename(archivo_nombre))
+                key_path = os.path.join(carpeta_archivo, secure_filename(key))
 
-                with open(os.path.join(upload_folder, f'key.key'), 'wb') as key_file:
-                    key_file.write(key_data)
+                with open(archivo_path, 'wb') as file:
+                    file.write(b'Tu archivo encriptado')#Aqui hay que meter el contenido del archvio encriptado
+
+                with open(key_path, 'wb') as key_file:
+                    key_file.write(b'Tu llave de archivo')
 
         return jsonify({'message': 'Archivos cargados correctamente'})
 
     except Exception as e:
         return jsonify({'error': f'Error en la carga de archivos: {str(e)}'}), 500
-
-# if __name__ == '__main__':
-#     app.run(debug=True)
 
 
 # Endpoint de descarga de archivos
@@ -230,10 +233,124 @@ def descargar_archivo(username):
         return jsonify({'error': f'Error interno al intentar descargar: {str(e)}'}), 500
 
 
+@app.route('/share/<username>/', methods=['GET'])
+def descargar_share(username):
+    # Abre el archivo de configuración JSON y carga los datos en config_data
+    with app.app_context():
+        with open("config.json", "r") as config_file:
+            config_data = json.load(config_file)
+
+    # Obtiene los datos del usuario y la clave de inicio de sesión de la solicitud
+    data = request.json
+    user = data['user']
+    k_publica = data['k_publica']
+
+    # Verifica si el usuario existe y si la clave de inicio de sesión coincide
+    if user not in config_data:
+        return jsonify({"Error": "El usuario no existe. Por favor, ingrese unas credenciales válidas."}), 401
+    if k_publica not in config_data[user]["k_publica"]:
+        return jsonify({"Error": "La clave de login no coincide. Por favor, ingrese unas credenciales válidas."}), 402
+
+    try:
+        # Construye la ruta del directorio del usuario en la nueva estructura
+        user_folder = os.path.join(os.getcwd(), "share", username)
+        
+        
+
+        # Verifica si el directorio existe
+        if not os.path.exists(user_folder):
+            return jsonify({'error': f'Error interno al intentar descargar: Directorio no encontrado'}), 404
+
+        # Inicializa un diccionario para almacenar la información de archivos
+        archivos_dict = {}
+
+        # Itera sobre los archivos en el directorio del usuario
+        for index, archivo_nombre in enumerate(os.listdir(user_folder)):
+        
+            # Construye las rutas de los archivos y las llaves
+            ruta_archivo = os.path.join(user_folder, archivo_nombre,'archivo.txt')
+            ruta_llave = os.path.join(user_folder, archivo_nombre,'key.key')
+
+            # Lee el archivo binario y lo codifica en base64
+            with open(ruta_archivo, 'rb') as a:
+                archivo = base64.b64encode(a.read()).decode('utf-8')
+
+            # Lee la llave binaria y la codifica en base64
+            with open(ruta_llave, 'rb') as b:
+                llave = base64.b64encode(b.read()).decode('utf-8')
+
+            # Agrega la información del archivo al diccionario
+            archivos_dict[str(index)] = {
+                'archivo': archivo,
+                'key': llave
+            }
+
+        # Construye la respuesta JSON con la información de los archivos
+        response = {'archivos': archivos_dict}
+
+        # Retorna la respuesta JSON
+        return jsonify(response)
+
+    except Exception as e:
+        return jsonify({'error': f'Error interno al intentar descargar: {str(e)}'}), 500
+
+
+@app.route('/share', methods=['POST'])
+def cargar_share():
+    data = request.json
+
+    if 'user' not in data or 'archivos' not in data:
+        return jsonify({'error': 'Estructura JSON incorrecta'}), 400
+    username = data['user']
+    user = data['user']
+    # Abre el archivo de configuración JSON y carga los datos en config_data
+    with app.app_context():
+        with open("config.json", "r") as config_file:
+            config_data = json.load(config_file)
+    k_publica = data['k_publica']
+
+    # Verifica si el usuario existe y si la clave de inicio de sesión coincide
+    if user not in config_data:
+        return jsonify({"Error": "El usuario no existe. Por favor, ingrese unas credenciales válidas."}), 401
+    if k_publica not in config_data[user]["k_publica"]:
+        return jsonify({"Error": "La clave de login no coincide. Por favor, ingrese unas credenciales válidas."}), 402
+    try:
+        
+        user_folder = os.path.join(app.config['SHARE'], username)
+        os.makedirs(user_folder, exist_ok=True)
+
+        archivos = data['archivos']
+
+        for index, archivo_info in archivos.items():
+            archivo_nombre = archivo_info.get('archivo')
+            key = archivo_info.get('key')
+
+            if archivo_nombre and key:
+
+                # Crear carpeta 'archivoN' dentro de la carpeta del usuario
+                carpeta_archivo = os.path.join(user_folder, f'{index}')
+                os.makedirs(carpeta_archivo, exist_ok=True)
+
+                # Guardar el archivo en la carpeta 'archivoN'
+                archivo_path = os.path.join(carpeta_archivo, secure_filename(archivo_nombre))
+                key_path = os.path.join(carpeta_archivo, secure_filename(key))
+
+                with open(archivo_path, 'wb') as file:
+                    file.write(b'Tu archivo encriptado')#Aqui hay que meter el contenido del archvio encriptado
+
+                with open(key_path, 'wb') as key_file:
+                    key_file.write(b'Tu llave de archivo')
+
+        return jsonify({'message': 'Archivos cargados correctamente'})
+
+    except Exception as e:
+        return jsonify({'error': f'Error en la carga de archivos: {str(e)}'}), 500
+
 # Ruta raiz
 @app.route('/')
 def home():
     return jsonify('Bienvenido')
 
 if __name__ == '__main__':
-    app.run(ssl_context=('./certificados/cert.pem', './certificados/key.pem'), debug=True, port=5000)
+    #app.run(ssl_context='adhoc', debug=True, port=5000)
+    app.run(debug=True, port=5000)
