@@ -92,7 +92,7 @@ def iniciar_sesion():
 
     user = data['user']
     SALT = base64.b64decode(config_data[user]['Salt'].encode("utf-8")) 
-    k_login = bcrypt.hashpw(data['k_login'].encode(), SALT).decode() 
+    k_login = bcrypt.hashpw(data['k_login'].encode(), SALT).decode() # ¿Esto para que sirve ahora mismo?
     acces_token = create_access_token(identity=data["user"])
     
     if user not in config_data:
