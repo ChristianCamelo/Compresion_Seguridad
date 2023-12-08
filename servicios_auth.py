@@ -145,3 +145,4 @@ def formater64(data):
 
 def reverse_formater64(encoded_data):
     return base64.b64decode(encoded_data.encode('utf-8'))
+

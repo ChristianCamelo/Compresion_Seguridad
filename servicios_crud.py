@@ -20,12 +20,14 @@ def upload():
     with open('config.json', 'r') as file:
         data = json.load(file) 
         user = data.get('user')
+        k_login = data.get('k_login')
 
     archivos = os.listdir(DIR_ENC)
 
     payload_bruto ={
         'user': user,
-        'archivos':  {},
+        'k_login': k_login,
+        'archivos':  {}
     }
 
     for index, item in enumerate(archivos):
@@ -39,12 +41,9 @@ def upload():
         with open(ruta_llave, 'rb') as b:
             llave = b.read()
 
-        archivo64 = formater64(archivo)
-        llave64 = formater64(llave)
-        
         nuevo_archivo = {
-            'archivo': archivo64,
-            'llave': llave64
+            'archivo': formater64(archivo),
+            'key': formater64(llave)
         }
         payload_bruto['archivos'][str(index)] = nuevo_archivo
 
@@ -59,11 +58,19 @@ def downloadOwn():
     with open('config.json', 'r') as file:
         data = json.load(file) 
         user = data.get('user')
+        k_login = data.get('k_login')
 
-    response = requests.get(SERVER_URL+"/"+user)
+    payload_bruto ={
+        'user': user,
+        'k_login':  k_login
+    }
+
+    payload = json.dumps(payload_bruto)
+
+    response = requests.get(SERVER_URL+"/download",headers=HEADERS, data=payload)
     data = response.json()
 
-    archivos = extract_key_value(data,'archivos')
+    archivos = data['archivos']
 
     user_folder = os.path.join(os.getcwd())
 
@@ -78,21 +85,29 @@ def downloadOwn():
         encriptado_path = os.path.join(directorio_archivos, encriptado_filename)
         llave_path = os.path.join(directorio_llaves, llave_filename)
 
-        with open(encriptado_path, 'w', encoding='latin-1') as f:
-            f.write(archivo["encriptado"])
+        with open(encriptado_path, 'wb') as f:
+            f.write(reverse_formater64(archivo["archivo"]))
 
-        with open(llave_path, 'w', encoding='latin-1') as f:
-            f.write(archivo["llave"])
+        with open(llave_path, 'wb') as f:
+            f.write(reverse_formater64(archivo["key"]))
 
 def shareFile(fichero,receptor):
     
     receptorkpub = getUser(receptor)
     fichero_encriptado = encriptarCompartido(fichero,receptorkpub)
+    
+    with open('config.json', 'r') as file:
+        data = json.load(file) 
+        user = data.get('user')
+        k_login = data.get('k_login')
+    
     payload_bruto ={
+        'user': user,
+        'k_login': k_login,
         'receptor': receptor,
         'data':  {
             'archivo': fichero_encriptado[0],
-            'llave': fichero_encriptado[1]
+            'key': fichero_encriptado[1]
         }
     }
     payload = json.dumps(payload_bruto)
@@ -104,15 +119,26 @@ def downloadShared():
     with open('config.json', 'r') as file:
         data = json.load(file) 
         user = data.get('user')
+        k_login = data.get('k_login')
 
-    response = requests.get(SERVER_URL+"/share/"+user)
+    payload_bruto ={
+        'user': user,
+        'k_login':  k_login
+    }
+
+    payload = json.dumps(payload_bruto)
+    response = requests.get(SERVER_URL+"/share",headers=HEADERS,data=payload)
     data = response.json()
 
-    archivos = extract_key_value(data,'archivos')
+    archivos = data.get('archivos')
 
     user_folder = os.path.join(os.getcwd())
     directorio_archivos = os.path.join(user_folder,"archivos_encriptados_compartidos")
     directorio_llaves = os.path.join(user_folder,"keys_compartidos")
+
+    archivos = data['archivos']
+
+    user_folder = os.path.join(os.getcwd())
 
     for numero, archivo in archivos.items():
 
@@ -122,11 +148,11 @@ def downloadShared():
         encriptado_path = os.path.join(directorio_archivos, encriptado_filename)
         llave_path = os.path.join(directorio_llaves, llave_filename)
 
-        with open(encriptado_path, 'w', encoding='latin-1') as f:
-            f.write(archivo["archivo"])
+        with open(encriptado_path, 'wb') as f:
+            f.write(reverse_formater64(archivo["archivo"]))
 
-        with open(llave_path, 'w', encoding='latin-1') as f:
-            f.write(archivo["llave"])
+        with open(llave_path, 'wb') as f:
+            f.write(reverse_formater64(archivo["key"]))
 
 def getNames(dir_path):
     names = []
@@ -142,4 +168,7 @@ def extract_key_value(json_data, key):
 
 def formater64(data):
     return base64.b64encode(data).decode('utf-8')
+
+def reverse_formater64(encoded_data):
+    return base64.b64decode(encoded_data.encode('utf-8'))
 

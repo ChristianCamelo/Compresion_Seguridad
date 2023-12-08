@@ -5,6 +5,7 @@ from encriptar import encriptar
 from desencriptar import desencriptarPropios,desencriptarCompartidos
 from tkinter import ttk, filedialog
 import turtle
+import json
 from shutil import rmtree
 from servicios_auth import login,register,getUser
 from servicios_crud import downloadOwn,downloadShared,upload,shareFile,getNames
@@ -17,6 +18,7 @@ global archivos
 global llaves
 global subidos
 global compartidos
+global recibidos
 
 cantidad = 0
 width = 1000
@@ -27,6 +29,7 @@ DIR_KEYS = os.path.join(DIR_LOCAL, 'keys')
 DIR_FILES = os.path.join(DIR_LOCAL, 'archivos_desencriptados')
 DIR_ENC = os.path.join(DIR_LOCAL, 'archivos_encriptados')
 
+FONT_X = ("Helvetica", 18, "normal")
 FONT = ("Helvetica", 14, "normal")
 FONT_S = ("Helvetica", 10, "normal")
 LINE_H = 30
@@ -66,11 +69,13 @@ def iniciar_ventana():
     global ventana
     global encriptados
     global compartidos
+    global recibidos
     global subidos
     
     encriptados=[]
     subidos=[]
-    compartidos =[]
+    compartidos = []
+    recibidos = []
 
     limpiar_cache()
     createVentana()
@@ -90,10 +95,8 @@ def ventanaHome(): #VENTANA DE IDENTIFICACION
     estilo.configure('leer.TButton',
                     font=(FONT, 16, "normal"))
     estilo.configure('submit.TButton',
-                    background="#36ff6f",
                     font=FONT)
     estilo.configure('login.TButton',
-                    background="#1100FF",
                     font=FONT)
 
     text = ttk.Label(frame, text="Ingrese el Usuario",style= "leer.TButton") 
@@ -104,14 +107,14 @@ def ventanaHome(): #VENTANA DE IDENTIFICACION
     text2.place(x=width/2 - 130 ,y=height/10 * 2.5,width=300)
     password = ttk.Entry(frame,font=(FONT, 12, "normal"),style= "cargar.TButton")
     password.place(x=width/2 - 130 ,y=height/10 * 3,width=300)
-    text = tk.Label(frame, text="APLICACIÓN DE ENCRIPTACION",font=FONT)
+    text = tk.Label(frame, text="APLICACIÓN DE ENCRIPTACIÓN",font=FONT)
     text.place(x=width/2 - 150,y=height/10 * 0.5)
 
-    loginUser = ttk.Button(frame, text="Login",style= "login.TButton" ,command=lambda:loguear(user,password))
+    loginUser = ttk.Button(frame, text="Iniciar Sesión",style= "login.TButton" ,command=lambda:loguear(user,password))
     loginUser.place(x=width/2 - 60 ,y=height/10 * 5)
 
-    submitUser = ttk.Button(frame, text="Sign up",style= "submit.TButton" ,command=lambda:registrar(user,password))
-    submitUser.place(x=width/2 - 60 ,y=height/10 * 5.5)
+    submitUser = ttk.Button(frame, text="Registro",style= "submit.TButton" ,command=lambda:registrar(user,password))
+    submitUser.place(x=width/2 - 60 ,y=height/10 * 6)
 
     text3 = ttk.Label(frame, text="Desarrollado por: ",style= "leer.TButton") 
     text3.place(x=width/2 - 130 ,y=height/10 * 7,width=300)
@@ -155,8 +158,12 @@ def ventanaProgram():
     global encriptados
     global subidos
     global user
+
+    # FONDO
+    backFrame = tk.Frame(ventana,bg='#001020', borderwidth=1, relief="flat")
+    backFrame.place(width=width,height=height,x=0, y=0)
     # ------------ VENTANA DE LOCALES -------------
-    localFrame = tk.Frame(ventana,bg='#1010FF', borderwidth=1, relief="flat")
+    localFrame = tk.Frame(ventana, borderwidth=1, relief="flat")
     localFrame.place(width=width/3,height=height,x=0, y=0)
     text = tk.Label(localFrame, text="Almacenamiento local",font=FONT)
     text.place(x=10,y=10)
@@ -178,7 +185,7 @@ def ventanaProgram():
     des.place(x=190,y=height-50)
 
     # ------------ VENTANA DE NUBE PERSONAL -------------
-    netFrame = tk.Frame(ventana,bg='#10AA10', borderwidth=1, relief="flat")
+    netFrame = tk.Frame(ventana, borderwidth=1, relief="flat")
     netFrame.place(width=width/3,height=height,x=(width/3)*1, y=0)
     text = tk.Label(netFrame, text="Almacenamiento online",font=FONT)
     text.place(x=10,y=10)
@@ -193,16 +200,25 @@ def ventanaProgram():
 
     # ------------ VENTANA DE COMPARTIDOS -------------
 
-    # COMPARTIDOS CONMIGO
-    sharedFrameA = tk.Frame(ventana,bg='#AAFF22', borderwidth=1, relief="flat")
-    sharedFrameA.place(width=width/3,height=height/2,x=width/3 * 2, y=0)
-    text = tk.Label(sharedFrameA, text="Compartido conmigo",font=FONT)
-    text.place(x=10,y=10)
-    button = ttk.Button(sharedFrameA, text="Bajar archivos",command=lambda:downloadShared())
-    button.place(x=10,y=(height/2)-50)
+    # CREDITOS
+    credits = tk.Frame(ventana,  borderwidth=10, relief="flat")
+    credits.place(width=width/3,height=height/2,x=width/3 * 2, y=0)
+    with open('config.json', 'r') as file:
+        data = json.load(file) 
+        usuario = data.get('user')
+    text = tk.Label(credits, text="Bienvenido "+usuario,font=FONT_X)
+    text.place(x=10,y=50)
+    text = tk.Label(credits, text="Christian Camelo",font=FONT_S)
+    text.place(x=50,y=100)
+    text = tk.Label(credits, text="Mattia Sorella",font=FONT_S)
+    text.place(x=50,y=130)
+    text = tk.Label(credits, text="Guillermo Sansano",font=FONT_S)
+    text.place(x=50,y=160)
+    text = tk.Label(credits, text="Javier Escutia",font=FONT_S)
+    text.place(x=50,y=190)
 
     # COMPARTIDOS POR MI
-    sharedFrameB = tk.Frame(ventana,bg='#AA0022',  borderwidth=10, relief="flat")
+    sharedFrameB = tk.Frame(ventana,  borderwidth=10, relief="flat")
     sharedFrameB.place(width=width/3,height=height/2,x=width/3 * 2, y=height/2)
     text = tk.Label(sharedFrameB, text="Compartidos",font=FONT)
     text.place(x=10,y=10)
@@ -218,6 +234,10 @@ def ventanaProgram():
         text.place(x=width/6,y=80+(LINE_H*index))
     bajarBt = ttk.Button(sharedFrameB, text="Compartir",command=lambda:share())
     bajarBt.place(x=10,y=(height/2)-(60))
+    button = ttk.Button(sharedFrameB, text="Bajar",command=lambda:downloadShared())
+    button.place(x=115,y=(height/2)-60)
+    button = ttk.Button(sharedFrameB, text="Desencriptar",command=lambda:decryptShared())
+    button.place(x=220,y=(height/2)-60)
 
 def crypt():
     archivo = tk.filedialog.askopenfilename()
@@ -227,6 +247,10 @@ def crypt():
 
 def decrypt():
     desencriptarPropios()
+    ventanaProgram()
+
+def decryptShared():
+    desencriptarCompartidos()
     ventanaProgram()
 
 def share():
@@ -239,7 +263,6 @@ def share():
                     filename = archivo.split("/")[-1:]
                     file = [filename,user]
                     compartidos.append(file)
-                    print("Shared",compartidos)
         ventanaProgram()
 
 def uploadLocal():

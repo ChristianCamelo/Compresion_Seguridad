@@ -97,7 +97,8 @@ def encriptarCompartido(fichero, kpub):
         # --------- SE AGREGAN SIMBOLOS $ PARA COMPLETAR EL ARRAY DEL FORMATO------------
         formatParsed=formatParsed+'$'
 
-    llave_generada_str = formater64(encrypted_key) + formater64(nonce) + formatParsed
+    llave_generada = encrypted_key + nonce + formatParsed.encode('utf-8')
+    llave_generada_str = formater64(llave_generada)
 
     return (fichero_encriptado_str,llave_generada_str)
 

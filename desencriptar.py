@@ -79,6 +79,9 @@ def desencriptarCompartidos():
             nonce = key_bruta[256:264]
             format = ''
             formato_archivo = list(key_bruta[264:].decode('utf-8'))
+
+            print("len",len(key_bruta))
+
             for item in formato_archivo:
                 if item!= "$":
                     format+=item
@@ -123,7 +126,9 @@ def save_own(archivo_desencriptado, cont, formato):
     return guardado
 
 def save_ext(archivo_desencriptado, cont, formato):
+
     guardado = False
+    cont = count(DIR_FILES_SHARED)
     ruta_archivo = os.path.join(DIR_FILES_SHARED, 'archivo' + str(cont)+ '.' + formato) 
 
     with open(ruta_archivo, 'wb') as a:
